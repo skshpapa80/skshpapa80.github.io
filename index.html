@@ -76,7 +76,7 @@ layout: default
                     {% else %}
                     <li><a href="{{ post.url | prepend: site.baseurl }}">
                     {% endif %}  
-                    <time>{{ post.date |  date: “%Y/%m/%d” }}</time>
+                    <time>{{ post.date |  date: “%F” }}</time>
                     {{ post.title }}                
                     </a></li>
                 {% endfor %}
