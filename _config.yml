@@ -1,0 +1,97 @@
+# # # # # # # # # # # # #
+#   K i k o - p l u s   #
+# # # # # # # # # # # # #
+
+# Basic
+name: "선경선향아빠의 Homepage"
+description: "MES 개발자"
+
+author:
+    youtubeChannel: UCok-8nABbWVkBvuwCqTjDbg
+    discord: 
+    github: skshpapa80
+    email: skshpapa80@gmail.com
+    facebook: 
+    youtubeUser:
+    twitter: 
+    stackoverflow:
+    quora:
+    linkedin:
+    pinterest:
+    googlePlus:
+    instagram: 
+    reddit:
+    medium:
+    tumblr:
+
+copyright:
+    year: 2022
+    name: skshpapa80
+
+# Google-analytics
+google-analytics:
+    id: "G-YQJJZFMSM4"
+
+# URL
+url: "https://skshpapa80.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul
+# permalink: /posts/:title/
+permalink: /:year/:month/:day/:title/
+
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
+# Markdown
+markdown: kramdown
+kramdown:
+    input: GFM
+
+# Navigation
+nav:
+    - name: "About"
+      url: "/about"
+    - name: "Portfolio"
+      url: "/Portfolio"
+    - name: "Photo"
+      url: "/photo"
+    - name: "Tags"
+      url: "/tags"
+    - name: "Archive"
+      url: "/archive"
+    - name: "Github"
+      url: "https://github.com/skshpapa80"
+
+# Sass
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+# Scopes
+defaults:
+    - scope:
+          path: ""
+          type: "pages"
+      values:
+          layout: "page"
+    - scope:
+          path: ""
+          type: "posts"
+      values:
+          layout: "post"
+
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+gems:
+    - jekyll-seo-tag
+    - jekyll-paginate
+    - jekyll-admin
+
+exclude: [vendor]
+
+plugins:
+    - jekyll-paginate
+    - jekyll-youtube
+    - jemoji
