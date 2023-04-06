@@ -19,7 +19,7 @@ layout: default
                 {% if nav.url contains 'http://' or nav.url contains 'https://' %}
                 <li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
                 {% else %}
-                <li></li><a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a></li>
+                <li><a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a></li>
                 {% endif %}
             {% endfor %}
             </ul>
@@ -40,57 +40,49 @@ layout: default
 </div><!-- /headerwrap -->
 
 
-  
-  <div class="list">
-  {% if site.posts.size == 0 %}
-    <h2>No post found</h2>
-  {% else %}
-  <!-- This loops through the paginated posts -->
-  {% for post in paginator.posts %}
-    <div class="list-post">
-      {% if post.link %}
-      <a href="{{ post.link }}">
-      {% else %}
-      <a href="{{ post.url | prepend: site.baseurl }}">
-      {% endif %}  
-        <div class="list-post-date">
-          <time>{{ post.date | date_to_string }}</time>
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-3 col-lg-offset-1">
+            <h4>Profile.</h4>
+            <p>닉네임 : 선경선향아빠(skshpapa80)<p>
+           <p>클래스 : 개발자, 아빠, 선경(16) 아빠, 선향(14) 아빠, 블로거<p>
+           <p>Hobby : Netfilx, Game, Travel<p>
+            <p><br/><a href="profile.html" class="btn btn-theme">More Info</a></p>
         </div>
-        <div class="list-post-title">
-          {{ post.title }}
+        
+        <div class="col-lg-4">
+            <h4>Project List</h4>
+            <div class="hline"></div>	
+               <p>Solar Panel MES Upgrade Project 2021 ~ 2022</p>
+               <p>Battery MES Project 2018 ~ 2021</p>
+               <p>Mold MES Mobile(Android) 2017</p>
+               <p>Auto Weight System 2016</p>
+               <p>Mold MES Project 2015</p>
+               <p align="right"><a href="portpolio.html" class="btn btn-theme">More Info</a></p>
         </div>
-        {% if post.description %}
-        <div class="list-post-desc">
-          {{ post.description }}
+        
+        <div class="col-lg-4">
+            <h4>Latest Posts</h4>
+            <div class="hline"></div>
+            {% if site.posts.size == 0 %}
+                <h2>No post found</h2>
+            {% else %}
+                <!-- This loops through the paginated posts -->
+                <ul>
+                {% for post in paginator.posts %}
+                
+                    {% if post.link %}
+                    <li><a href="{{ post.link }}">
+                    {% else %}
+                    <li><a href="{{ post.url | prepend: site.baseurl }}">
+                    {% endif %}  
+                    <time>{{ post.date | date_to_string }}</time>
+                    {{ post.title }}                
+                    </a></li>
+                {% endfor %}
+                </ul>               
+               <p align="right"><a href="post/post.html" class="btn btn-theme">More Info</a></p>
         </div>
-        {% endif %}
-      </a>
-  
-  
-    </div>
-  {% endfor %}
-    <!-- Pagination links -->
-    <div class="list-pagination">
-      <span class="list-pagination-previous">
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
-            <i class="fas fa-chevron-left"></i> Previous
-          </a>
-        {% else %}
-  
-        {% endif %}
-      </span>
-  
-      <span class="list-pagination-next">
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
-            Next <i class="fas fa-chevron-right"></i>
-          </a>
-        {% else %}
-  
-        {% endif %}
-      </span>
-  
-    </div>
-  {% endif %}
-  </div>
+        
+    </div><! --/row -->
+</div><! --/container -->
