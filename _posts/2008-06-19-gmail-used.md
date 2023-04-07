@@ -4,7 +4,7 @@ title: "Gmail 사용 4년"
 description: "Gmail,메일"
 comments: true
 tags:
-    - Z-Diary
+    - Diary
 ---
 
 Gmail의 받은 편지함을 정리하다 보니
