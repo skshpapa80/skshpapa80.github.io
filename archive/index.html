@@ -18,7 +18,7 @@ title: Archive
           {{ post.title }}
         </span>
         <span class="archive-list-post-date">
-          <time>&nbsp;|&nbsp;&nbsp;{{ post.date | date_to_string }}</time>
+          <time>&nbsp;|&nbsp;&nbsp;{{ post.date | '%Y-%m-%d' }}</time>
         </span>
       </a>
     </div>

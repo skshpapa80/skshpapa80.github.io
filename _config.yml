@@ -53,7 +53,7 @@ kramdown:
 # Navigation
 nav:
     - name: "About"
-      url: "/about"
+      url: "/About"
     - name: "Portfolio"
       url: "/Portfolio"
     - name: "Photo"
