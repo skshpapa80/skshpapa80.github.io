@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /about/
+permalink: /About/
 ---
 
 ## 선경선향아빠를 소개 합니다.
