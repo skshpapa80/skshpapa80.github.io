@@ -48,7 +48,7 @@ end;
 
 PS : 현재 구글에서 막아서 동작을 안하는 코드입니다.
 
-![프로그램스크린샷](/assets/img/2013/hangule-study.png)
+![프로그램스크린샷](/assets/images/hangule-study.png)
 
 idHTTP 로 작성한 버전이 최근에 테스트 해보니 동작을 안하더라구요. 
 
