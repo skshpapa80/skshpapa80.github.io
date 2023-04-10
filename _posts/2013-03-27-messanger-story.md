@@ -4,7 +4,7 @@ title: "메신져 이야기 - 소프트메신져,MSN,네이트온"
 description: "메신져"
 comments: true
 tags:
-    - Z-Diary
+    - Diary
 ---
 
 ### 메신져 이야기
