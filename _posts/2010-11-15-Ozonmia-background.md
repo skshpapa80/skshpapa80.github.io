@@ -4,7 +4,7 @@ title: "오즈옴니아 배경화면 - Windows Mobile"
 description: "Windows Mobild"
 comments: true
 tags:
-    - Z-Diary
+    - Diary
 ---
 
 ### 윈도우모바일 - 오즈옴니아 
