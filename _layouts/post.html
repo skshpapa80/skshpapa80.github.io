@@ -45,25 +45,12 @@ layout: default
 		<div class="col-md-3">	
 			<div class="panel panel-default">
 				<div class="panel-body">
-					작성자 : 선경선향아빠 
-				</div>					
+					<b>작성자</b>
+				</div>			
+				<div class="panel-footer">
+					선경선향아빠 
+				</div>
 			</div>
-		</div>
-		
-		<div class="col-lg-9">	
-			<h2>{{ page.title }}</h2>
-			
-			<div class="pull-right">
-				Post Date : <time>{{ page.date |  date: '%Y-%m-%d' }}</time>
-				<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fskshppa80.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
-			</div>
-			<br />
-					
-			<hr />
-			
-			{{ content }}
-
-			<br />		
 			
 			<div class="panel panel-default">
 				<div class="panel-body">
@@ -79,6 +66,23 @@ layout: default
 					{% unless forloop.last %}{% endunless %} {% endfor %}			
 				</div>					
 			</div>			
+			
+		</div>
+		
+		<div class="col-lg-9">	
+			<h2>{{ page.title }}</h2>
+			
+			<div class="pull-right">
+				Post Date : <time>{{ page.date |  date: '%Y-%m-%d' }}</time>
+				<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fskshppa80.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+			</div>
+			<br />
+					
+			<hr />
+			
+			{{ content }}
+
+			<br />
 				
 			<!-- Comment -->
 			{% if page.comments %}
