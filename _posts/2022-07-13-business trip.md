@@ -25,7 +25,7 @@ tags:
 
 그래도 새로구매한 이불이 정말 맘에 들어서 좋아요 ㅎㅎ 
 
-![포항 숙소](/assets/img/2022/room_pohang.jpg)
+![포항 숙소](/assets/images/room_pohang.jpg)
 
 
 냉장고, 전자렌지, 까스렌지, TV, 인터넷, WIFI, 에어컨이 되고 
