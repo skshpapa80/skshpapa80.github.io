@@ -57,7 +57,7 @@ nav:
     - name: "Portfolio"
       url: "/Portfolio"
     - name: "Photo"
-      url: "/photo"
+      url: "/photo?data=1"
     - name: "Tags"
       url: "/tags"
     - name: "Archive"
