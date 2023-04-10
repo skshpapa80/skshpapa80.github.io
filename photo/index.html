@@ -1,0 +1,157 @@
+---
+layout: page
+title: Photo
+---
+
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>Developers skshpapa80</title>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="skshpapa80,homepage,developer">
+		<meta name="author" content="skskhapa80">
+		
+		<LINK rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		<LINK rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+		<link href="../js/ekko-lightbox.css" rel="stylesheet">
+		
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		
+		<script> 
+			$.urlParam = function(name){
+				var results = new RegExp('[\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
+				return results[1] || 0;
+			}
+
+			$(document).ready(function() { 
+				$(document).on("click","#open-image",function(e){
+                    e.preventDefault();
+                    $(this).ekkoLightbox();
+                });
+				
+				$.getJSON('photo_' + $.urlParam('data') + '.json', function(data) 
+				{ 
+					var html = []; 
+					var chk = 1;
+					html.push('<div class="row">');
+					$.each(data, function(i, item) 
+					{ 
+						html.push('<div class="col-sm-6 col-md-3">'); 
+						html.push('<div class="thumbnail img-responsive">'); 
+						html.push('<a href="../img/' + item.imgfilename + '" id="open-image">');
+						html.push('<img src="../img/' + item.imgfilename + '" alt="' +item.title + '" class="img-thumbnail">');
+						html.push('</a>');
+						html.push('<div class="caption">'); 
+						html.push('<p>' +item.title + '</p>');
+						html.push('</div>'); 
+						html.push('</div>'); 
+						html.push('</div>'); 
+						
+						if(chk%4 == 0){
+							html.push('</div>'); 
+							html.push('<div class="row">'); 
+						}
+						chk = chk + 1;
+					}); 
+					
+					$('#target').html(html.join(''));
+				}); 
+			}); 
+		</script>
+	</head>
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">skshpapa80</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+          <ul class="nav navbar-nav">            
+			<li><a href="../profile.html">PROFILE</a></li>
+			<li><a href="../portpolio.html">PORTPOLIO</a></li>
+			<li><a href="../post/post.html">POST</a></li>
+			<li><a href="photo.html?data=1">PHOTO</a></li>		
+            <li><a href="../contact.html">CONTACT</a></li>      
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+<!-- *****************************************************************************************************************
+	 HEADERWRAP
+	 ***************************************************************************************************************** -->
+	
+	<!-- *****************************************************************************************************************
+	 BLUE WRAP
+	 ***************************************************************************************************************** -->
+	<div id="blue">
+	    <div class="container">
+			<div class="row">
+				<h3>Photo List.</h3>
+					
+			</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /blue -->
+	
+	<div class="container mtb">
+		<div id="target">
+			
+		</div>
+		
+		<nav aria-label="Page navigation">
+			<ul class="pagination">
+				<li class="page-item"><a class="page-link" href="photo.html?data=1">1</a></li>
+				<li class="page-item"><a class="page-link" href="photo.html?data=2">2</a></li>
+				<li class="page-item"><a class="page-link" href="photo.html?data=3">3</a></li>
+				<li class="page-item"><a class="page-link" href="photo.html?data=4">4</a></li>
+				<li class="page-item"><a class="page-link" href="photo.html?data=5">5</a></li>
+				<li class="page-item"><a class="page-link" href="photo.html?data=6">6</a></li>
+				<li class="page-item"><a class="page-link" href="photo.html?data=7">7</a></li>
+				<li class="page-item"><a class="page-link" href="photo.html?data=8">8</a></li>
+				<li class="page-item"><a class="page-link" href="photo.html?data=9">9</a></li>
+				<li class="page-item"><a class="page-link" href="photo.html?data=10">10</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<!-- *****************************************************************************************************************
+	FOOTER
+	***************************************************************************************************************** -->
+	 <div id="footerwrap">
+	 	<div class="container">
+		 	<div class="row">
+		 		<div class="col-lg-6">
+		 			<h4>About</h4>
+		 			<div class="hline-w"></div>
+		 			<p>개발자 선경선향아빠의 홈페이지 입니다.</p>
+		 		</div>
+		 		<div class="col-lg-6">
+		 			<h4>Social Links</h4>
+		 			<div class="hline-w"></div>
+		 			<p>
+		 				<a href="https://twitter.com/skshpapa80"><i class="fa fa-twitter"></i></a>
+		 				<a href="https://www.instagram.com/skshpapa80/"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg"><i class="fa fa-youtube"></i></a>
+						<a href="https://github.com/skshpapa80"><i class="fa fa-github"></i></a>
+		 			</p>
+		 		</div>		 	
+		 	</div><! --/row -->
+	 	</div><! --/container -->
+	 </div><! --/footerwrap -->
+</div>
+
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/ekko-lightbox.js"></script>
+
+</body>
+</html>
