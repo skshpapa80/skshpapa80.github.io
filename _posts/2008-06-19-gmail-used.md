@@ -5,6 +5,7 @@ description: "Gmail,메일"
 comments: true
 tags:
     - Diary
+    - Google
 ---
 
 Gmail의 받은 편지함을 정리하다 보니
