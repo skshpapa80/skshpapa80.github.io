@@ -7,7 +7,7 @@ tags:
     - Project
 ---
 
-![screenshot](/assets/images/img.png)
+![screenshot](/assets/images/smallplayer_01.png)
 
 ### 자작 프로그램 을 소개합니다. SmallPlayer
 
@@ -19,7 +19,7 @@ tags:
 
 생각보다 신경써야 할께 많네요.
 
-![screenshot](/assets/images/img_(1).png)
+![screenshot](/assets/images/smallplayer_02.png)
 테스트 버전 스크린샷 - 동영상은 지금 만나러 갑니다
 
 ### 설명
@@ -34,7 +34,7 @@ DirectVobSub를 이용하여 자막을 표시합니다.
 
 우선 v0.1로 재생 기능만 있는데 틈틈이 업그레이드할 계획입니다.
 
-![screenshot](/assets/images/img_(2).png)
+![screenshot](/assets/images/smallplayer_03.png)
 
 어느정도 완성한 버전 - 동영상은 지금 만나러 갑니다
 
