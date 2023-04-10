@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.ny64.kr/sitemap.xml
+Sitemap: https://skshpapa80.github.io/sitemap.xml
