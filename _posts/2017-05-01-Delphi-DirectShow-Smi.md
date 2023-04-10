@@ -7,7 +7,7 @@ tags:
     - Programming
 ---
 
-![bseplayer](/assets/img/2017/baseplayer.PNG)
+![bseplayer](/assets/images/baseplayer.PNG)
 
 ### DirectShow 동영상 재생기
 

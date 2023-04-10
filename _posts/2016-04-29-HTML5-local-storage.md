@@ -43,4 +43,4 @@ localStorage.key(값); // 값으로 키를 찾는다.
 </pre>
 그리고 로컬 스토리지를 사용한 라이브러리가 있어 소개합니다.
 
-https://github.com/addyosmani/basket.js
+[https://github.com/addyosmani/basket.js](https://github.com/addyosmani/basket.js)

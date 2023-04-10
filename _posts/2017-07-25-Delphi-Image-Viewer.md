@@ -18,7 +18,7 @@ tags:
 
 우선 디스플레이 하는 기능만 넣다보니 만드는데 얼마 안걸렸네요..
 
-![프로그램스크린샷](/assets/img/2017/imageviewer.PNG)
+![프로그램스크린샷](/assets/images/imageviewer.PNG)
 
 델파이(Delphi)로 만든 이미지 뷰어 입니다.
 프로그램 왼쪽에 PC의 경로를 보여주는 트리뷰가 있고
