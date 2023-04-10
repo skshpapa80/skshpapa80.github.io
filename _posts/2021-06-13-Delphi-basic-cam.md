@@ -9,7 +9,7 @@ tags:
 
 ### DirectShow 기본 Cam 프로그램
 
-![screenshot](/assets/img/2021/img_(3).png)
+![screenshot](/assets/images/img_(3).png)
 
 DirectShow 기본 Cam 프로그DirectShow 기본 클래스 
 
