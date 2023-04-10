@@ -4,7 +4,7 @@ title: "코딩, PLC통신"
 description: "코딩, PLC통신"
 comments: true
 tags:
-    - Z-Diary
+    - Diary
 ---
 
 ## 코딩
