@@ -43,12 +43,8 @@ layout: default
 	<div class="row">
 	
 		<div class="col-lg-9">	
-			<h2>{{ page.title }}</h2>
+			<h2>{{ page.title }}</h2>			
 			
-			<div class="pull-right">
-				Post Date : <time>{{ page.date |  date: '%Y-%m-%d' }}</time>
-				<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fskshppa80.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
-			</div>
 			<br />
 					
 			<hr />
@@ -70,7 +66,15 @@ layout: default
 			
 			<div class="card" style="width: 18rem;">
 				<div class="card-body">
-					<h5 class="card-title">작성자</h5>
+					<h4>Post Date</h4>
+					<div class="hline"></div>
+					<h6 class="card-subtitle mb-2 text-body-secondary"><time>{{ page.date |  date: '%Y-%m-%d' }}</time></h6>    
+				</div>
+			</div>
+			
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4>작성자</h4>
 					<div class="hline"></div>
 					<h6 class="card-subtitle mb-2 text-body-secondary">선경선향아빠</h6>    
 				</div>
@@ -78,7 +82,7 @@ layout: default
 			
 			<div class="card" style="width: 18rem;">
 				<div class="card-body">
-					<h5 class="card-title">Tags</h5>
+					<h4>Tags</h4>
 					<div class="hline"></div>
 					{% for tag in page.tags %}
 					<li>
@@ -88,7 +92,16 @@ layout: default
 					</li>
 					{% unless forloop.last %}{% endunless %} {% endfor %}		 
 				</div>
-			</div>			
+			</div>	
+
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h4>Counter</h4>
+					<div class="hline"></div>					
+					<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fskshppa80.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>					
+				</div>
+			</div>
+			
 		</div>
 		
 	</div>		
