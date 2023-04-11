@@ -9,7 +9,7 @@ tags:
 
 ### ini 파일 다루기 
 
-![screenshot](/assets/img/2021/initest.png)
+![screenshot](/assets/images/initest.png)
 
 C# 에서 ini 파일을 읽고 저장하는 방법을 소개합니다. 
 

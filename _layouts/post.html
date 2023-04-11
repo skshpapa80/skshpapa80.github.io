@@ -67,30 +67,28 @@ layout: default
 		</div>		
 
 		<div class="col-md-3">	
-			<div class="panel panel-default">
-				<div class="panel-body">
-					<b>작성자</b>
-				</div>			
-				<div class="panel-footer">
-					선경선향아빠 
+			
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title">작성자</h5>
+					<div class="hline"></div>
+					<h6 class="card-subtitle mb-2 text-body-secondary">선경선향아빠</h6>    
 				</div>
 			</div>
 			
-			<div class="panel panel-default">
-				<div class="panel-body">
-					<b>Tags</b>
-				</div>
-				<div class="panel-footer">				
+			<div class="card" style="width: 18rem;">
+				<div class="card-body">
+					<h5 class="card-title">Tags</h5>
+					<div class="hline"></div>
 					{% for tag in page.tags %}
 					<li>
 						<a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
 							<span>{{ tag }}</span>
 						</a>
 					</li>
-					{% unless forloop.last %}{% endunless %} {% endfor %}			
-				</div>					
+					{% unless forloop.last %}{% endunless %} {% endfor %}		 
+				</div>
 			</div>			
-			
 		</div>
 		
 	</div>		
