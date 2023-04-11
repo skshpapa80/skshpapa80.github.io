@@ -9,7 +9,7 @@ tags:
 
 ### 스트링그리드 - 엑셀 파일 저장
 
-![stringgrid](/assets/img/2021/stringgrid.png)
+![stringgrid](/assets/images/stringgrid.png)
 
 이번엔 스트링그리드의 내용을 엑셀파일로 저장하는 코드 입니다. 
 
@@ -86,5 +86,5 @@ end;
 
 저장후 엑셀파일로 열어 본 화면 
 
-![excel](/assets/img/2021/stringgrid_excel.png)
+![excel](/assets/images/stringgrid_excel.png)
 

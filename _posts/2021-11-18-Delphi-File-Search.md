@@ -9,7 +9,7 @@ tags:
 
 ### 파일 검색 - File Search
 
-![FileSearch](/assets/img/2021/filesearch1.png)
+![FileSearch](/assets/images/filesearch1.png)
 
 Delphi 에서 파일 검색하는 방법을 소개합니다. 
 

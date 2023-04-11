@@ -9,7 +9,7 @@ tags:
 
 ### 엑셀 파일 읽기 - 스트링그리드
 
-![excel-read](/assets/img/2021/excel-read.png)
+![excel-read](/assets/images/excel-read.png)
 
 엑셀 파일을 읽어서 스트링 그리드에 표시하는 소스 이며 
 

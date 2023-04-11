@@ -13,7 +13,7 @@ PHP 프레임워크인 코드이그니터(Codeigniter)에서 RSS정보를 읽어
 
 curl을 사용하여 웹주속의 정보를 읽어오고 xml 데이터를 파싱하여 처리하는 소스를 소개합니다.
 
-![예전 블로그의 RSS 내용](/assets/img/2020/rss.png)
+![예전 블로그의 RSS 내용](/assets/images/rss.png)
 
 
 Curl, SimpleXmlElement, XML 처리코드
