@@ -91,7 +91,7 @@ CoUninitialize; //COM을 셧다운시킨다.
 이렇게 코딩합니다.
 간단하게 Panel 컴포넌트위에 영상을 플레이시키는 방법을 정리해봤습니다.
 
-![화면1](/assets/img/2013/DirectShow1.PNG)
+![화면1](/assets/images/DirectShow1.PNG)
 
 -8 열기 버튼 클릭했을때 파일 선택창 나오도록 하기
 <pre>
