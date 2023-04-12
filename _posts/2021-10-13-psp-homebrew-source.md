@@ -21,6 +21,8 @@ tags:
 
 ### 개발환경
 
+개발환경 링크 -> [https://skshpapa80.github.io/2013/03/07/psp-toolkit/](https://skshpapa80.github.io/2013/03/07/psp-toolkit/)
+
 * 개발환경을 다운받고 pspdev 폴더에 압축을 풀고
 * pspdev 폴더로 이동한후 StartCmd.bat 실행한 후 소스 폴더로 이동(CD CMD) 그리고 make 명령어를 실행하면 빌드 됩니다.
 * make 가 성공하면 EBOOT.PBP 파일이 생기는데

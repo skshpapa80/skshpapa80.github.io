@@ -50,16 +50,6 @@ layout: default
 			<hr />
 			
 			{{ content }}
-
-			<br />
-				
-			<!-- Comment -->
-			{% if page.comments %}
-			<div class="post-comment">
-				<section id="comment_thread"></section>
-				{% include comment.html %}
-			</div>
-			{% endif %}
 		</div>		
 
 		<div class="col-md-3">	
@@ -104,5 +94,23 @@ layout: default
 			
 		</div>
 		
-	</div>		
+	</div>	
+	
+	<div class="row">
+	
+		<div class="col-lg-9">
+				
+			<!-- Comment -->
+			{% if page.comments %}
+			<div class="post-comment">
+				<section id="comment_thread"></section>
+				{% include comment.html %}
+			</div>
+			{% endif %}
+		</div>		
+
+		<div class="col-md-3">
+
+		</div>
+	</div>
 </div>
