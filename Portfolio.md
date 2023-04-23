@@ -26,24 +26,24 @@ permalink: /Portfolio/
 - Sheet2DB 
   - Excel -> MSSQL Table , Delphi  -> [Read More](https://skshpapa80.github.io/2022/04/28/Delphi-Sheet2DB//)
 - Delphi Image Viewer
-  - Delphi Image Viewer => [Read More](https://skshpapa80.github.io/2017/07/25/Delphi-Image-Viewer/)
+  - Delphi Image Viewer -> [Read More](https://skshpapa80.github.io/2017/07/25/Delphi-Image-Viewer/)
 - PLCReport (2015)
-  - Delphi, PLC, OPC Client
-- First Android App (2014) -> [Read More](https://skshpapa80.github.io/2022/07/27/first-android-app/)
-  - Android, WebApp, RFID 
+  - Delphi, PLC, OPC Client -> [Read More](https://skshpapa80.github.io/2022/05/22/plcreport/)
+- First Android App (2014) 
+  - Android, WebApp, RFID -> [Read More](https://skshpapa80.github.io/2022/07/27/first-android-app/)
 - DirectShow Application
   - Delphi, DirectShow -> [Read More](https://skshpapa80.github.io/2013/03/20/Delphi-DirectShow/), [Read More](https://skshpapa80.github.io/2017/05/01/Delphi-DirectShow-Smi/), [Github](https://github.com/skshpapa80/BasePlayer)	
-- Image Editor (2005) => [Read More](https://skshpapa80.github.io/2022/07/25/image-editor/)
-  - Delphi, Image, ImagXpress Component
-- Old Paper Index Project (2004) -> [Read More](https://skshpapa80.github.io/2022/07/24/old-paper-project/)
-  - Delphi, Firebird, XML, Image
-- DWG Viewer Component Change (2002) -> [Read More](https://skshpapa80.github.io/2022/07/22/dwg-component/)
-  - Delphi, AutoCAD DWG, Viewer, CAD Import VCL
-- Subway Sign Manager incomplete Project (2001) -> [Read More](https://skshpapa80.github.io/2022/07/21/Subway-sign/)
-  - Delphi, Image
-- DWG Viewer Program (2001) -> [Read More](https://skshpapa80.github.io/2022/07/20/dwg-viewer/)
-  - Delphi, AutoCAD DWG, Viewer
-- CD-ROM Image Viewer (2001) -> [Read More](https://skshpapa80.github.io/2022/07/19/CDROM-Program/)
-  - Delphi, Image, Viewer
+- Image Editor (2005) 
+  - Delphi, Image, ImagXpress Component -> [Read More](https://skshpapa80.github.io/2022/07/25/image-editor/)
+- Old Paper Index Project (2004) 
+  - Delphi, Firebird, XML, Image -> [Read More](https://skshpapa80.github.io/2022/07/24/old-paper-project/)
+- DWG Viewer Component Change (2002) 
+  - Delphi, AutoCAD DWG, Viewer, CAD Import VCL -> [Read More](https://skshpapa80.github.io/2022/07/22/dwg-component/)
+- Subway Sign Manager incomplete Project (2001) 
+  - Delphi, Image -> [Read More](https://skshpapa80.github.io/2022/07/21/Subway-sign/)
+- DWG Viewer Program (2001) 
+  - Delphi, AutoCAD DWG, Viewer -> [Read More](https://skshpapa80.github.io/2022/07/20/dwg-viewer/)
+- CD-ROM Image Viewer (2001) 
+  - Delphi, Image, Viewer -> [Read More](https://skshpapa80.github.io/2022/07/19/CDROM-Program/)
 
 
