@@ -13,7 +13,7 @@ tags:
 문서를 이미지 화시켜서 보관하려거나 PC로 쉽게 오래된 책이나 문서를 찾아 보려는 시도를 하는 일이 있었는데요
 16년전 만든 프로그램입니다.
 
-![프로그램 스크린샷](/assets/images/image-editor.png)
+<p align="center"><a href="/assets/images/image-editor.png" id="open-image"><img src="/assets/images/image-editor.png" alt="프로그램 스크린샷"/></a></p>
 
 예전 소스를 정리하다가 2005년도에 작성한 이미지 보정 프로그램을 발견했습니다.
 
