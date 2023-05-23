@@ -3,6 +3,15 @@ layout: default
 ---
 <link href="{{ site.url }}/assets/js/ekko-lightbox.css" rel="stylesheet">
 
+<script> 
+	$(document).ready(function() { 
+		$(document).on("click","#open-image",function(e){
+			e.preventDefault();
+			$(this).ekkoLightbox();
+		});
+	}); 
+</script>
+
 {% include scroll-progress-bar.html %}
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
