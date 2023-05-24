@@ -39,11 +39,11 @@ tags:
 
 ### 프로그램 스크린샷 및 정보
 
-![PLC 데몬](/assets/images/plcreport01.png)
+<p align="center"><a href="/assets/images/plcreport01.png" id="open-image"><img src="/assets/images/plcreport01.png" alt="PLC 데몬" width="300"/></a></p>
 
 PLC 데몬
 
-![데이터 조회 프로그램](/assets/images/plcreport02.png)
+<p align="center"><a href="/assets/images/plcreport02.png" id="open-image"><img src="/assets/images/plcreport02.png" alt="데이터 조회 프로그램" width="300"/></a></p>
 
 데이터 조회 프로그램
 
