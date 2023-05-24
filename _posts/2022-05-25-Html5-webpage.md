@@ -7,7 +7,9 @@ tags:
     - Project
 ---
 
-![screen](/assets/images/webpage.png)
+### 아르바이트
+
+<p align="center"><a href="/assets/images/webpage.png" id="open-image"><img src="/assets/images/webpage.png" alt="screen" width="400"/></a></p>
 
 2017년 8월에서 약 두달간 아르바이트 형식으로 작업한 결과물 입니다.
 
