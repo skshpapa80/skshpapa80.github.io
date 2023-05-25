@@ -1,0 +1,43 @@
+---
+layout: post
+title: "GWT(Google Web Toolkit) 시작하기"
+description: "GWT"
+comments: true
+tags:
+    - Programming
+---
+
+GWT(Google Web Toolkit) 설치하는 방법
+
+준비물 : eclipse Java EE Developer(다른버전을 이용하실경우 WTP을 설치해주어야함)
+
+이클립스 실행후
+
+Help -&gt; Install New Software 에서
+GWT 설치 주소를 Add 함 http://dl.google.com/eclipse/plugin/3.7
+Add 하고나면 안드로이드 관련 툴이나 GWT가 같이 뜨는데 전체 설치해줍니다.
+안드로이드 개발툴 설치하시면서 이미 다 설치하셨을지도 ^^
+
+* 만약 EE 버전이 아니신분들은 WTP를 설치해주어야 합니다. 
+* WTP http://download.eclipse.org/webtools/downloads/
+
+그럼 GWT가 정상적으로 설치되었는지 확인해 봅시다
+
+이클립스 File -&gt; New 에서 Orther 에서
+Google -&gt; Web Application Project 를 선택하면
+
+<p align="center"><a href="/assets/images/GWT프로젝트.png" id="open-image"><img src="/assets/images/GWT프로젝트.png" alt="GWT프로젝트" width="350"/></a></p>
+
+Project Name 과 Package 명을 입력한후
+Finish 를 하면 프로젝트가 생성됩니다.
+혹시 실행중 에러가 나신다면 use Google App Engine 를 선택해제 안하셔서 그럴꺼에요.
+
+Run AS -&gt; Web Application 을 선택하시면 URL 이 하나 나오는데
+그 URL을 클릭하시면 다음과 같이 보입니다.
+
+* 처음실행시에는 GWT Plugin 설치 화면이 보입니다. 
+* <p align="center"><a href="/assets/images/Run.png" id="open-image"><img src="/assets/images/Run.png" alt="Run" width="350"/></a></p>
+
+이화면을 보셨다면 GWT 프로그래밍 준비는 끝났습니다. ^^
+
+그럼 즐거운 GWT 프로그래밍 하세요
