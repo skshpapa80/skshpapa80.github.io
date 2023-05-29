@@ -16,8 +16,7 @@ HTML 을 디자인 하고 웹브라우져 컨트롤로 표시한후 출력하면
 
 만들어 보게 되었습니다.
 
-![출력할 데이터 화면](/assets/images/delphi-print1.png)
-
+<p align="center"><a href="/assets/images/delphi-print1.png" id="open-image"><img src="/assets/images/delphi-print1.png" alt="출력할 데이터 화면" width="400"/></a></p>
 
 ### 출력 데이터 생성
  
@@ -58,8 +57,7 @@ begin
 
 ### 출력물 폼 디자인
 
-![출력 미리보기 화면](/assets/images/delphi-print2.png)
-
+<p align="center"><a href="/assets/images/delphi-print2.png" id="open-image"><img src="/assets/images/delphi-print2.png" alt="출력 미리보기 화면" width="400"/></a></p>
 
 <pre>
 <code>
@@ -83,7 +81,7 @@ begin
 	// 프린터 설정
 	WebBrowser1.ControlInterface.ExecWB(OLECMDID_PAGESETUP, OLECMDEXECOPT_PROMPTUSER, vIn, vOut);
 end;
-<code<
+<code>
 </pre>
 
 HTML 파일로 저장하고 웹브라우져 컨트롤에서 읽어 오면
