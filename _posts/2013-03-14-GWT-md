@@ -36,7 +36,7 @@ Run AS -&gt; Web Application 을 선택하시면 URL 이 하나 나오는데
 그 URL을 클릭하시면 다음과 같이 보입니다.
 
 * 처음실행시에는 GWT Plugin 설치 화면이 보입니다. 
-* <p align="center"><a href="/assets/images/Run.png" id="open-image"><img src="/assets/images/Run.png" alt="Run" width="350"/></a></p>
+<p align="center"><a href="/assets/images/Run.png" id="open-image"><img src="/assets/images/Run.png" alt="Run" width="350"/></a></p>
 
 이화면을 보셨다면 GWT 프로그래밍 준비는 끝났습니다. ^^
 

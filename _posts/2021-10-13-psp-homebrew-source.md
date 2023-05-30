@@ -9,7 +9,7 @@ tags:
 
 ### PSP Homebrew #1
 
-![airplane](/assets/images/airplane.png)
+<p align="center"><a href="/assets/images/airplane.png" id="open-image"><img src="/assets/images/airplane.png" alt="airplane" width="480"/></a></p>
 
 예전에 PSP 개발환경 포스트를 작성한적 있습니다. 그래서 예전에 작업했던 파일을 찾아서 샘플(?) 하나 정리해서 올립니다.
 

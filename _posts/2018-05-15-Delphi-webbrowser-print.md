@@ -52,6 +52,8 @@ begin
 	frmPrint := TfrmPrint.Create(Application);
 	frmPrint.ShowModal;
 	frmPrint.Free;
+end;
+
 </code>
 </pre>
 
@@ -81,7 +83,7 @@ begin
 	// 프린터 설정
 	WebBrowser1.ControlInterface.ExecWB(OLECMDID_PAGESETUP, OLECMDEXECOPT_PROMPTUSER, vIn, vOut);
 end;
-<code>
+</code>
 </pre>
 
 HTML 파일로 저장하고 웹브라우져 컨트롤에서 읽어 오면
