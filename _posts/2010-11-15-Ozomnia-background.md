@@ -9,7 +9,7 @@ tags:
 
 ### 윈도우모바일 - 오즈옴니아 
 
-![오즈옴니아](/assets/images/5398322992.jpg)
+<p align="center"><a href="/assets/images/5398322992.jpg" id="open-image"><img src="/assets/images/5398322992.jpg" alt="오즈옴니아" width="400"/></a></p>
 
 제 첫 스마트폰 오즈옴니아 사용할때 배경화면 스크린샷 이미지 입니다. 
 
@@ -17,13 +17,13 @@ tags:
 
 아이폰 처럼 동작합니다. 
 
-![오즈옴니아1](/assets/images/Ozmnia1.jpg)
+<p align="center"><a href="/assets/images/Ozmnia1.jpg" id="open-image"><img src="/assets/images/Ozmnia1.jpg" alt="오즈옴니아1" width="400"/></a></p>
 
 아이폰 투데이를 계속 사용하다가 
 
 윈도우 모바일 업그레이드후 기본테마를 사용합니다. 
 
-![오즈옴니아2](/assets/images/Ozmnia2.jpg)
+<p align="center"><a href="/assets/images/Ozmnia2.jpg" id="open-image"><img src="/assets/images/Ozmnia2.jpg" alt="오즈옴니아2" width="400"/></a></p>
 
 기본테마가 처음 설정할때에는 멋있어 보였는데 쓰다 보니 많이 불편하네요 ㅎㅎ
 
@@ -35,7 +35,7 @@ tags:
 
 새로운 테마 나옹님의 MobileSense로 변경한후 
 
-![오즈옴니아3](/assets/images/Ozmnia3.jpg)
+<p align="center"><a href="/assets/images/Ozmnia3.jpg" id="open-image"><img src="/assets/images/Ozmnia3.jpg" alt="오즈옴니아3" width="400"/></a></p>
 
 역시 WM 폰의 장점은 이쁜 테마들이 많다는거
 

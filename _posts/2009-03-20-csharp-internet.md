@@ -9,6 +9,7 @@ tags:
 
 인터넷이 연결됐는지 간단하게 체크하는 코드 .NET 2.0 이상 포함된 함수
 
+
 <pre>
 <code>
 	if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
