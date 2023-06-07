@@ -65,7 +65,7 @@ function upload()
         contentType: false,
         processData: false
     });		
-  }
+}
 </code>
 </pre>
 

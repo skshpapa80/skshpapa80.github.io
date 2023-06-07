@@ -17,7 +17,7 @@ tags:
 
 제작툴은 델파이 10.2 토쿄 스타터 버전 입니다!
 
-![photodate](/assets/images/photodate.png)
+<p align="center"><a href="/assets/images/photodate.png" id="open-image"><img src="/assets/images/photodate.png" alt="photodate" width="400"/></a></p>
 
 ### 사용법
 
