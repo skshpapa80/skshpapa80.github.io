@@ -29,7 +29,7 @@ tags:
 가장 많이 사용하는기능은 사진을 확인하는 용도로
 좀더 기능을 추가한후 github에 올릴 예정입니다.
 
-사용한 컴포넌트는 [https://skshpapa80.github.io/2022/10/05/Delphi-ShellControls-add/](ShellTreeView) 랑 Graphic32 의 ImgView32 입니다.
+사용한 컴포넌트는 [ShellTreeView](https://skshpapa80.github.io/2022/10/05/Delphi-ShellControls-add/) 랑 Graphic32 의 ImgView32 입니다.
 
 ### 2017-08-08 추가
 github에 소스 올렸어요..

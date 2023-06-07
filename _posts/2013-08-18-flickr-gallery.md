@@ -21,11 +21,11 @@ Google에 올려 놓은 파일을 다시 받아 보니 사이즈가 작더라구
 
 간단히 테스트 해보니 내가 만든 웹페이지에서 사진을 업로드 하고 볼수 있도록 구현 가능할꺼 같아서 그래서 Flickr로 결정 php를 이용해서 Flickr이랑 연된되는 갤러리를 만들기로 하였다.
 
-![php_web1](/assets/images/flickr_gallary.png)
+<p align="center"><a href="/assets/images/flickr_gallary.png" id="open-image"><img src="/assets/images/flickr_gallary.png" alt="php_web1" width="300"/></a></p>
 
 프로토 타입 버전 이렇게 만들면 어떻가 하고 만들어본 버전
 
-![php_web2](/assets/images/photo_gallary.png)
+<p align="center"><a href="/assets/images/photo_gallary.png" id="open-image"><img src="/assets/images/photo_gallary.png" alt="php_web2" width="300"/></a></p>
 
 본격적으로 작업하는 버전 이미지는 개인정보이므로 모자이크 처리^^
 
