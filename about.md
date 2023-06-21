@@ -23,11 +23,12 @@ permalink: /About/
 
 ### 할수있는일
 
-* Language : C#, Delphi, ASP.NET, Python
+* Language : C#, Delphi, ASP.NET, Python, Flutter
 * DB : MSSQL, ORACLE, MYSQL
 * MES Install & Customize
 * Thira MES Framework Install & Customize
 * PHP, Jquery, HTML5
+* Android App 
 
 ### History
 
