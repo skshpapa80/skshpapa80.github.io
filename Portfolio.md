@@ -5,7 +5,9 @@ permalink: /Portfolio/
 
 ### Project 
 
-- Flutter PDA Project (2023.03~)
+- Inovation MES Project (2023.05 ~)
+  - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)
+- Flutter PDA Project (2023.03 ~ 2023.05)
   - Android App, WEB API(JSON)
 - Material MES Install Project (2022 ~ 2023.02)
   - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)

@@ -35,7 +35,7 @@ permalink: /About/
 * [2021년 1월 미국 조지아주 출장](https://blog.naver.com/skshpapa80/222205739891)
 * [2020년 6월 중국 혜주 출장](https://blog.naver.com/skshpapa80/222006393522)
 * [2019년 9월 중국 혜주 추석 연휴 가족 방문](https://blog.naver.com/skshpapa80/221731697834)
-* 2019년 3월 중국 혜주 출장
+* [2019년 3월 중국 혜주 출장](https://blog.naver.com/skshpapa80/221720341302)
 * [2018년 9월 중국 혜주 출장](https://blog.naver.com/skshpapa80/221711713712)
 * 2018년 5월 티라유텍 입사
 * [2018년 1월 제주도 가족여행](https://blog.naver.com/skshpapa80/221710191415)
