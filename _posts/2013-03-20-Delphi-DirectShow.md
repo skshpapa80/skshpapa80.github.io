@@ -88,10 +88,12 @@ VideoWindow := nil;
 CoUninitialize; //COM을 셧다운시킨다.
 </code>
 </pre>
+
 이렇게 코딩합니다.
+
 간단하게 Panel 컴포넌트위에 영상을 플레이시키는 방법을 정리해봤습니다.
 
-![화면1](/assets/images/DirectShow1.PNG)
+<p align="center"><a href="/assets/images/DirectShow1.PNG" id="open-image"><img src="/assets/images/DirectShow1.PNG" alt="화면1" width="500"/></a></p>
 
 -8 열기 버튼 클릭했을때 파일 선택창 나오도록 하기
 <pre>
@@ -163,7 +165,7 @@ if Assigned(VideoWindow) then
 </pre>
 위와 같이 코딩을 하면 패널 크기가 바뀔때마다 화면 크기를 변경해 줍니다.
 
-![화면2](/assets/img/2013/DirectShow2.PNG)
+<p align="center"><a href="/assets/images/DirectShow2.PNG" id="open-image"><img src="/assets/images/DirectShow2.PNG" alt="화면2" width="500"/></a></p>
 
 우선 위 화면 같이 트랙바와 라벨컴포넌트를 이용해
 타임라인 재어와 재생시간 표시를 해보겠습니다.

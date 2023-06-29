@@ -17,7 +17,7 @@ tags:
 
 제 기억에는 최초의 메신져라고 불리었던거 같아요!!!.
 
-![디지토에서 운영중인 소프트메신져](/assets/images/img_01.gif)
+<p align="center"><a href="/assets/images/img_01.gif" id="open-image"><img src="/assets/images/img_01.gif" alt="디지토에서 운영중인 소프트메신져" width="500"/></a></p>
 
 디지토에서 운영중인 소프트메신져
 
