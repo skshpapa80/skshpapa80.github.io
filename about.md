@@ -51,6 +51,7 @@ permalink: /About/
 ### Links
 
 * Instagram [https://instagram.com/skshpapa80](https://instagram.com/skshpapa80)
+* Dev Blog [https://skshpapa80.blogspot.com/](https://skshpapa80.blogspot.com/)
 * Twitter  [https://twitter.com/skshpapa80](https://twitter.com/skshpapa80)
 * Naver Blog [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80)
 * Youtube [https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg](https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg)
