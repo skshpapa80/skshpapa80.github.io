@@ -9,7 +9,7 @@ tags:
 
 ### DirectShow 기본 Cam 프로그램
 
-![screenshot](/assets/images/img_(3).png)
+<p align="center"><a href="/assets/images/img_(3).png" id="open-image"><img src="/assets/images/img_(3).png" alt="screenshot" width="500"/></a></p>
 
 DirectShow 기본 Cam 프로그DirectShow 기본 클래스 
 
