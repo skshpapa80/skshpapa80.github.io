@@ -1,0 +1,89 @@
+---
+layout: default
+---
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav">     
+            {% for nav in site.nav %}
+                {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+                <li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+                {% else %}
+                <li><a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+<div id="headerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>Have a Good Times!!!</h3>
+                <h1>Developer,Blogger</h1>
+                <h5>멋진 세상을 만들고 싶은 개발자</h5>		
+            </div>				
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /headerwrap -->
+
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-3 col-lg-offset-1">
+            <h4>Profile.</h4>
+			<div class="hline"></div>	
+            <p>닉네임 : 선경선향아빠(skshpapa80)<p>
+			<p>클래스 : 개발자, 아빠, 선경 아빠, 선향 아빠, 블로거<p>
+			<p>Hobby : Movie, Game, Travel<p>
+            <p><br/><a href="https://skshpapa80.github.io/About/" class="btn btn-theme">More Info</a></p>
+        </div>
+        
+        <div class="col-lg-4">
+            <h4>Project List</h4>
+            <div class="hline"></div>	
+				<p>Flutter PDA Project (2023.03~2023.04)</p>
+				<p>Material MES Install Project (2022 ~ 2023.02)</p>
+				<p>Solar Panel MES Upgrade Project 2021 ~ 2022</p>
+				<p>Battery MES Project 2018 ~ 2021</p>
+				<p align="right"><a href="https://skshpapa80.github.io/Portfolio/" class="btn btn-theme">More Info</a></p>
+        </div>
+        
+        <div class="col-lg-4">
+            <h4>Latest Posts</h4>
+            <div class="hline"></div>
+            {% if site.posts.size == 0 %}
+                <h2>No post found</h2>
+            {% else %}
+                <!-- This loops through the paginated posts -->
+                <ul>
+                {% for post in paginator.posts %}
+                
+                    {% if post.link %}
+                    <li><a href="{{ post.link }}">
+                    {% else %}
+                    <li><a href="{{ post.url | prepend: site.baseurl }}">
+                    {% endif %}  
+					{{ post.title }}  
+					- (<time>{{ post.date |  date: '%Y-%m-%d' }}</time>)                                  
+                    </a></li>
+                {% endfor %}
+                </ul> 
+                <p align="right"><a href="https://skshpapa80.github.io/archive/" class="btn btn-theme">More Info</a></p>
+            {% endif %}  
+        </div>
+        
+    </div><! --/row -->
+</div><! --/container -->
