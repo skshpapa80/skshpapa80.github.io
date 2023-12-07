@@ -16,7 +16,7 @@ author:
     twitter: skshpapa80
     stackoverflow:
     quora:
-    linkedin:
+    linkedin: skshpapa80
     pinterest:
     googlePlus:
     instagram: skshpapa80
@@ -58,10 +58,6 @@ nav:
       url: "/Portfolio"
     - name: "Photo"
       url: "/photo?data=1"
-    - name: "Tags"
-      url: "/tags"
-    - name: "Archive"
-      url: "/archive"
     - name: "Github"
       url: "https://github.com/skshpapa80"
 
