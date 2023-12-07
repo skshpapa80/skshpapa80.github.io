@@ -57,7 +57,7 @@ nav:
     - name: "Portfolio"
       url: "/Portfolio"
     - name: "Photo"
-      url: "/photo?data=1"
+      url: "/photo/photo?data=1"
     - name: "Github"
       url: "https://github.com/skshpapa80"
 
