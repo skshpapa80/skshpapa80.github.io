@@ -43,22 +43,22 @@ tags:
 
 스플래시로 찍은 사진들
 
-<p align="center"><a href="/assets/images/[splash]20021215001.jpg" id="open-image"><img src="/assets/images/[splash]20021215001.jpg" alt="인사동" width="400"/></a></p>
-인사동
+<p align="center"><a href="/assets/images/[splash]20021215001.jpg" id="open-image"><img src="/assets/images/[splash]20021215001.jpg" alt="인사동" width="400"/></a>
+인사동</p>
 
-<p align="center"><a href="/assets/images/[splash]20030131002.jpg" id="open-image"><img src="/assets/images/[splash]20030131002.jpg" alt="무간도" width="400"/></a></p>
-무간도
+<p align="center"><a href="/assets/images/[splash]20030131002.jpg" id="open-image"><img src="/assets/images/[splash]20030131002.jpg" alt="무간도" width="400"/></a>
+무간도</p>
 
-<p align="center"><a href="/assets/images/[splash]20030131003.jpg" id="open-image"><img src="/assets/images/[splash]20030131003.jpg" alt="미니카" width="400"/></a></p>
-미니카
+<p align="center"><a href="/assets/images/[splash]20030131003.jpg" id="open-image"><img src="/assets/images/[splash]20030131003.jpg" alt="미니카" width="400"/></a>
+미니카</p>
 
-<p align="center"><a href="/assets/images/[splash]20030211002.jpg" id="open-image"><img src="/assets/images/[splash]20030211002.jpg" alt="동대문 지하철역" width="400"/></a></p>
-동대문 지하철역
+<p align="center"><a href="/assets/images/[splash]20030211002.jpg" id="open-image"><img src="/assets/images/[splash]20030211002.jpg" alt="동대문 지하철역" width="400"/></a>
+동대문 지하철역</p>
 
-<p align="center"><a href="/assets/images/[splash]20021210003.jpg" id="open-image"><img src="/assets/images/[splash]20021210003.jpg" alt="사무실 책장" width="400"/></a></p>
-사무실 책장
+<p align="center"><a href="/assets/images/[splash]20021210003.jpg" id="open-image"><img src="/assets/images/[splash]20021210003.jpg" alt="사무실 책장" width="400"/></a>
+사무실 책장</p>
 
 <p align="center"><a href="/assets/images/[splash]20021224001.jpg" id="open-image"><img src="/assets/images/[splash]20021224001.jpg" alt="" width="400"/></a></p>
 
-<p align="center"><a href="/assets/images/[splash]20030705001.jpg" id="open-image"><img src="/assets/images/[splash]20030705001.jpg" alt="미아삼거리" width="400"/></a></p>
-미아삼거리
+<p align="center"><a href="/assets/images/[splash]20030705001.jpg" id="open-image"><img src="/assets/images/[splash]20030705001.jpg" alt="미아삼거리" width="400"/></a>
+미아삼거리</p>
