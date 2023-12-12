@@ -7,7 +7,7 @@ tags:
     - Programming
 ---
 
-### CodeTyphon 개발툴 소개
+### CodeTyphon
 
 ![screenshot](/assets/images/코드타이푼.png)
 

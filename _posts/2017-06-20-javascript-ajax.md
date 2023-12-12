@@ -7,7 +7,7 @@ tags:
     - Programming
 ---
 
-### ajax 호출하기
+### ajax call
 
 웹개발을 하면서 가장 많이 사용하는부분이 자바스크립트이고 그중 JQuery 를 많이 사용하는데요.
 
