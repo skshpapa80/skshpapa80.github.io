@@ -163,7 +163,7 @@ if Assigned(VideoWindow) then
 </pre>
 위와 같이 코딩을 하면 패널 크기가 바뀔때마다 화면 크기를 변경해 줍니다.
 
-![화면2](/assets/img/2013/DirectShow2.PNG)
+![화면2](/assets/images/DirectShow2.PNG)
 
 우선 위 화면 같이 트랙바와 라벨컴포넌트를 이용해
 타임라인 재어와 재생시간 표시를 해보겠습니다.

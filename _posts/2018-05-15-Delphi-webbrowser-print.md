@@ -16,7 +16,7 @@ HTML 을 디자인 하고 웹브라우져 컨트롤로 표시한후 출력하면
 
 만들어 보게 되었습니다.
 
-![출력할 데이터 화면](/assets/img/2018/delphi-print1.png)
+![출력할 데이터 화면](/assets/images/delphi-print1.png)
 
 
 ### 출력 데이터 생성
@@ -58,7 +58,7 @@ begin
 
 ### 출력물 폼 디자인
 
-![출력 미리보기 화면](/assets/img/2018/delphi-print2.png)
+![출력 미리보기 화면](/assets/images/delphi-print2.png)
 
 
 <pre>

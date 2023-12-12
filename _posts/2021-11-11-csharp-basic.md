@@ -9,7 +9,7 @@ tags:
 
 ## C# 기본 개념
 
-![.net Structure](/assets/img/2021/1_lQF8l_LbIPOJfmc5T5SkGQ.png)
+![.net Structure](/assets/images/1_lQF8l_LbIPOJfmc5T5SkGQ.png)
 
 C#으로 작성된 어플리케이션은 크게 클래스(Class), 네임스페이스(Namespace), 어셈블리(Assembly)와 같은 요소로 구성되어 있다.
 

@@ -27,15 +27,15 @@ Spvoice1.Speak(txtHangul.Text,0);
 
 3. "Microsoft Speech Object Library" 를 선택하고, 버전과 GUID를 확인한다. -> [Next] 클릭.
 
-![SAPI](/assets/img/2021/sapi1.png)
+![SAPI](/assets/images/sapi1.png)
 
 4. "Palette Page"에서 "ActiveX"를 선택하고 -> [Next] 버튼 클릭.
 
-![SAPI](/assets/img/2021/sapi2.png)
+![SAPI](/assets/images/sapi2.png)
 
 5. "Install to New Package"를 선택 후 -> [Next] 버튼 클릭.
 
-![SAPI](/assets/img/2021/sapi3.png)
+![SAPI](/assets/images/sapi3.png)
 
 6. Package 저장한 경로 설정하고 Description 입력하고 -> Finish 버튼 클릭
 
@@ -43,11 +43,11 @@ Spvoice1.Speak(txtHangul.Text,0);
 
 8. 컴파일 과정이 나오고 -> 아래의 이미지 처럼 install 메세지 나옴
 
-![SAPI](/assets/img/2021/sapi4.png)
+![SAPI](/assets/images/sapi4.png)
 
 9. 아래이미지 처럼 TSp 로 시작하는 컴포넌트 들이 있습니다. 
 
-![SAPI](/assets/img/2021/sapi5.png)
+![SAPI](/assets/images/sapi5.png)
 
 ### TTS 구현 샘플 소스
 
