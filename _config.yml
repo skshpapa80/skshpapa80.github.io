@@ -42,7 +42,7 @@ timezone: Asia/Seoul
 permalink: /:year/:month/:day/:title/
 
 # Pagination
-paginate: 15
+paginate: 12
 paginate_path: /page:num/
 
 # Markdown
@@ -58,6 +58,8 @@ nav:
       url: "/Portfolio"
     - name: "Archive"
       url: "/archive"
+    - name: "Pages"
+      url: "/pages"  
     - name: "Photo"
       url: "/photo?data=1"
     - name: "Github"
