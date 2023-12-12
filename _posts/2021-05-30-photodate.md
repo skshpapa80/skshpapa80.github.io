@@ -17,7 +17,7 @@ tags:
 
 제작툴은 델파이 10.2 토쿄 스타터 버전 입니다!
 
-![photodate](/assets/img/2021/photodate.png)
+![photodate](/assets/images/photodate.png)
 
 ### 사용법
 
