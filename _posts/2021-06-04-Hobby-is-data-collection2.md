@@ -11,7 +11,7 @@ tags:
 
 - 출장을 다니다 보니 책을 들고 다니기 좀 그렇고 보고 싶은 책은 리디북스에 이북으로 사서 보고 있습니다. 
 
-![리디북스](/assets/images/Screenshot_2016-01-21-09-03-43.jpg)
+<p align="center"><a href="/assets/images/Screenshot_2016-01-21-09-03-43.jpg" id="open-image"><img src="/assets/images/Screenshot_2016-01-21-09-03-43.jpg" alt="리디북스" width="400"/></a></p>
 
 ### 구글플레이 영화
 
@@ -19,7 +19,7 @@ tags:
 
 심심할때 보고 있어요 
 
-![구글플레이영화](/assets/images/Screenshot＿20210604－141443＿Google_TV.jpg)
+<p align="center"><a href="/assets/images/Screenshot＿20210604－141443＿Google_TV.jpg" id="open-image"><img src="/assets/images/Screenshot＿20210604－141443＿Google_TV.jpg" alt="구글플레이영화" width="400"/></a></p>
 
 영화목록
 - 가디언즈 오브 갤럭시
