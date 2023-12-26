@@ -9,7 +9,7 @@ tags:
 
 ### CodeTyphon
 
-![screenshot](/assets/images/코드타이푼.png)
+<p align="center"><a href="/assets/images/코드타이푼.png" id="open-image"><img src="/assets/images/코드타이푼.png" alt="screenshot" width="400"/></a></p>
 
 최근에 회사에서는 C#을 주로 사용하고
 예전에는 Delphi 를 사용했기 때문에 주로사용하는 툴은 VS랑 Delphi 입니다.
@@ -23,7 +23,7 @@ CodeTyphon 은 라자루스보다 더 많은 컴포넌트와 기능을 제공합
 
 그래서 개인개발할때에는 Code Typhon을 사용하려 합니다.
 
-![screenshot](/assets/images/코드타이푼_IDE.png)
+<p align="center"><a href="/assets/images/코드타이푼_IDE.png" id="open-image"><img src="/assets/images/코드타이푼_IDE.png" alt="screenshot" width="400"/></a></p>
 
 ### CodeTyphon 정보
 
