@@ -17,11 +17,11 @@ tags:
 
 ISAPI 프로젝트를 만들고 저장을 DelphiBoard 로 합니다. 
 
-![WEB1](/assets/images/web_board1.PNG)
+<p align="center"><a href="/assets/images/web_board1.PNG" id="open-image"><img src="/assets/images/web_board1.PNG" alt="WEB1" width="400"/></a></p>
 
 이번엔 게시판은 DB 연결을 해야 하니 MSSQL 을 사용하기 위해 ADOConn, ADOQuery1 컴포넌트도 올려줌니다. 
 
-![WEB2](/assets/images/web_board2.PNG)
+<p align="center"><a href="/assets/images/web_board2.PNG" id="open-image"><img src="/assets/images/web_board2.PNG" alt="WEB2" width="400"/></a></p>
 
 이번에 사용할 액션은 우선 3개 List(기본), Read(읽기), Write(쓰기) 입니다. 
 
@@ -169,11 +169,11 @@ end;</p>
 
 ### 스크린샷
 
-![WEB3](/assets/images/web_board3.PNG)
+<p align="center"><a href="/assets/images/web_board3.PNG" id="open-image"><img src="/assets/images/web_board3.PNG" alt="WEB3" width="400"/></a></p>
 
 제목 링크를 클릭하면 Read 로 이동
 
-![WEB4](/assets/images/web_board4.PNG)
+<p align="center"><a href="/assets/images/web_board4.PNG" id="open-image"><img src="/assets/images/web_board4.PNG" alt="WEB4" width="400"/></a></p>
 
 만들다 보니 좀 코딩이 깔끔하지 않네요 
 

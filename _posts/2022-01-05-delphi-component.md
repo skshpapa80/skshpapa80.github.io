@@ -9,7 +9,7 @@ tags:
 
 ### Delphi 자작 컴포넌트 Skshpapa80_pack
 
-![자작컴포넌트](/assets/images/component.png)
+<p align="center"><a href="/assets/images/component.png" id="open-image"><img src="/assets/images/component.png" alt="자작컴포넌트" width="400"/></a></p>
 
 필요해서 만들기 시작한 Delphi 컴포넌트를 소개합니다.
 
