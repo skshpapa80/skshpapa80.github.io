@@ -4,7 +4,7 @@ title: "오타는 싫어요!!!"
 description: "오타"
 comments: true
 tags:
-    - Z-Diary
+    - Diary
 ---
 
 개발자라면 가장 싫어하는 버그중 하나가
