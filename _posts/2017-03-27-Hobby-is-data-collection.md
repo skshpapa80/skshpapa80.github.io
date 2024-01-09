@@ -4,7 +4,7 @@ title: "취미는 데이터 수집"
 description: "Hobby is Data Collection"
 comments: true
 tags:
-    - Z-Diary
+    - Diary
 ---
 
 ### 제 취미는

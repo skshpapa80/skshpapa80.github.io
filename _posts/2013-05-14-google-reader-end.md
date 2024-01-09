@@ -4,7 +4,7 @@ title: "구글 리더 대체 찾기"
 description: "Google Reader"
 comments: true
 tags:
-    - Z-Diary
+    - Diary
 ---
 
 구글 리더가 2013-07-01일 부로 서비스를 종료한다고 하네요. 
