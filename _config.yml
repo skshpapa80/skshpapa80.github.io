@@ -58,6 +58,8 @@ nav:
       url: "/Portfolio"
     - name: "Archive"
       url: "/archive"
+    - name: "Tags"
+      url: "/tags"
     - name: "Pages"
       url: "/pages"  
     - name: "Photo"

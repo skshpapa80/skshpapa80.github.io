@@ -32,6 +32,7 @@ permalink: /About/
 
 ### History
 
+* [2024년 1월 홍콩 가족여행](https://blog.naver.com/skshpapa80/223330233751)
 * [2021년 1월 미국 조지아주 출장](https://blog.naver.com/skshpapa80/222205739891)
 * [2020년 6월 중국 혜주 출장](https://blog.naver.com/skshpapa80/222006393522)
 * [2019년 9월 중국 혜주 추석 연휴 가족 방문](https://blog.naver.com/skshpapa80/221731697834)
@@ -53,8 +54,8 @@ permalink: /About/
 * Instagram [https://instagram.com/skshpapa80](https://instagram.com/skshpapa80)
 * Twitter  [https://twitter.com/skshpapa80](https://twitter.com/skshpapa80)
 * Naver Blog [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80)
-* Youtube [https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg](https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg)
+* Youtube [https://www.youtube.com/@skshpapa80-tube](https://www.youtube.com/@skshpapa80-tube)
 
 **Credits**: [skshpapa80](https://github.com/skshpapa80/)
 
-**Last Edited**: 2022-08-09
+**Last Edited**: 2024-01-24
