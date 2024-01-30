@@ -60,8 +60,6 @@ nav:
       url: "/archive"
     - name: "Tags"
       url: "/tags"
-    - name: "Pages"
-      url: "/pages"  
     - name: "Photo"
       url: "/photo?data=1"
     - name: "Github"
