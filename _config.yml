@@ -3,7 +3,7 @@
 # # # # # # # # # # # # #
 
 # Basic
-name: "선경선향아빠의 Homepage"
+name: "선경선향아빠의 Diary"
 description: "MES 개발자"
 
 author:
@@ -58,8 +58,8 @@ nav:
       url: "/Portfolio"
     - name: "Archive"
       url: "/archive"
-    - name: "Tags"
-      url: "/tags"
+    - name: "Programming"
+      url: "/programming"
     - name: "Photo"
       url: "/photo?data=1"
     - name: "Github"
