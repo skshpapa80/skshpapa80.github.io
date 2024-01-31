@@ -43,6 +43,8 @@ tags:
 
 또 2.0으로 업데이트 되면서 프로그램이 너무 자주 다운되고 1.5 버전 사용자랑 호환도 안되고 그리고 MSN이 한국서비스를 시작하면서 사용자가 점점 늘어나면서 자연스럽게 넘어가게 되었습니다. 
 
+<p align="center"><a href="/assets/images/main.jpg" id="open-image"><img src="/assets/images/main.jpg" alt="MSN" width="370"/></a></p>
+
 그리고 MSN을 사용하다가 NATEON으로 넘어 왔는데 주위에서 모두 NATEON을 사용하다보니 점점 MSN은 로그인을 안하게 되더군요
 
 그리고 무료문자(SMS)도 주고 싸이월드 연동서비스때문에 NATEON을 계속사용하게 되었습니다.
