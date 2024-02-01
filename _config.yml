@@ -56,7 +56,7 @@ nav:
       url: "/About"
     - name: "Portfolio"
       url: "/Portfolio"
-    - name: "post"
+    - name: "Post"
       url: "/post"
     - name: "Programming"
       url: "/programming"
