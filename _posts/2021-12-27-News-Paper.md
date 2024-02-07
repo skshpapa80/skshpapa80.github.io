@@ -25,9 +25,13 @@ DMZ 평화트레인 기차여행
 
 <p align="center"><a href="/assets/images/dmz-pic.jpg" id="open-image"><img src="/assets/images/dmz-pic.jpg" alt="DMZ 평화트레인" width="350"/></a></p>
 
-강북 어린이 기자단 행사 참여로 
+선경이가 강북 어린이 기자단 행사 참여로 
 
 온가족이 DMZ 기차를 타고 기타여행을 다녀왔어요 ㅎㅎ
+
+철원 DMZ 는 처음 가는건데.. 
+
+즐거웠습니다. 
 
 <p align="center"><a href="/assets/images/dmz-train.jpg" id="open-image"><img src="/assets/images/dmz-train.jpg" alt="DMZ 평화트레인" width="350"/></a></p>
 
