@@ -5,6 +5,8 @@ permalink: /Portfolio/
 
 ### Project 
 
+- Hungary MES Project (2024.01 ~ )
+  - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)
 - Inovation MES Project (2023.05 ~ 12)
   - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)
 - Flutter PDA Project (2023.03 ~ 04)
@@ -33,8 +35,6 @@ permalink: /Portfolio/
   - Delphi, PLC, OPC Client -> [Read More](https://skshpapa80.github.io/2022/05/22/plcreport/)
 - First Android App (2014) 
   - Android, WebApp, RFID -> [Read More](https://skshpapa80.github.io/2022/07/27/first-android-app/)
-- DirectShow Application
-  - Delphi, DirectShow -> [Read More](https://skshpapa80.github.io/2013/03/20/Delphi-DirectShow/), [Read More](https://skshpapa80.github.io/2017/05/01/Delphi-DirectShow-Smi/), [Github](https://github.com/skshpapa80/BasePlayer)	
 - NamulMP - PSP Homebrew
   - Music Homebrew MP3 Player, Playlist -> [Read More](https://skshpapa80.github.io/2022/05/23/namupmp/)
 - Image Editor (2005) 
