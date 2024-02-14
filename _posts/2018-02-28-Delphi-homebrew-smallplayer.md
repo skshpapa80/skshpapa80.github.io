@@ -7,7 +7,7 @@ tags:
     - Project
 ---
 
-![screenshot](/assets/images/img.png)
+<p align="center"><a href="/assets/images/smallplayer_01.png" id="open-image"><img src="/assets/images/smallplayer_01.png" alt="screenshot" width="400"/></a></p>
 
 ### 자작 프로그램 을 소개합니다. SmallPlayer
 
@@ -19,7 +19,8 @@ tags:
 
 생각보다 신경써야 할께 많네요.
 
-![screenshot](/assets/images/img_(1).png)
+<p align="center"><a href="/assets/images/smallplayer_02.png" id="open-image"><img src="/assets/images/smallplayer_02.png" alt="screenshot" width="400"/></a></p>
+
 테스트 버전 스크린샷 - 동영상은 지금 만나러 갑니다
 
 ### 설명
@@ -34,7 +35,7 @@ DirectVobSub를 이용하여 자막을 표시합니다.
 
 우선 v0.1로 재생 기능만 있는데 틈틈이 업그레이드할 계획입니다.
 
-![screenshot](/assets/images/img_(2).png)
+<p align="center"><a href="/assets/images/smallplayer_03.png" id="open-image"><img src="/assets/images/smallplayer_03.png" alt="screenshot" width="400"/></a></p>
 
 어느정도 완성한 버전 - 동영상은 지금 만나러 갑니다
 
@@ -49,10 +50,7 @@ DirectVobSub를 이용하여 자막을 표시합니다.
 앞으로 추가할기능
 
 - 디자인 Windows10 기준으로 변경
-
 - 전체화면 재생기능 추가
-
 - 키 이벤트 스페이스:정지,재생, 화살표 +5초, -5초
-
 - 숫자키 이벤트 : 1(화면 크기50%),2(화면크기100%),3(화면크기150%)
 
