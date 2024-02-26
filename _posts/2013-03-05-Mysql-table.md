@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "MySQL DB & Table 상태 보는 명령어"
+title: "MySQL DB And Table 상태 보는 명령어"
 description: "MySQL"
 comments: true
 tags:
     - Programming
 ---
 
-### MySQL DB & Table 상태 보는 명령어
+### MySQL DB And Table 상태 보는 명령어
 
 <pre>
 <code>
