@@ -31,6 +31,6 @@ CodeTyphon 은 라자루스보다 더 많은 컴포넌트와 기능을 제공합
 
 자신에 맞는 운영체제를 선택하면 됩니다.
 
-* 홈페이지 : http://www.pilotlogic.com/sitejoom/
-* 다운로드 : http://www.pilotlogic.com/sitejoom/index.php/downloads -> CodeTyphon
+* 홈페이지 : [http://www.pilotlogic.com/sitejoom/](http://www.pilotlogic.com/sitejoom/)
+* 다운로드 : [http://www.pilotlogic.com/sitejoom/index.php/downloads](http://www.pilotlogic.com/sitejoom/index.php/downloads) -> CodeTyphon
 
