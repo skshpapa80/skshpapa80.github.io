@@ -21,6 +21,8 @@ permalink: /About/
 새로운기분이 들어서 닉네임이 더 소중하고
 두딸들 이름이다 보니 더 좋아하게 됐습니다!
 
+** 따로 웹호스팅을 받아서 블로그를 운영했는데 github page로 이동했습니다. 
+
 ### 할수있는일
 
 * Language : C#, Delphi, ASP.NET, Python, Flutter
