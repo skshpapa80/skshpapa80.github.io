@@ -60,53 +60,37 @@ layout: default
 
 		<div class="col-md-3">	
 			
-			<div class="card" style="width: 18rem;">
-				<div class="card-body">
-					<h4>Post Date</h4>
-					<div class="hline"></div>
-					<h6 class="card-subtitle mb-2 text-body-secondary"><time>{{ page.date |  date: '%Y-%m-%d' }}</time></h6>    
-				</div>
-			</div>
-			
-			<div class="card" style="width: 18rem;">
-				<div class="card-body">
-					<h4>작성자</h4>
-					<div class="hline"></div>
-					<h6 class="card-subtitle mb-2 text-body-secondary">선경선향아빠</h6>    
-				</div>
-			</div>
-			
-			<div class="card" style="width: 18rem;">
-				<div class="card-body">
-					<h4>Tags</h4>
-					<div class="hline"></div>
-					{% for tag in page.tags %}
+			<table class="table">
+			  <thead>
+				<tr>
+				  <th scope="col" colspan=2">Post Info</th>				  
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">Post Date</th>
+				  <td>{{ page.date |  date: '%Y-%m-%d' }}</td>
+				</tr>
+				<tr>
+				  <th scope="row">Writer</th>
+				  <td>선경선향아빠</td>
+				</tr>
+				<tr>
+				  <th scope="row">Tags</th>
+				  <td>{% for tag in page.tags %}
 					<li>
 						<a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
 							<span>{{ tag }}</span>
 						</a>
 					</li>
-					{% unless forloop.last %}{% endunless %} {% endfor %}		 
-				</div>
-			</div>	
-
-			<div class="card" style="width: 18rem;">
-				<div class="card-body">		
-					<h4>To List</h4>
-					<div class="hline"></div>				
-					<ul>
-						<li><a href="https://skshpapa80.github.io/post/">Post</a></li>	
-					</ul>
-				</div>
-			</div>
-
-			<div class="card" style="width: 18rem;">
-				<div class="card-body">
-					<h4>Counter</h4>
-					<div class="hline"></div>					
-					<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fskshppa80.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>					
-				</div>
-			</div>
+					{% unless forloop.last %}{% endunless %} {% endfor %}</td>
+				</tr>
+				<tr>
+					<th scope="col" colspan=2"><button type="button" class="btn btn-primary" href="https://skshpapa80.github.io/post/">Post</button>
+					<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fskshppa80.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a></th>				 
+				</tr>
+			  </tbody>			  
+			</table>
 			
 		</div>
 		
