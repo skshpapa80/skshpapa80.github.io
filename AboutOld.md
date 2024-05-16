@@ -9,7 +9,7 @@ permalink: /AboutOld/
 <p align="center"><a href="/assets/images/saint.jpg" id="open-image"><img src="/assets/images/saint.jpg"/></a></p>
 
 
-* 닉네임 : <font color="#6600FF">나물</font>,쎈뜨)
+* 닉네임 : <font color="#6600FF">나물</font>,쎈뜨
 * 태어난날 : 3.18
 * 사는곳 : 대한민국 서울
 * 직업 : 병역특례 프로그래머(웹프로그래머)
