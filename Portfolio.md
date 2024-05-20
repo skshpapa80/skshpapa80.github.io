@@ -42,7 +42,7 @@ permalink: /Portfolio/
 - CD-ROM Image Viewer (2001) 
   - Delphi, Image, Viewer -> [Read More](https://skshpapa80.github.io/2022/07/19/CDROM-Program/)
 - Mobile Web page (2017)  
-  - HTML5, Bootstrap, JQuery, CGI -> [Read More](https://skshpapa80.github.io/2022/05/25/Html5-webpage/)
+  - HTML5, Bootstrap, JQuery, CGI -> [Read More](https://skshpapa80-diary.blogspot.com/2022/05/blog-post.html)
 - NamulMP - PSP Homebrew
   - Music Homebrew MP3 Player, Playlist -> [Read More](https://skshpapa80.github.io/2022/05/23/namupmp/)  
 - PLCReport (2015)
@@ -50,4 +50,4 @@ permalink: /Portfolio/
 - Sheet2DB 
   - Excel -> MSSQL Table , Delphi  -> [Read More](https://skshpapa80.github.io/2022/04/28/Delphi-Sheet2DB//) 
 - Delphi Image Viewer
-  - Delphi Image Viewer -> [Read More](https://skshpapa80.github.io/2017/07/25/Delphi-Image-Viewer/)
+  - Delphi Image Viewer -> [Read More](https://skshpapa80-diary.blogspot.com/2017/07/blog-post.html)
