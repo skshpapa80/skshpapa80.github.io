@@ -48,6 +48,6 @@ permalink: /Portfolio/
 - PLCReport (2015)
   - Delphi, PLC, OPC Client -> [Read More](https://skshpapa80.github.io/2022/05/22/plcreport/)  
 - Sheet2DB 
-  - Excel -> MSSQL Table , Delphi  -> [Read More](https://skshpapa80.github.io/2022/04/28/Delphi-Sheet2DB//) 
+  - Excel -> MSSQL Table , Delphi  -> [Read More](https://skshpapa80-diary.blogspot.com/2022/04/sheet2db-db.html) 
 - Delphi Image Viewer
   - Delphi Image Viewer -> [Read More](https://skshpapa80-diary.blogspot.com/2017/07/blog-post.html)
