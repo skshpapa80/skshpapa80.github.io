@@ -28,7 +28,7 @@ permalink: /Portfolio/
 ### Development Experience
 
 - First Android App (2014) 
-  - Android, WebApp, RFID -> [Read More](https://skshpapa80.github.io/2022/07/27/first-android-app/)
+  - Android, WebApp, RFID -> [Read More](https://skshpapa80-diary.blogspot.com/2017/03/2014.html)
 - Image Editor (2005) 
   - Delphi, Image, ImagXpress Component -> [Read More](https://skshpapa80.github.io/2022/07/25/image-editor/)
 - Old Paper Index Project (2004) 
@@ -46,7 +46,7 @@ permalink: /Portfolio/
 - NamulMP - PSP Homebrew
   - Music Homebrew MP3 Player, Playlist -> [Read More](https://skshpapa80.github.io/2022/05/23/namupmp/)  
 - PLCReport (2015)
-  - Delphi, PLC, OPC Client -> [Read More](https://skshpapa80.github.io/2022/05/22/plcreport/)  
+  - Delphi, PLC, OPC Client -> [Read More](https://skshpapa80-diary.blogspot.com/2022/05/plcreport.html)  
 - Sheet2DB 
   - Excel -> MSSQL Table , Delphi  -> [Read More](https://skshpapa80-diary.blogspot.com/2022/04/sheet2db-db.html) 
 - Delphi Image Viewer
