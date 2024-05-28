@@ -44,7 +44,7 @@ permalink: /Portfolio/
 - Mobile Web page (2017)  
   - HTML5, Bootstrap, JQuery, CGI -> [Read More](https://skshpapa80-diary.blogspot.com/2022/05/blog-post.html)
 - NamulMP - PSP Homebrew
-  - Music Homebrew MP3 Player, Playlist -> [Read More](https://skshpapa80.github.io/2022/05/23/namupmp/)  
+  - Music Homebrew MP3 Player, Playlist -> [Read More](https://skshpapa80-diary.blogspot.com/2017/04/2005-psp.html)  
 - PLCReport (2015)
   - Delphi, PLC, OPC Client -> [Read More](https://skshpapa80-diary.blogspot.com/2022/05/plcreport.html)  
 - Sheet2DB 
