@@ -28,11 +28,11 @@ permalink: /Portfolio/
 ### Development Experience
 
 - CD-ROM Image Viewer (2001) 
-  - Delphi, Image, Viewer -> [Read More](https://skshpapa80.github.io/2022/07/19/CDROM-Program/)
+  - Delphi, Image, Viewer -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/cd-rom.html)
 - Subway Sign Manager incomplete Project (2001) 
-  - Delphi, Image -> [Read More](https://skshpapa80.github.io/2022/07/21/Subway-sign/)
+  - Delphi, Image -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_21.html)
 - DWG Viewer Program (2001) 
-  - Delphi, AutoCAD DWG, Viewer -> [Read More](https://skshpapa80.github.io/2022/07/20/dwg-viewer/)  
+  - Delphi, AutoCAD DWG, Viewer -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_17.html)  
 - DWG Viewer Component Change (2002) 
   - Delphi, AutoCAD DWG, Viewer, CAD Import VCL -> [Read More](https://skshpapa80.github.io/2022/07/22/dwg-component/)
 - Old Paper Index Project (2004) 
