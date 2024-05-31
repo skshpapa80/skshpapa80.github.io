@@ -37,8 +37,8 @@ permalink: /Portfolio/
   - Delphi, AutoCAD DWG, Viewer, CAD Import VCL -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_22.html)
 - 제적부 색인 프로젝트 Old Paper Index Project (2004) 
   - Delphi, Firebird, XML, Image -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_24.html)
-- Image Editor (2005) 
-  - Delphi, Image, ImagXpress Component -> [Read More](https://skshpapa80.github.io/2022/07/25/image-editor/)
+- 이미지 보정 프로그램 Image Editor (2005) 
+  - Delphi, Image, ImagXpress Component -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_25.html)
 - NamulMP - PSP Homebrew
   - Music Homebrew MP3 Player, Playlist -> [Read More](https://skshpapa80-diary.blogspot.com/2017/04/2005-psp.html)   
 - First Android App (2014) 
