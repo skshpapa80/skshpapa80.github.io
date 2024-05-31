@@ -25,18 +25,18 @@ permalink: /Portfolio/
 - Mold MES Project (2015)
   - C#, MSSQL, J.Platform
 
-### Development Experience
+### Development Experience(개발경험담)
 
-- CD-ROM Image Viewer (2001) 
+- CD-ROM 에서 동작하는 이미지 뷰어 만들기 CD-ROM Image Viewer (2001) 
   - Delphi, Image, Viewer -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/cd-rom.html)
-- Subway Sign Manager incomplete Project (2001) 
+- 지하철 표지판 관리 프로그램 (미완성) Subway Sign Manager incomplete Project (2001) 
   - Delphi, Image -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_21.html)
-- DWG Viewer Program (2001) 
+- 도면 뷰어 프로그램 만들기 DWG Viewer Program (2001) 
   - Delphi, AutoCAD DWG, Viewer -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_17.html)  
-- DWG Viewer Component Change (2002) 
-  - Delphi, AutoCAD DWG, Viewer, CAD Import VCL -> [Read More](https://skshpapa80.github.io/2022/07/22/dwg-component/)
-- Old Paper Index Project (2004) 
-  - Delphi, Firebird, XML, Image -> [Read More](https://skshpapa80.github.io/2022/07/24/old-paper-project/)
+- 도면 뷰어 컴포넌트 교체기 DWG Viewer Component Change (2002) 
+  - Delphi, AutoCAD DWG, Viewer, CAD Import VCL -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_22.html)
+- 제적부 색인 프로젝트 Old Paper Index Project (2004) 
+  - Delphi, Firebird, XML, Image -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_24.html)
 - Image Editor (2005) 
   - Delphi, Image, ImagXpress Component -> [Read More](https://skshpapa80.github.io/2022/07/25/image-editor/)
 - NamulMP - PSP Homebrew
@@ -47,7 +47,7 @@ permalink: /Portfolio/
   - Delphi, PLC, OPC Client -> [Read More](https://skshpapa80-diary.blogspot.com/2022/05/plcreport.html)
 - Mobile Web page (2017)  
   - HTML5, Bootstrap, JQuery, CGI -> [Read More](https://skshpapa80-diary.blogspot.com/2022/05/blog-post.html)
-- Delphi Image Viewer
+- 이미지 뷰어 만들기 Delphi Image Viewer
   - Delphi Image Viewer -> [Read More](https://skshpapa80-diary.blogspot.com/2017/07/blog-post.html)   
 - Sheet2DB 
   - Excel -> MSSQL Table , Delphi  -> [Read More](https://skshpapa80-diary.blogspot.com/2022/04/sheet2db-db.html) 
