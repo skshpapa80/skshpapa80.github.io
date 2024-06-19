@@ -26,7 +26,7 @@ permalink: /About/
 
 ### 할수있는일
 
-* Language : C#, Delphi, ASP.NET, Python, Flutter
+* DEV : C#, Delphi, ASP.NET, Python, Flutter
 * DB : MSSQL, ORACLE, MYSQL
 * MES Install & Customize
 * Thira MES Framework Install & Customize
@@ -55,6 +55,7 @@ permalink: /About/
 ### Links
 
 * Instagram [https://instagram.com/skshpapa80](https://instagram.com/skshpapa80){:target="_blank"}
+* Threads [https://www.threads.net/@skshpapa80](https://www.threads.net/@skshpapa80){:target="_blank"}
 * X  [https://twitter.com/skshpapa80](https://twitter.com/skshpapa80){:target="_blank"}
 * Naver Blog [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80){:target="_blank"}
 * Youtube [https://www.youtube.com/@skshpapa80-tube](https://www.youtube.com/@skshpapa80-tube){:target="_blank"}
