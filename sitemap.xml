@@ -26,8 +26,6 @@ layout: null
 
     </url>
   {% endfor %}
-  <url><loc>https://skshpapa80.github.io/About/</loc><lastmod>2024-06-13T03:15:16Z</lastmod></url>
-  <url><loc>https://skshpapa80.github.io/AboutOld/</loc><lastmod>2024-06-13T03:15:16Z</lastmod></url>  
   <url><loc>https://skshpapa80.github.io/Portfolio/</loc><lastmod>2024-06-13T03:15:16Z</lastmod></url>
   <url><loc>https://skshpapa80.github.io/programming/</loc><lastmod>2024-06-13T03:15:16Z</lastmod></url>
   <url><loc>https://skshpapa80.github.io/photo/?data=1</loc><lastmod>2024-06-13T03:15:16Z</lastmod></url>

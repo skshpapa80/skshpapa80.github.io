@@ -52,8 +52,6 @@ kramdown:
 
 # Navigation
 nav:
-    - name: "About"
-      url: "/About"
     - name: "Portfolio"
       url: "/Portfolio"
     - name: "Programming"
