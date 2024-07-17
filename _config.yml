@@ -58,6 +58,8 @@ nav:
       url: "/programming"
     - name: "Photo"
       url: "/photo?data=1"
+    - name: "Blog"
+      url: "https://www.raycho12.pe.kr/"
     - name: "Github"
       url: "https://github.com/skshpapa80"
 
