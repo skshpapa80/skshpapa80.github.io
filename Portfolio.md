@@ -40,15 +40,15 @@ permalink: /Portfolio/
 - 이미지 보정 프로그램 Image Editor (2005) 
   - Delphi, Image, ImagXpress Component -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_25.html)
 - NamulMP - PSP Homebrew
-  - Music Homebrew MP3 Player, Playlist -> [Read More](https://skshpapa80-diary.blogspot.com/2017/04/2005-psp.html)   
+  - Music Homebrew MP3 Player, Playlist -> [Read More](https://www.raycho12.pe.kr/2017/04/27/2005-psp-music-homebrew/)   
 - First Android App (2014) 
   - Android, WebApp, RFID -> [Read More](https://skshpapa80-diary.blogspot.com/2017/03/2014.html)
 - PLCReport (2015)
-  - Delphi, PLC, OPC Client -> [Read More](https://skshpapa80-diary.blogspot.com/2022/05/plcreport.html)
+  - Delphi, PLC, OPC Client -> [Read More](https://www.raycho12.pe.kr/2022/05/22/work-plcreport/)
 - Mobile Web page (2017)  
-  - HTML5, Bootstrap, JQuery, CGI -> [Read More](https://skshpapa80-diary.blogspot.com/2022/05/blog-post.html)
+  - HTML5, Bootstrap, JQuery, CGI -> [Read More](https://www.raycho12.pe.kr/2022/05/25/mobile-page-work/)
 - 이미지 뷰어 만들기 Delphi Image Viewer
-  - Delphi Image Viewer -> [Read More](https://skshpapa80-diary.blogspot.com/2017/07/blog-post.html)   
+  - Delphi Image Viewer -> [Read More](https://www.raycho12.pe.kr/2017/07/25/delphi-image-viewer/)   
 - Sheet2DB 
-  - Excel -> MSSQL Table , Delphi  -> [Read More](https://skshpapa80-diary.blogspot.com/2022/04/sheet2db-db.html) 
+  - Excel -> MSSQL Table , Delphi  -> [Read More](https://www.raycho12.pe.kr/2022/04/28/sheet2db-excel-db-upload/) 
 
