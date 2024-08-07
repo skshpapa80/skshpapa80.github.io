@@ -38,7 +38,7 @@ permalink: /Portfolio/
 - 제적부 색인 프로젝트 Old Paper Index Project (2004) 
   - Delphi, Firebird, XML, Image -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_24.html)
 - 이미지 보정 프로그램 Image Editor (2005) 
-  - Delphi, Image, ImagXpress Component -> [Read More](https://skshpapa80-diary.blogspot.com/2022/07/blog-post_25.html)
+  - Delphi, Image, ImagXpress Component -> [Read More](https://www.raycho12.pe.kr/2022/07/25/image-editor/)
 - NamulMP - PSP Homebrew
   - Music Homebrew MP3 Player, Playlist -> [Read More](https://www.raycho12.pe.kr/2017/04/27/2005-psp-music-homebrew/)   
 - First Android App (2014) 
