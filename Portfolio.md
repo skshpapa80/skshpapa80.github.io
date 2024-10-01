@@ -48,7 +48,7 @@ permalink: /Portfolio/
 - Mobile Web page (2017)  
   - HTML5, Bootstrap, JQuery, CGI -> [Read More](https://skshpapa80-diary.blogspot.com/2022/05/blog-post.html)
 - 이미지 뷰어 만들기 Delphi Image Viewer
-  - Delphi Image Viewer -> 
+  - Delphi Image Viewer -> [Read More](https://codingplusplus.tistory.com/33)
 - Sheet2DB 
   - Excel -> MSSQL Table , Delphi  -> [Read More](https://skshpapa80-diary.blogspot.com/2022/04/sheet2db-excel-db.html) 
 
