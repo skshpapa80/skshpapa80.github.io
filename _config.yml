@@ -52,16 +52,18 @@ kramdown:
 
 # Navigation
 nav:
+    - name: "About"
+      url: "/About"
     - name: "Portfolio"
       url: "/Portfolio"
+    - name: "Post"
+      url: "/post"
     - name: "Programming"
       url: "/programming"
     - name: "Travel"
       url: "/travel_hu"
     - name: "Photo"
-      url: "/photo?data=1"
-    - name: "Blog"
-      url: "https://skshpapa80-diary.blogspot.com/"
+      url: "/photo?data=1"    
     - name: "Github"
       url: "https://github.com/skshpapa80"
 
