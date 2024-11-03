@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2022-12-15 MES 개발자?"
-description: "다이어리"
+description: "MES"
 comments: true
 tags:
     - Diary
