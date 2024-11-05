@@ -3,27 +3,13 @@ title: Portfolio
 permalink: /Portfolio/
 ---
 
-### Project 
+### Portfolio 
 
-- Hungary MES Project (2024.01 ~ )
-  - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)
-- Inovation MES Project (2023.05 ~ 12)
-  - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)
-- Flutter PDA Project (2023.03 ~ 04)
-  - Android App, WEB API(JSON)
-- Material MES Install Project (2022 ~ 2023.02)
-  - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)
-- Solar Panel MES Upgrade Project (2021 ~ 2022)
-  - C#, MSSQL, Thira-MES, DevExpress Winform
-- Battery MES Project (2018 ~ 2021)
-  - C#, ORACLE, Thira-MES, Nexcore Framework, DevExpress Winform
-- Mold MES Mobile(Android) (2017)
-  - ASP.NET, MSSQL, Android, Jquery Mobile
-- Auto Weight System (2016)
-  - PC : C#, ORACLE, Winform, Indegator I/F, IO Card 
-  - WEB(TMS) : JAVA Spring, Oracle, eGovFrame
-- Mold MES Project (2015)
-  - C#, MSSQL, J.Platform
+- 이미지 뷰어 만들기 Delphi Image Viewer
+  - Delphi Image Viewer -> [Read More](https://codingplusplus.tistory.com/33){:target="_blank"}
+- Sheet2DB 
+  - Excel -> MSSQL Table , Delphi  -> [Read More](https://skshpapa80.github.io/2022/04/28/Delphi-Sheet2DB/) 
+
 
 ### Development Experience(개발경험담)
 
@@ -47,8 +33,4 @@ permalink: /Portfolio/
   - Delphi, PLC, OPC Client -> [Read More](https://skshpapa80.github.io/2022/05/22/plcreport/)
 - Mobile Web page (2017)  
   - HTML5, Bootstrap, JQuery, CGI -> [Read More](https://skshpapa80.github.io/2022/05/25/Html5-webpage/)
-- 이미지 뷰어 만들기 Delphi Image Viewer
-  - Delphi Image Viewer -> [Read More](https://codingplusplus.tistory.com/33)
-- Sheet2DB 
-  - Excel -> MSSQL Table , Delphi  -> [Read More](https://skshpapa80.github.io/2022/04/28/Delphi-Sheet2DB/) 
 

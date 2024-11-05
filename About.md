@@ -35,6 +35,7 @@ permalink: /About/
 
 ### History
 
+* [2024년 10월 헝가리 출장](https://blog.naver.com/skshpapa80/223646055331){:target="_blank"}
 * [2024년 1월 홍콩 가족여행](https://blog.naver.com/skshpapa80/223330233751){:target="_blank"}
 * [2021년 1월 미국 조지아주 출장](https://blog.naver.com/skshpapa80/222205739891){:target="_blank"}
 * [2020년 6월 중국 혜주 출장](https://blog.naver.com/skshpapa80/222006393522){:target="_blank"}
