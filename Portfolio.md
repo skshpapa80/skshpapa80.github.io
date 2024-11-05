@@ -5,6 +5,8 @@ permalink: /Portfolio/
 
 ### Portfolio 
 
+- 사진 정리 프로그램
+  - Photodate -> [Read More](https://skshpapa80.github.io/2021/05/30/photodate/)
 - DirectShow 기본 Cam 프로그램
   - DirectShow Cam -> [Read More](https://codingplusplus.tistory.com/44){:target="_blank"}
 - 이미지 뷰어 만들기 Delphi Image Viewer
