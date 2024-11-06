@@ -4,7 +4,7 @@ title: "SmallPlayer : 동영상 재생기"
 description: "Delphi"
 comments: true
 tags:
-    - Project
+    - Homebrew
 ---
 
 <p align="center"><a href="/assets/images/smallplayer_01.png" id="open-image"><img src="/assets/images/smallplayer_01.png" alt="screenshot" width="500"/></a></p>

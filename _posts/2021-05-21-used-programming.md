@@ -4,7 +4,6 @@ title: "사용하는 프로그래밍 언어"
 description: "개발자, 프로그래밍, 언어"
 comments: true
 tags:
-    - Diary
     - Programming
 ---
 

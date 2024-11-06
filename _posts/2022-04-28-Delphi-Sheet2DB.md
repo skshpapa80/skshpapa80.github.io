@@ -4,7 +4,7 @@ title: "Sheet2DB - 엑셀 DB 업로드 프로그램"
 description: "Delphi, MSSQL, Excel"
 comments: true
 tags:
-    - Project
+    - Homebrew
 ---
 
 ### [자작] Sheet2DB

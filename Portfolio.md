@@ -5,6 +5,8 @@ permalink: /Portfolio/
 
 ### Portfolio 
 
+- SmallPlayer 
+  - 동영상 재생기 -> [Read More](https://skshpapa80.github.io/2018/02/28/Delphi-homebrew-smallplayer/)
 - 사진 정리 프로그램
   - Photodate -> [Read More](https://skshpapa80.github.io/2021/05/30/photodate/)
 - DirectShow 기본 Cam 프로그램
