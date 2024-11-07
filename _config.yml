@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            선경선향아빠의 Homepage
+tagline:          'blog'
+description:      'MES 개발자, 딸바보 아빠'
+url:              http://skshpapa80.github.io
+baseurl:          /
+
+author:
+  name:           'Ray Cho'
+  url:            https://www.threads.net/skshpapa80
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/skshpapa80
