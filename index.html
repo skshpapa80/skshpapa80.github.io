@@ -42,7 +42,7 @@ layout: default
 
 <div class="container mtb">
     <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-6">
             <h4>Profile.</h4>
 			<div class="hline"></div>	
             <p>닉네임 : 선경선향아빠(skshpapa80)<p>
@@ -51,7 +51,7 @@ layout: default
             <p><br/><a href="https://skshpapa80.github.io/About/" class="btn btn-theme">More Info</a></p>
         </div>
         
-        <div class="col-lg-4">
+        <div class="col-lg-6">
             <h4>Portfolio List</h4>
             <div class="hline"></div>	
                 <p>SmallPlayer</p>
@@ -60,32 +60,7 @@ layout: default
                 <p>이미지 뷰어 만들기 Delphi Image Viewer</p>
                 <p>Sheet2DB</p>
 				<p align="right"><a href="https://skshpapa80.github.io/Portfolio/" class="btn btn-theme">More Info</a></p>
-        </div>       
-        
-        <div class="col-lg-4">
-            <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% if site.posts.size == 0 %}
-                <h2>No post found</h2>
-            {% else %}
-                <!-- This loops through the paginated posts -->
-                <ul>
-                {% for post in paginator.posts %}
-                
-                    {% if post.link %}
-                    <li><a href="{{ post.link }}">
-                    {% else %}
-                    <li><a href="{{ post.url | prepend: site.baseurl }}">
-                    {% endif %}  
-					{{ post.title }}  
-					- (<time>{{ post.date |  date: '%Y-%m-%d' }}</time>)                                  
-                    </a></li>
-                {% endfor %}
-                </ul> 
-                <p align="right"><a href="https://skshpapa80.github.io/post/" class="btn btn-theme">More Info</a></p>
-            {% endif %}  
         </div>
-
         
     </div><! --/row -->
 </div><! --/container -->
