@@ -28,15 +28,14 @@ permalink: /Portfolio/
 - 도면 뷰어 컴포넌트 교체기 DWG Viewer Component Change (2002) 
   - Delphi, AutoCAD DWG, Viewer, CAD Import VCL -> [Read More](https://www.raycho12.pe.kr/2022/07/22/dwg-viewer-component-change/){:target="_blank"}
 - 제적부 색인 프로젝트 Old Paper Index Project (2004) 
-  - Delphi, Firebird, XML, Image -> [Read More](https://skshpapa80.github.io/2022/07/24/old-paper-project/){:target="_blank"}
+  - Delphi, Firebird, XML, Image -> [Read More](https://www.raycho12.pe.kr/2022/07/24/old-paper-index-project/){:target="_blank"}
 - 이미지 보정 프로그램 Image Editor (2005) 
-  - Delphi, Image, ImagXpress Component -> [Read More](https://skshpapa80.github.io/2022/07/25/image-editor/){:target="_blank"}
+  - Delphi, Image, ImagXpress Component -> [Read More](https://www.raycho12.pe.kr/2022/07/25/image-editor/){:target="_blank"}
 - NamulMP - PSP Homebrew
-  - Music Homebrew MP3 Player, Playlist -> [Read More](https://skshpapa80.github.io/2022/05/23/namupmp/){:target="_blank"}   
+  - Music Homebrew MP3 Player, Playlist -> [Read More](https://www.raycho12.pe.kr/2017/04/27/2005-psp-music-homebrew/){:target="_blank"}   
 - First Android App (2014) 
-  - Android, WebApp, RFID -> [Read More](https://skshpapa80.github.io/2022/07/27/first-android-app/){:target="_blank"}
+  - Android, WebApp, RFID -> [Read More](https://www.raycho12.pe.kr/2017/03/20/2014-first-android-app/){:target="_blank"}
 - PLCReport (2015)
-  - Delphi, PLC, OPC Client -> [Read More](https://skshpapa80.github.io/2022/05/22/plcreport/){:target="_blank"}
+  - Delphi, PLC, OPC Client -> [Read More](https://www.raycho12.pe.kr/2022/05/22/work-plcreport/){:target="_blank"}
 - Mobile Web page (2017)  
-  - HTML5, Bootstrap, JQuery, CGI -> [Read More](https://skshpapa80.github.io/2022/05/25/Html5-webpage/){:target="_blank"}
-
+  - HTML5, Bootstrap, JQuery, CGI -> [Read More](https://www.raycho12.pe.kr/2022/05/25/mobile-page-work/){:target="_blank"}
