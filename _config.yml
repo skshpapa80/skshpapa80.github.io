@@ -56,6 +56,8 @@ nav:
       url: "/About"
     - name: "Portfolio"
       url: "/Portfolio"   
+    - name: "Post"
+      url: "/post"  
     - name: "Programming"
       url: "/programming"
     - name: "Travel"
