@@ -5,7 +5,8 @@ permalink: /Portfolio/
 
 ### Portfolio 
 
-- SmallPlayer 
+- SmallPlayer(Lazarus) 
+- SmallPlayer(Delphi) 
   - 동영상 재생기 -> [Read More](https://www.raycho12.pe.kr/2018/02/28/smallplayer-movie-player/){:target="_blank"}
 - 사진 정리 프로그램
   - Photodate -> [Read More](https://www.raycho12.pe.kr/2021/04/30/homebrew-photo-date/){:target="_blank"}
