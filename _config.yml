@@ -53,15 +53,7 @@ kramdown:
 # Navigation
 nav:
     - name: "About"
-      url: "/About"
-    - name: "Portfolio"
-      url: "/Portfolio"   
-    - name: "Post"
-      url: "/post"  
-    - name: "Programming"
-      url: "/programming"
-    - name: "Travel"
-      url: "/travel_hu"
+      url: "https://www.raycho12.pe.kr/about/"
     - name: "Photo"
       url: "/photo?data=1"    
     - name: "Github"
