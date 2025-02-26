@@ -53,7 +53,9 @@ kramdown:
 # Navigation
 nav:
     - name: "About"
-      url: "https://skshpapa80.blogspot.com/p/about.html"
+      url: "https://skshpapa80.github.io/about"
+    - name: "Portfolio"
+      url: "https://skshpapa80.github.io/portfolio"
     - name: "Photo"
       url: "/photo?data=1"    
     - name: "Github"
