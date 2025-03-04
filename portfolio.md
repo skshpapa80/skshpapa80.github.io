@@ -6,7 +6,7 @@ permalink: /portfolio/
 ### Experience in development(개발경험담담)
 
 * 1.대학교 축제 전시 프로젝트
-  - 동영상 재생기 개발발
+  - 동영상 재생기 개발
   - [https://blog.raycho12.pe.kr/2025/02/26/1-school-project/](https://blog.raycho12.pe.kr/2025/02/26/1-school-project/)
 * 2.CD-ROM 에서 동작하는 이미지 뷰어 만들기
   - 첫 업무 기존 개발자가 개발한 프로그램 수정정
@@ -24,7 +24,7 @@ permalink: /portfolio/
   - OpenDWG.Viewkit 으로 개발한 컴포넌트를 CAD Import VCL 로 변경경
   - [https://blog.raycho12.pe.kr/2025/03/02/6-dwg-view-component-change/](https://blog.raycho12.pe.kr/2025/03/02/6-dwg-view-component-change/)
 * 7.제적부 색인 프로젝트
-  - 오래된 제적부 스캔후 인덱스 입력하는 프로그램 개발 및 XML 변환환
+  - 오래된 제적부 스캔 후 인덱스 입력하는 프로그램 개발 및 XML 변환환
   - [https://blog.raycho12.pe.kr/2025/03/03/7-old-document-index-project/](https://blog.raycho12.pe.kr/2025/03/03/7-old-document-index-project/)
 * 8.이미지 보정 프로그램
   - 스캔 받은 이미지(tiff) 보정하는 프로그램
