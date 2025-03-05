@@ -22,6 +22,8 @@ permalink: /about/
 
 ### History
 
+* 2024년 10월 헝가리 데브레첸 출장
+* 2024년 1월 홍콩 가족여행
 * 2021년 1월 미국 조지아주 출장
 * 2020년 6월 중국 혜주 출장
 * 2019년 9월 중국 혜주 추석 연휴 가족 방문
@@ -38,12 +40,17 @@ permalink: /about/
 * 2006년 9월 신혼여행 프랑스 파리
 * 2006년 9월 결혼
 				
-### Links
+### Blog Links
+
+* Naver Blog(해외여행,국내여행,취미생활) [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80)
+* Dev Blog(개발이야기) [https://blog.raycho12.pe.kr](https://blog.raycho12.pe.kr)
+* Diary Blog(일기장장) [https://skshpapa80.blogspot.com/](https://skshpapa80.blogspot.com/)
+
+### SNS Links
 
 * Instagram [https://instagram.com/skshpapa80](https://instagram.com/skshpapa80)
 * Twitter  [https://twitter.com/skshpapa80](https://twitter.com/skshpapa80)
 * Threads [https://www.threads.net/skshpapa80](https://www.threads.net/skshpapa80)
-* Naver Blog [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80)
 * Youtube [https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg](https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg)
 
 **Credits**: [skshpapa80](https://github.com/skshpapa80/)
