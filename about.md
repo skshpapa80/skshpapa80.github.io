@@ -44,7 +44,6 @@ permalink: /about/
 
 * Naver Blog(해외여행,국내여행,취미생활) [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80)
 * Dev Blog(개발이야기) [https://blog.raycho12.pe.kr](https://blog.raycho12.pe.kr)
-* Diary Blog(일기장장) [https://skshpapa80.blogspot.com/](https://skshpapa80.blogspot.com/)
 
 ### SNS Links
 
