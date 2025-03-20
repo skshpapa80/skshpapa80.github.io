@@ -47,9 +47,7 @@ permalink: /about/
 
 ### SNS Links
 
-* Instagram [https://instagram.com/skshpapa80](https://instagram.com/skshpapa80)
 * Twitter  [https://twitter.com/skshpapa80](https://twitter.com/skshpapa80)
-* Threads [https://www.threads.net/skshpapa80](https://www.threads.net/skshpapa80)
 * Youtube [https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg](https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg)
 
 **Credits**: [skshpapa80](https://github.com/skshpapa80/)

@@ -37,4 +37,9 @@ permalink: /portfolio/
 * 9.2005년 PSP용 음악플레이어
   - Sony 게임기 PSP 에서 돌아가는 MP3 재생 Homebrew
   - [https://blog.raycho12.pe.kr/2025/03/04/9-2005-psp-music-player/](https://blog.raycho12.pe.kr/2025/03/04/9-2005-psp-music-player/)
-
+* 10.Sheet2DB 
+  - Excel 파일을 좀 쉽게 DB(MSSQL) 에 넣어 보자고 작은 아이디어
+  - [https://blog.raycho12.pe.kr/2022/04/28/sheet2db-excel-db-upload/](https://blog.raycho12.pe.kr/2022/04/28/sheet2db-excel-db-upload/)
+* 11.SmallPlayer
+  - 동영상 플레이어 DirectShow
+  - [https://blog.raycho12.pe.kr/2018/02/28/smallplayer-movie/](https://blog.raycho12.pe.kr/2018/02/28/smallplayer-movie/)
