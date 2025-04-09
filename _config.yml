@@ -56,8 +56,6 @@ nav:
       url: "https://skshpapa80.github.io/about"
     - name: "Portfolio"
       url: "https://skshpapa80.github.io/portfolio"
-    - name: "Old Post"
-      url: "/post"
     - name: "Travel"
       url: "/travel"
     - name: "Photo"
