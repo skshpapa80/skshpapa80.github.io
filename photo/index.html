@@ -1,0 +1,72 @@
+---
+layout: page
+title: Photo
+---
+
+<link href="../assets/js/ekko-lightbox.css" rel="stylesheet">
+
+<script> 
+	$.urlParam = function(name){
+		var results = new RegExp('[\?&amp;]' + name + '=([^&amp;#]*)').exec(window.location.href);
+		return results[1] || 0;
+	}
+
+	$(document).ready(function() { 
+		$(document).on("click","#open-image",function(e){
+			e.preventDefault();
+			$(this).ekkoLightbox();
+		});
+		
+		$.getJSON('photo_' + $.urlParam('data') + '.json', function(data) 
+		{ 
+			var html = []; 
+			var chk = 1;
+			html.push('<div class="row">');
+			$.each(data, function(i, item) 
+			{ 
+				html.push('<div class="col-sm-6 col-md-3">'); 
+				html.push('<div class="thumbnail img-responsive">'); 
+				html.push('<a href="../assets/images/' + item.imgfilename + '" id="open-image">');
+				html.push('<img src="../assets/images/' + item.imgfilename + '" alt="' +item.title + '" class="img-thumbnail">');
+				html.push('</a>');
+				html.push('<div class="caption">'); 
+				html.push('<p><a href="' + item.url + '">' +item.title + '</a></p>');
+				html.push('</div>'); 
+				html.push('</div>'); 
+				html.push('</div>'); 
+				
+				if(chk%4 == 0){
+					html.push('</div>'); 
+					html.push('<div class="row">'); 
+				}
+				chk = chk + 1;
+			}); 
+			
+			$('#target').html(html.join(''));
+		}); 
+	}); 
+</script>
+	
+<div class="container mtb">
+	<div id="target">
+		
+	</div>
+	
+	<nav aria-label="Page navigation">
+		<ul class="pagination">
+			<li class="page-item"><a class="page-link" href="/photo?data=1">1</a></li>
+			<li class="page-item"><a class="page-link" href="/photo?data=2">2</a></li>
+			<li class="page-item"><a class="page-link" href="/photo?data=3">3</a></li>
+			<li class="page-item"><a class="page-link" href="/photo?data=4">4</a></li>
+			<li class="page-item"><a class="page-link" href="/photo?data=5">5</a></li>
+			<li class="page-item"><a class="page-link" href="/photo?data=6">6</a></li>
+			<li class="page-item"><a class="page-link" href="/photo?data=7">7</a></li>
+			<li class="page-item"><a class="page-link" href="/photo?data=8">8</a></li>
+			<li class="page-item"><a class="page-link" href="/photo?data=9">9</a></li>
+			<li class="page-item"><a class="page-link" href="/photo?data=10">10</a></li>
+		</ul>
+	</nav>
+</div>	
+
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/ekko-lightbox.js"></script>

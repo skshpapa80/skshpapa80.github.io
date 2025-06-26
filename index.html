@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav">     
+            {% for nav in site.nav %}
+                {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+                <li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+                {% else %}
+                <li><a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+<div id="headerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>Have a Good Times!!!</h3>
+                <h1>Developer,Blogger</h1>
+                <h5>멋진 세상을 만들고 싶은 개발자</h5>		
+            </div>				
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /headerwrap -->
+
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-4">
+            <h4>Profile.</h4>
+			<div class="hline"></div>	
+            <p>닉네임 : 선경선향아빠(skshpapa80)<p>
+			<p>클래스 : 개발자, 아빠, 선경 아빠, 선향 아빠, 블로거<p>
+			<p>Hobby : Movie, Game, Travel<p>
+            <p><br/><a href="https://skshpapa80.github.io/about" class="btn btn-theme">More Info</a></p>
+        </div>
+        
+        <div class="col-lg-4">
+            <h4>Delphi/Lazarus</h4>
+            <div class="hline"></div>	
+                <p><a href="https://blog.raycho12.pe.kr/2018/02/28/smallplayer-movie/">SmallPlayer(Delphi)</a></p>
+                <p>LZBasePlayer(Lazarus)</p>
+                <p><a href="https://blog.naver.com/skshpapa80/223747988736">BasePlayer</a> - <a href="https://github.com/skshpapa80/BasePlayer">github</a></p>
+                <p><a href="https://blog.naver.com/skshpapa80/223749222966">DirectShow 기본 Cam 프로그램</a> - <a href="https://github.com/skshpapa80/BASICCAM">github</a></p>
+                <p><a href="https://blog.raycho12.pe.kr/2021/04/30/photodate/">사진 정리 프로그램</a></p>
+                <p><a href="https://blog.raycho12.pe.kr/2017/07/25/homebrew-image-viewer/">이미지 뷰어 만들기 Delphi Image Viewer</a> - <a href="https://github.com/skshpapa80/khImageViewer">github</a></p>
+                <p><a href="https://blog.raycho12.pe.kr/2022/04/28/sheet2db-excel-db-upload/">Sheet2DB</a> - <a href="https://github.com/skshpapa80/Sheet2DB">github</a></p>
+                <p align="right"><a href="https://skshpapa80.github.io/portfolio" class="btn btn-theme">More Info</a></p>
+        </div>
+        
+        <div class="col-lg-4">
+            <h4>ETC</h4>
+            <div class="hline"></div>
+                <p><a href="https://blog.raycho12.pe.kr/2025/03/04/9-2005-psp-music-player/">PSP용 음악 플레이어</a></p>	
+                <p align="right"><a href="https://skshpapa80.github.io/portfolio" class="btn btn-theme">More Info</a></p>
+        </div>
+
+    </div><! --/row -->
+</div><! --/container -->

@@ -1,0 +1,118 @@
+---
+layout: default
+---
+<link href="{{ site.url }}/assets/js/ekko-lightbox.css" rel="stylesheet">
+
+<script> 
+	$(document).ready(function() { 
+		$(document).on("click","#open-image",function(e){
+			e.preventDefault();
+			$(this).ekkoLightbox();
+		});
+	}); 
+</script>
+
+{% include scroll-progress-bar.html %}
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
+        </div>
+        <div class="navbar-collapse collapse navbar-right">
+            <ul class="nav navbar-nav">     
+            {% for nav in site.nav %}
+                {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+                <li><a href="{{ nav.url }}">{{ nav.name }}</a></li>
+                {% else %}
+                <li><a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+<div id="blue">
+	<div class="container">
+		<div class="row">
+			<h3>Post.</h3>				
+		</div><!-- /row -->
+	</div> <!-- /container -->
+</div><!-- /blue -->
+
+<div class="container mtb">
+
+	<div class="row">
+	
+		<div class="col-lg-9">	
+			<h2>{{ page.title }}</h2>					
+			<hr />
+			
+			{{ content }}			
+		</div>		
+
+		<div class="col-md-3">	
+			
+			<table class="table">
+			  <thead>
+				<tr>
+				  <th scope="col" colspan=2">Post Info</th>				  
+				</tr>
+			  </thead>
+			  <tbody>
+				<tr>
+				  <th scope="row">Post Date</th>
+				  <td>{{ page.date |  date: '%Y-%m-%d' }}</td>
+				</tr>
+				<tr>
+				  <th scope="row">Writer</th>
+				  <td>선경선향아빠</td>
+				</tr>
+				<tr>
+				  <th scope="row">Tags</th>
+				  <td>{% for tag in page.tags %}
+					<li>
+						<a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+							<span>{{ tag }}</span>
+						</a>
+					</li>
+					{% unless forloop.last %}{% endunless %} {% endfor %}</td>
+				</tr>
+				<tr>
+					<th scope="col" colspan=2"><a href="https://skshpapa80.github.io/post/" class="btn btn-primary btn-sm active" role="button">Post</a></th>				 
+				</tr>
+			  </tbody>			  
+			</table>
+			
+		</div>
+		
+	</div>	
+	
+	<div class="row">
+	
+		<div class="col-lg-9">
+				
+			<!-- Comment -->
+			{% if page.comments %}
+			<div class="post-comment">
+				<section id="comment_thread"></section>
+				{% include comment.html %}
+			</div>
+			{% endif %}
+		</div>		
+
+		<div class="col-md-3">
+
+		</div>
+	</div>
+</div>
+
+<script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
+<script src="{{ site.url }}/assets/js/ekko-lightbox.js"></script>

@@ -1,0 +1,60 @@
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
+	<title>{% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{ site.name }}{% endif %}</title>
+
+	<!-- Meta -->
+	<meta http-equiv="Title" content="{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}" />
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}" />
+	<meta property="og:locale" content="ko_KR" />
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+	<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+	<meta property="og:site_name" content="{{ site.name }}" />
+	<meta name="twitter:card" content="summary" />
+	<meta property="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}" />
+	<meta property="og:type" content="blog" />
+	<meta http-equiv="Author" content="skshpapa80" />
+	<meta property="og:author" content="skshpapa80" />
+	<meta http-equiv="Publisher" content="skshpapa80" />
+
+	<meta name="naver-site-verification" content="fa607f447a081743355628fd8c3b30b7aa68c8ff" />
+	
+	<!-- 포스트 설정에 image 있으면 미리보기 이미지로 설정하고 없으면 기본 이미지로 -->
+	{% if page.image %}
+	<meta property="og:image" content="{{ site.url }}/assets/images/{{page.name}}/{{ page.image }}" />
+	<meta name="twitter:card" content="{{ site.url }}/assets/images/{{page.name}}/{{ page.image }}" />
+	{% else %}
+	<meta property="og:image" content="{{ site.url }}/assets/images/og/background.png" />
+	<meta name="twitter:card" content="{{ site.url }}/assets/images/og/background.png" />
+	{% endif %}
+	<!-- <meta name="theme-color" content="#2DFF14" /> -->
+
+	<!-- CSS -->
+	<LINK rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/bootstrap.min.css">
+	<LINK rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/style.css">
+
+	<!-- Font -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+	<link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/atom.xml" />
+	
+	<script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>		
+
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8YR2KX1PE2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8YR2KX1PE2');
+</script>
+
+</head>
+

@@ -1,0 +1,47 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
+
+      {% if post.sitemap.changefreq == null %}
+        <changefreq>weekly</changefreq>
+      {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% endif %}
+
+      {% if post.sitemap.priority == null %}
+          <priority>0.5</priority>
+      {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% endif %}
+
+    </url>
+  {% endfor %}
+  <url><loc>https://skshpapa80.github.io/about/</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/portfolio/</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/travel/</loc><lastmod>2024-10-30T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/travel_america/</loc><lastmod>2024-10-30T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/travel_hu/</loc><lastmod>2024-10-30T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/travel_china/</loc><lastmod>2024-10-30T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/travel_saipan/</loc><lastmod>2024-10-30T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/travel_france/</loc><lastmod>2024-10-30T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/photo/?data=1</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/photo/?data=2</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/photo/?data=3</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/photo/?data=4</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/photo/?data=5</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/photo/?data=6</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/photo/?data=7</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/photo/?data=8</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/photo/?data=9</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+  <url><loc>https://skshpapa80.github.io/photo/?data=10</loc><lastmod>2025-02-26T03:15:16Z</lastmod></url>
+</urlset>
