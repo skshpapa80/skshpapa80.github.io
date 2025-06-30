@@ -45,8 +45,9 @@ permalink: /about/
 
 ### SNS Links
 
+* Instagram  [https://www.instagram.com/raychodream/](https://www.instagram.com/raychodream/)
 * Twitter  [https://twitter.com/skshpapa80](https://twitter.com/skshpapa80)
-* Youtube [https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg](https://www.youtube.com/channel/UCok-8nABbWVkBvuwCqTjDbg)
+* Youtube [https://www.youtube.com/@skshpapa80-tube](https://www.youtube.com/@skshpapa80-tube)
 
 **Credits**: [skshpapa80](https://github.com/skshpapa80/)
 
