@@ -39,11 +39,10 @@ permalink: /about/
 * 2006년 9월 신혼여행 프랑스 파리
 * 2006년 9월 결혼
 				
-### Blog/Homepage Links
+### Blog Links
 
 * Naver Blog(해외여행,국내여행,취미생활) [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80)
 * Dev Blog(개발이야기) [https://www.raycho12.pe.kr](https://www.raycho12.pe.kr)
-* Homepage [https://skshpapa80.github.io/](https://skshpapa80.github.io/)
 
 ### SNS Links
 
