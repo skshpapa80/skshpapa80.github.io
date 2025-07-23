@@ -54,6 +54,8 @@ kramdown:
 nav:
     - name: "About"
       url: "https://skshpapa80.github.io/about"
+    - name: "Portfolio"
+      url: "/Portfolio"
     - name: "Travel"
       url: "/travel"
     - name: "Photo"
