@@ -1,0 +1,31 @@
+---
+layout: page
+title: Old Post
+---
+<div class="container mtb">
+  <div class="archive">
+    <div class="archive-list">
+    {% if site.posts.size == 0 %}
+      <h2>No post found</h2>
+    {% else %}
+    {% for post in site.posts %}
+      <div class="archive-list-post">
+        {% if post.link %}
+        <a href="{{ post.link }}">
+        {% else %}
+        <a href="{{ post.url | prepend: site.baseurl }}">
+        {% endif %}  
+          <span class="archive-list-post-title">
+            {{ post.title }}
+          </span>
+          <span class="archive-list-post-date">
+            <time>&nbsp;|&nbsp;&nbsp;{{ post.date | date: '%Y-%m-%d' }}</time>
+          </span>
+        </a>
+      </div>
+      <br>
+    {% endfor %}
+    {% endif %}
+    </div>
+  </div>
+</div>

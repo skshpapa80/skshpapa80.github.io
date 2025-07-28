@@ -58,6 +58,8 @@ nav:
       url: "/Portfolio"
     - name: "Travel"
       url: "/travel"
+    - name: "Post"
+      url: "/post"  
     - name: "Photo"
       url: "/photo?data=1"    
     - name: "Github"
