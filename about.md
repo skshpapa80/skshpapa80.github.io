@@ -42,7 +42,6 @@ permalink: /about/
 ### Blog Links
 
 * Naver Blog(해외여행,국내여행,취미생활) [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80)
-* Dev Blog(개발이야기) [https://www.raycho12.pe.kr](https://www.raycho12.pe.kr)
 
 ### SNS Links
 

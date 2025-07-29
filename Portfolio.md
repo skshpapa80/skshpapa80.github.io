@@ -4,7 +4,10 @@ permalink: /Portfolio/
 ---
 
 ### Project 
-
+- Hungary MES Install Project (2024~)
+  - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)
+- Innovation MES Install Project (2023)
+  - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)
 - Material MES Install Project (2022 ~)
   - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)
 - Solar Panel MES Upgrade Project (2021 ~ 2022)
