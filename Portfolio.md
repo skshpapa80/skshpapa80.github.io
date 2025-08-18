@@ -55,10 +55,10 @@ permalink: /Portfolio/
 * 장비제어용 페이지 모바일용 반응형웹
   - 2017년 8월  안드로이드/모바일용 반응형 웹,
   - HTML5, bootstrap, Jquery, CGI
-  - [https://www.raycho12.pe.kr/2022/05/25/mobile-page-job/](https://www.raycho12.pe.kr/2022/05/25/mobile-page-job/)
+  - [https://skshpapa80.blogspot.com/2022/05/blog-post.html](https://skshpapa80.blogspot.com/2022/05/blog-post.html)
 * 아르바이트 기록 – PLCReport
   - PLC 의 값을 모니터링 한 후 파일로 저장하고 엑셀처럼 보여주는 프로그램
-  - [https://skshpapa80.blogspot.com/2025/02/1.html](https://skshpapa80.blogspot.com/2025/02/1.html)
+  - [https://skshpapa80.blogspot.com/2022/05/plcreport.html](https://skshpapa80.blogspot.com/2022/05/plcreport.html)
 <br />
 
 ### Portfolio(포트폴리오)
@@ -68,7 +68,7 @@ permalink: /Portfolio/
   - [https://skshpapa80.blogspot.com/2025/03/2005-psp.html](https://skshpapa80.blogspot.com/2025/03/2005-psp.html)
 * Lotus 123 파일 읽는 프로그램
   - 오래된 Lotus 123 프로그램을 읽는 프로그램
-  - [https://www.raycho12.pe.kr/2022/05/24/lotus-123-file-read/](https://www.raycho12.pe.kr/2022/05/24/lotus-123-file-read/)
+  - [https://skshpapa80.blogspot.com/2022/05/lotus-123.html](https://skshpapa80.blogspot.com/2022/05/lotus-123.html)
 * 사진 정리 프로그램(Photodate)
   - 사진을 찍은 날짜(Exif Tag)를 사용해서 날짜별로 사진을 정리하는 프로그램
   - [https://www.raycho12.pe.kr/2021/04/30/photodate/](https://www.raycho12.pe.kr/2021/04/30/photodate/)
