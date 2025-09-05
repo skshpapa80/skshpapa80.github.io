@@ -74,10 +74,10 @@ permalink: /Portfolio/
   - [https://skshpapa80.blogspot.com/2021/04/photodate.html](https://skshpapa80.blogspot.com/2021/04/photodate.html)
 * 자작 프로그램 – 이미지 뷰어 만들기
   - 델파이(Delphi)로 만든 이미지 뷰어
-  - [https://www.raycho12.pe.kr/2017/07/25/homebrew-image-viewer/](https://www.raycho12.pe.kr/2017/07/25/homebrew-image-viewer/)
+  - [https://skshpapa80.blogspot.com/2017/07/blog-post.html](https://skshpapa80.blogspot.com/2017/07/blog-post.html)
 * Sheet2DB 
   - Excel 파일을 좀 쉽게 DB(MSSQL) 에 넣어 보자고 작은 아이디어
   - [https://skshpapa80.blogspot.com/2022/04/sheet2db-excel-db.html](https://skshpapa80.blogspot.com/2022/04/sheet2db-excel-db.html)
 * SmallPlayer
   - 동영상 플레이어 DirectShow
-  - [https://www.raycho12.pe.kr/2018/02/28/smallplayer-movie/](https://www.raycho12.pe.kr/2018/02/28/smallplayer-movie/)
+  - [https://skshpapa80.blogspot.com/2018/03/smallplayer.html](https://skshpapa80.blogspot.com/2018/03/smallplayer.html)
