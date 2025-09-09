@@ -42,10 +42,12 @@ permalink: /about/
 ### Blog Links
 
 * Naver Blog(해외여행,국내여행,취미생활) [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80)
+* Diary Blog(일기장,개발이야기) [https://skshpapa80.blogspot.com/](https://skshpapa80.blogspot.com/)
 
 ### SNS Links
 
 * Instagram  [https://www.instagram.com/raychodream/](https://www.instagram.com/raychodream/)
+* Thread [https://www.threads.com/@raychodream](https://www.threads.com/@raychodream)
 * Twitter  [https://twitter.com/skshpapa80](https://twitter.com/skshpapa80)
 * Youtube [https://www.youtube.com/@skshpapa80-tube](https://www.youtube.com/@skshpapa80-tube)
 
