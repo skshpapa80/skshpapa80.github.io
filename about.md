@@ -12,11 +12,11 @@ permalink: /about/
 
 ### 할수있는일
 
-* Language : C#, Delphi, ASP.NET
+* Language : C#, Delphi, ASP.NET, PHP
 * DB : MSSQL, ORACLE, MYSQL
 * MES Install & Customize
-* Thira MES Framework Install & Customize
-* PHP, Jquery, HTML5
+* Thira MES Install & Customize (C# .NET Framework Used)
+* Jquery, HTML5, WCF
 * Flutter Android App
 				
 ### Blog Links
@@ -33,4 +33,4 @@ permalink: /about/
 
 **Credits**: [skshpapa80](https://github.com/skshpapa80/)
 
-**Last Edited**: 2025-02-26
+**Last Edited**: 2025-09-225
