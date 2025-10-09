@@ -1,6 +1,18 @@
 ---
 layout: default
 ---
+
+<link href="../assets/js/ekko-lightbox.css" rel="stylesheet">
+
+<script>
+	$(document).ready(function() { 
+		$(document).on("click","#open-image",function(e){
+			e.preventDefault();
+			$(this).ekkoLightbox();
+		});
+	}); 
+</script>
+
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -45,5 +57,6 @@ layout: default
 	</div>		
 </div>
 
+<script src="../assets/js/ekko-lightbox.js"></script>
 
 
