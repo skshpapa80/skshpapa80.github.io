@@ -81,3 +81,7 @@ permalink: /Portfolio/
 * SmallPlayer
   - 동영상 플레이어 DirectShow
   - [https://skshpapa80.blogspot.com/2018/03/smallplayer.html](https://skshpapa80.blogspot.com/2018/03/smallplayer.html)
+* LZBasePlayer
+  - Lazarus 로 만든 DirectShow, Lav filter 동영상 플레이어 
+  - [https://skshpapa80.blogspot.com/2025/10/lzbaseplayer-directshowlazarus.html](https://skshpapa80.blogspot.com/2025/10/lzbaseplayer-directshowlazarus.html)
+  
