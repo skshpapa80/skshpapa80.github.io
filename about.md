@@ -22,7 +22,7 @@ permalink: /about/
 ### Blog Links
 
 * Naver Blog(해외여행,국내여행,취미생활) [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80)
-* Diary Blog(일기장,개발이야기) [https://skshpapa80.blogspot.com/](https://skshpapa80.blogspot.com/)
+* Blog(일기장,개발이야기) [https://skshpapa80.iwinv.net/](https://skshpapa80.iwinv.net/)
 
 ### SNS Links
 
@@ -33,4 +33,4 @@ permalink: /about/
 
 **Credits**: [skshpapa80](https://github.com/skshpapa80/)
 
-**Last Edited**: 2025-09-225
+**Last Edited**: 2026-01-21
