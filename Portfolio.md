@@ -51,7 +51,7 @@ permalink: /Portfolio/
   - [https://skshpapa80.blogspot.com/2025/03/8.html](https://skshpapa80.blogspot.com/2025/03/8.html)
 * 9.Codeigniter Web 개발 아르바이트
   - 2018년 지인의 요청으로 하게 된 Web 개발 아르바이트 입니다.
-  - [https://skshpapa80.blogspot.com/2025/03/9-codeigniter-web.html](https://skshpapa80.blogspot.com/2025/03/9-codeigniter-web.html)
+  - [https://skshpapa80.iwinv.net/?p=97](https://skshpapa80.iwinv.net/?p=97)
 * 장비제어용 페이지 모바일용 반응형웹
   - 2017년 8월  안드로이드/모바일용 반응형 웹,
   - HTML5, bootstrap, Jquery, CGI
@@ -83,5 +83,5 @@ permalink: /Portfolio/
   - [https://skshpapa80.blogspot.com/2018/03/smallplayer.html](https://skshpapa80.blogspot.com/2018/03/smallplayer.html)
 * LZBasePlayer
   - Lazarus 로 만든 DirectShow, Lav filter 동영상 플레이어 
-  - [https://skshpapa80.blogspot.com/2025/10/lzbaseplayer-directshowlazarus.html](https://skshpapa80.blogspot.com/2025/10/lzbaseplayer-directshowlazarus.html)
+  - [https://skshpapa80.iwinv.net/?p=53](https://skshpapa80.iwinv.net/?p=53)
   
