@@ -34,21 +34,23 @@ title: Diary
         }
     </style>
 
-    <div class="calendar-container">
-        <div class="calendar-header">
-            <button id="prevYear"><<</button>
-            <button id="prevMonth"><</button>
-            <h3 id="monthDisplay"></h3>
-            <button id="nextMonth">></button>
-            <button id="nextYear">>></button>
+    <div align="text-align:center">
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <button id="prevYear">Prev Year(-12)</button>
+                <button id="prevMonth">Prev Month</button>
+                <h3 id="monthDisplay"></h3>
+                <button id="nextMonth">Next Month</button>
+                <button id="nextYear">Next Year(+12)</button>
+            </div>
+            <div class="calendar-grid" id="calendarGrid">
+            </div>
         </div>
-        <div class="calendar-grid" id="calendarGrid">
-        </div>
-    </div>
 
-    <div class="diary-viewer" id="diaryViewer">
-        <h4>날짜를 클릭하면 일기가 표시됩니다.</h4>
-        <div id="diaryContent"></div>
+        <div class="diary-viewer" id="diaryViewer">
+            <b>날짜를 클릭하면 일기가 표시됩니다.</b>
+            <div id="diaryContent"></div>
+        </div>
     </div>
 
     <script>
@@ -137,7 +139,7 @@ title: Diary
         const viewer = document.getElementById('diaryContent');
         if (diaryData[date]) {
             viewer.innerHTML = `
-                <strong style="color:#007bff;">[${date}]</strong>
+                <h3><strong style="color:#007bff;">[${date}]</strong></h3>
                 <h5>${diaryData[date].title}</h5>
                 <p>${diaryData[date].content}</p>
             `;
