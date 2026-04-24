@@ -22,7 +22,6 @@ title: Diary
         /* 캘린더 컨테이너 수정 */
         .calendar-container { 
             width: 80%;            /* 화면 너비의 80% */
-            max-width: 800px;      /* 너무 커지는 것을 방지하기 위한 최대 너비 (선택 사항) */
             margin: 0 auto;        /* 가로 중앙 정렬 */
             border: 1px solid var(--border-color); 
             padding: 20px; 
@@ -70,7 +69,6 @@ title: Diary
         .diary-viewer { 
             margin-top: 30px; 
             width: 80%;            /* 일기장도 캘린더와 같은 너비로 설정 */
-            max-width: 800px; 
             border-top: 2px solid #333; 
             padding-top: 20px; 
         }
@@ -194,7 +192,7 @@ title: Diary
         if (diaryData[date]) {
             viewer.innerHTML = `
                 <strong style="color:#007bff;">[${date}]</strong>
-                <h5>${diaryData[date].title}</h5>
+                <h5><p style="color: rgb(0, 128, 0);">${diaryData[date].title}</p></h5>
                 <p>${diaryData[date].content}</p>
             `;
         } else {
