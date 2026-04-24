@@ -2,6 +2,8 @@
 layout: default
 ---
 <link href="{{ site.url }}/assets/js/ekko-lightbox.css" rel="stylesheet">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 
 <script> 
 	$(document).ready(function() { 
@@ -54,17 +56,8 @@ layout: default
 		<div class="col-lg-9">	
 			<h2>{{ page.title }}</h2>					
 			<hr />
-			
-			<script src="https://ads-partners.coupang.com/g.js"></script>
-			<script>
-				new PartnersCoupang.G({"id":821106,"trackingCode":"AF4126668","subId":null,"template":"carousel","width":"680","height":"140"});
-			</script>
 
 			{{ content }}				
-			
-			<br />			
-			<br />
-			<p style="color:red">이 게시물은쿠팡 파트너스활동의일환으로,이에따른 일정액의수수료를제공받습니다.</p>
 		</div>		
 
 		<div class="col-md-3">	
