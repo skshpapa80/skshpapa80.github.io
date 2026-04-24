@@ -17,8 +17,21 @@ title: Diary
         .today { background-color: var(--today-bg); font-weight: bold; color: #007bff; }
         
         /* 일기 표시 영역 */
-        .diary-viewer { margin-top: 20px; width: 350px; border-top: 2px solid #333; padding-top: 15px; }
+        .diary-viewer { margin-top: 20px; width: 80%; border-top: 2px solid #333; padding-top: 15px; }
         .has-diary::after { content: ''; position: absolute; bottom: 5px; width: 4px; height: 4px; background: red; border-radius: 50%; }
+ 
+        #diaryContent a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 1px dashed #007bff;
+            transition: all 0.2s;
+        }
+
+        #diaryContent a:hover {
+            background-color: #f0f7ff;
+            color: #0056b3;
+        }
     </style>
 
     <div class="calendar-container">
@@ -136,21 +149,21 @@ title: Diary
     // 월 이동 버튼 이벤트
     document.getElementById('prevMonth').onclick = () => {
         currentViewDate.setMonth(currentViewDate.getMonth() - 1);
-        renderCalendar();
+        loadDiaryData();
     };
     document.getElementById('nextMonth').onclick = () => {
         currentViewDate.setMonth(currentViewDate.getMonth() + 1);
-        renderCalendar();
+        loadDiaryData();
     };
 
     // 년 이동 버튼 이벤트
     document.getElementById('prevYear').onclick = () => {
         currentViewDate.setMonth(currentViewDate.getMonth() - 12);
-        renderCalendar();
+        loadDiaryData();
     };
     document.getElementById('nextYear').onclick = () => {
         currentViewDate.setMonth(currentViewDate.getMonth() + 12);
-        renderCalendar();
+        loadDiaryData();
     };
 
     // 최초 실행
