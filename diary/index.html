@@ -4,53 +4,103 @@ title: Diary
 ---
 
     <style>
-        :root { --border-color: #e0e0e0; --today-bg: #f0f7ff; }
-        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; }
-        
-        /* 캘린더 스타일 */
-        .calendar-container { width: 80%; border: 1px solid var(--border-color); padding: 10px; }
-        .calendar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-        .calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
-        .day-header { font-weight: bold; text-align: center; font-size: 0.8rem; padding-bottom: 5px; }
-        .day { border: 1px solid #f9f9f9; height: 40px; display: flex; align-items: center; justify-content: center; cursor: pointer; position: relative; }
-        .day:hover { background-color: #f0f0f0; }
-        .today { background-color: var(--today-bg); font-weight: bold; color: #007bff; }
-        
-        /* 일기 표시 영역 */
-        .diary-viewer { margin-top: 20px; width: 80%; border-top: 2px solid #333; padding-top: 15px; }
-        .has-diary::after { content: ''; position: absolute; bottom: 5px; width: 4px; height: 4px; background: red; border-radius: 50%; }
- 
-        #diaryContent a {
-            color: #007bff;
-            text-decoration: none;
-            font-weight: bold;
-            border-bottom: 1px dashed #007bff;
-            transition: all 0.2s;
+        :root { 
+            --border-color: #e0e0e0; 
+            --today-bg: #f0f7ff; 
         }
 
-        #diaryContent a:hover {
-            background-color: #f0f7ff;
-            color: #0056b3;
+        body { 
+            font-family: sans-serif; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            margin: 0;
+            padding: 20px;
+            background-color: #fcfcfc;
+        }
+        
+        /* 캘린더 컨테이너 수정 */
+        .calendar-container { 
+            width: 80%;            /* 화면 너비의 80% */
+            max-width: 800px;      /* 너무 커지는 것을 방지하기 위한 최대 너비 (선택 사항) */
+            margin: 0 auto;        /* 가로 중앙 정렬 */
+            border: 1px solid var(--border-color); 
+            padding: 20px; 
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* 약간의 그림자 추가 */
+        }
+
+        .calendar-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 20px; 
+        }
+
+        .calendar-grid { 
+            display: grid; 
+            grid-template-columns: repeat(7, 1fr); 
+            gap: 10px;             /* 날짜 간격 넓힘 */
+        }
+
+        .day-header { 
+            font-weight: bold; 
+            text-align: center; 
+            font-size: 0.9rem; 
+            padding-bottom: 10px; 
+            color: #666;
+        }
+
+        .day { 
+            border: 1px solid #eee; 
+            aspect-ratio: 1 / 1;    /* 날짜 칸을 정사각형으로 유지 */
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            cursor: pointer; 
+            position: relative; 
+            font-size: 1rem;
+            border-radius: 4px;
+        }
+
+        .day:hover { background-color: #f8f9fa; }
+        .today { background-color: var(--today-bg); font-weight: bold; color: #007bff; border: 1px solid #007bff; }
+        
+        /* 일기 표시 영역 수정 */
+        .diary-viewer { 
+            margin-top: 30px; 
+            width: 80%;            /* 일기장도 캘린더와 같은 너비로 설정 */
+            max-width: 800px; 
+            border-top: 2px solid #333; 
+            padding-top: 20px; 
+        }
+
+        .has-diary::after { 
+            content: ''; 
+            position: absolute; 
+            bottom: 8px; 
+            width: 6px; 
+            height: 6px; 
+            background: #ff5252; 
+            border-radius: 50%; 
         }
     </style>
 
-    <div align="text-align:center">
-        <div class="calendar-container">
-            <div class="calendar-header">
-                <button id="prevYear">Prev Year(-12)</button>
-                <button id="prevMonth">Prev Month</button>
-                <h3 id="monthDisplay"></h3>
-                <button id="nextMonth">Next Month</button>
-                <button id="nextYear">Next Year(+12)</button>
-            </div>
-            <div class="calendar-grid" id="calendarGrid">
-            </div>
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prevYear">Prev Year(-12)</button>
+            <button id="prevMonth">Prev Month</button>
+            <h3 id="monthDisplay"></h3>
+            <button id="nextMonth">Next Month</button>
+            <button id="nextYear">Next Year(+12)</button>
         </div>
+        <div class="calendar-grid" id="calendarGrid">
+        </div>
+    </div>
 
-        <div class="diary-viewer" id="diaryViewer">
-            <b>날짜를 클릭하면 일기가 표시됩니다.</b>
-            <div id="diaryContent"></div>
-        </div>
+    <div class="diary-viewer" id="diaryViewer">
+        <b>날짜를 클릭하면 일기가 표시됩니다.</b>
+        <div id="diaryContent"></div>
     </div>
 
     <script>
@@ -132,6 +182,10 @@ title: Diary
             dayEl.onclick = () => showDiary(dateStr);
             grid.appendChild(dayEl);
         }
+
+        //표시 일기 지우기
+        const viewer = document.getElementById('diaryContent');
+        viewer.innerHTML = ``;
     }
 
     // 3. 일기 표시 함수
@@ -139,7 +193,7 @@ title: Diary
         const viewer = document.getElementById('diaryContent');
         if (diaryData[date]) {
             viewer.innerHTML = `
-                <h3><strong style="color:#007bff;">[${date}]</strong></h3>
+                <strong style="color:#007bff;">[${date}]</strong>
                 <h5>${diaryData[date].title}</h5>
                 <p>${diaryData[date].content}</p>
             `;
