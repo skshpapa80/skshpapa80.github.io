@@ -21,7 +21,21 @@ title: Diary
         .has-diary::after { content: ''; position: absolute; bottom: 5px; width: 4px; height: 4px; background: red; border-radius: 50%; }
     </style>
 
- 
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prevMonth"><</button>
+            <h3 id="monthDisplay"></h3>
+            <button id="nextMonth">></button>
+        </div>
+        <div class="calendar-grid" id="calendarGrid">
+        </div>
+    </div>
+
+    <div class="diary-viewer" id="diaryViewer">
+        <h4>날짜를 클릭하면 일기가 표시됩니다.</h4>
+        <div id="diaryContent"></div>
+    </div>
+
     <script>
     let currentViewDate = new Date(); // 현재 보고 있는 날짜
     let diaryData = {}; // JSON 데이터를 저장할 객체
@@ -121,20 +135,5 @@ title: Diary
     // 최초 실행
     loadDiaryData();
 
-    </script>     
-
-    <div class="calendar-container">
-        <div class="calendar-header">
-            <button id="prevMonth"><</button>
-            <h3 id="monthDisplay"></h3>
-            <button id="nextMonth">></button>
-        </div>
-        <div class="calendar-grid" id="calendarGrid">
-        </div>
-    </div>
-
-    <div class="diary-viewer" id="diaryViewer">
-        <h4>날짜를 클릭하면 일기가 표시됩니다.</h4>
-        <div id="diaryContent"></div>
-    </div>
+    </script> 
 
