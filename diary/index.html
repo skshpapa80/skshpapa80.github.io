@@ -3,3 +3,138 @@ layout: page
 title: Diary
 ---
 
+    <style>
+        :root { --border-color: #e0e0e0; --today-bg: #f0f7ff; }
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; }
+        
+        /* 캘린더 스타일 */
+        .calendar-container { width: 350px; border: 1px solid var(--border-color); padding: 10px; }
+        .calendar-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; }
+        .day-header { font-weight: bold; text-align: center; font-size: 0.8rem; padding-bottom: 5px; }
+        .day { border: 1px solid #f9f9f9; height: 40px; display: flex; align-items: center; justify-content: center; cursor: pointer; position: relative; }
+        .day:hover { background-color: #f0f0f0; }
+        .today { background-color: var(--today-bg); font-weight: bold; color: #007bff; }
+        
+        /* 일기 표시 영역 */
+        .diary-viewer { margin-top: 20px; width: 350px; border-top: 2px solid #333; padding-top: 15px; }
+        .has-diary::after { content: ''; position: absolute; bottom: 5px; width: 4px; height: 4px; background: red; border-radius: 50%; }
+    </style>
+
+ 
+    <script>
+    let currentViewDate = new Date(); // 현재 보고 있는 날짜
+    let diaryData = {}; // JSON 데이터를 저장할 객체
+
+    // 1. JSON 데이터 불러오기 (diary.json 파일이 같은 경로에 있어야 함)
+    async function loadDiaryData() {
+        try {
+            const response = await fetch('diary.json');
+            diaryData = await response.json();
+            renderCalendar(); // 데이터 로드 후 캘린더 그리기
+        } catch (error) {
+            console.error("데이터 로드 실패:", error);
+            renderCalendar(); // 실패해도 캘린더는 그림
+        }
+    }
+
+    // 2. 캘린더 렌더링 함수
+    function renderCalendar() {
+        const grid = document.getElementById('calendarGrid');
+        const monthDisplay = document.getElementById('monthDisplay');
+        
+        grid.innerHTML = ''; // 초기화
+        
+        const year = currentViewDate.getFullYear();
+        const month = currentViewDate.getMonth();
+        
+        monthDisplay.innerText = `${year}년 ${month + 1}월`;
+
+        // 요일 헤더 추가
+        const days = ['일', '월', '화', '수', '목', '금', '토'];
+        days.forEach(d => {
+            const el = document.createElement('div');
+            el.className = 'day-header';
+            el.innerText = d;
+            grid.appendChild(el);
+        });
+
+        // 날짜 계산
+        const firstDay = new Date(year, month, 1).getDay();
+        const lastDate = new Date(year, month + 1, 0).getDate();
+
+        // 1일 앞의 빈칸 채우기
+        for (let i = 0; i < firstDay; i++) {
+            grid.appendChild(document.createElement('div'));
+        }
+
+        // 날짜 채우기
+        for (let i = 1; i <= lastDate; i++) {
+            const dayEl = document.createElement('div');
+            dayEl.className = 'day';
+            dayEl.innerText = i;
+
+            // YYYY-MM-DD 형식 문자열 생성
+            const dateStr = `${year}-${String(month + 1).padStart(2, '0')}-${String(i).padStart(2, '0')}`;
+
+            // 오늘 날짜 표시
+            const today = new Date();
+            if (year === today.getFullYear() && month === today.getMonth() && i === today.getDate()) {
+                dayEl.classList.add('today');
+            }
+
+            // 일기 데이터가 있는지 확인
+            if (diaryData[dateStr]) {
+                dayEl.classList.add('has-diary');
+            }
+
+            // 클릭 이벤트
+            dayEl.onclick = () => showDiary(dateStr);
+            grid.appendChild(dayEl);
+        }
+    }
+
+    // 3. 일기 표시 함수
+    function showDiary(date) {
+        const viewer = document.getElementById('diaryContent');
+        if (diaryData[date]) {
+            viewer.innerHTML = `
+                <strong style="color:#007bff;">[${date}]</strong>
+                <h5>${diaryData[date].title}</h5>
+                <p>${diaryData[date].content}</p>
+            `;
+        } else {
+            viewer.innerHTML = `<p>${date}에 작성된 일기가 없습니다.</p>`;
+        }
+    }
+
+    // 월 이동 버튼 이벤트
+    document.getElementById('prevMonth').onclick = () => {
+        currentViewDate.setMonth(currentViewDate.getMonth() - 1);
+        renderCalendar();
+    };
+    document.getElementById('nextMonth').onclick = () => {
+        currentViewDate.setMonth(currentViewDate.getMonth() + 1);
+        renderCalendar();
+    };
+
+    // 최초 실행
+    loadDiaryData();
+
+    </script>     
+
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prevMonth"><</button>
+            <h3 id="monthDisplay"></h3>
+            <button id="nextMonth">></button>
+        </div>
+        <div class="calendar-grid" id="calendarGrid">
+        </div>
+    </div>
+
+    <div class="diary-viewer" id="diaryViewer">
+        <h4>날짜를 클릭하면 일기가 표시됩니다.</h4>
+        <div id="diaryContent"></div>
+    </div>
+
