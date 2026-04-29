@@ -6,7 +6,7 @@ title: Diary
     <style>        
         /* 캘린더 컨테이너 수정 */
         .calendar-container { 
-            width: 80%;            /* 화면 너비의 80% */
+            width: 100%;            /* 화면 너비의 100% */
             margin: 0 auto;        /* 가로 중앙 정렬 */
             border: 1px solid var(--border-color); 
             padding: 20px; 
@@ -53,7 +53,7 @@ title: Diary
         /* 일기 표시 영역 수정 */
         .diary-viewer { 
             margin-top: 30px; 
-            width: 80%;            /* 일기장도 캘린더와 같은 너비로 설정 */
+            width: 100%;            /* 일기장도 캘린더와 같은 너비로 설정 */
             border-top: 2px solid #333; 
             padding-top: 20px; 
         }
@@ -69,21 +69,27 @@ title: Diary
         }
     </style>
 
-    <div class="calendar-container">
-        <div class="calendar-header">
-            <button id="prevYear">Prev Year(-12)</button>
-            <button id="prevMonth">Prev Month</button>
-            <h3 id="monthDisplay"></h3>
-            <button id="nextMonth">Next Month</button>
-            <button id="nextYear">Next Year(+12)</button>
+    <div class="row">
+		<div class="col-lg-6">	
+            <div class="calendar-container">
+                <div class="calendar-header">
+                    <button id="prevYear">Prev Year(-12)</button>
+                    <button id="prevMonth">Prev Month</button>
+                    <h3 id="monthDisplay"></h3>
+                    <button id="nextMonth">Next Month</button>
+                    <button id="nextYear">Next Year(+12)</button>
+                </div>
+                <div class="calendar-grid" id="calendarGrid">
+                </div>
+            </div>
         </div>
-        <div class="calendar-grid" id="calendarGrid">
+    
+        <div class="col-lg-6">	
+            <div class="diary-viewer" id="diaryViewer">
+                <b>날짜를 클릭하면 일기가 표시됩니다.</b>
+                <div id="diaryContent"></div>
+            </div>
         </div>
-    </div>
-
-    <div class="diary-viewer" id="diaryViewer">
-        <b>날짜를 클릭하면 일기가 표시됩니다.</b>
-        <div id="diaryContent"></div>
     </div>
 
     <script>
