@@ -74,11 +74,11 @@ title: Diary
 		<div class="col-lg-8">	
             <div class="calendar-container">
                 <div class="calendar-header">
-                    <button id="prevYear">Prev Year(-12)</button>
-                    <button id="prevMonth">Prev Month</button>
+                    <button id="prevYear">-12개월전</button>
+                    <button id="prevMonth">이전달</button>
                     <h3 id="monthDisplay"></h3>
-                    <button id="nextMonth">Next Month</button>
-                    <button id="nextYear">Next Year(+12)</button>
+                    <button id="nextMonth">다음달</button>
+                    <button id="nextYear">+12개월전</button>
                 </div>
                 <div class="calendar-grid" id="calendarGrid">
                 </div>
@@ -188,7 +188,7 @@ title: Diary
                 <p>${diaryData[date].content}</p>
                 ${diaryData[date].link ? `
                     <div style="margin-top: 15px; padding: 10px; background: #f8f9fa;">
-                        🔗 관련 링크: <a href="${diaryData[date].link}" target="_blank">
+                        🔗 관련 링크: <a href="${diaryData[date].link}">
                             ${diaryData[date].link}
                         </a>
                     </div>
