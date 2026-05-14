@@ -16,6 +16,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
 exclude:
   - Gemfile
@@ -30,3 +31,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+# 페이지네이션 설정
+paginate: 5          # 한 페이지에 보여줄 포스트 수
+paginate_path: "/page:num/"  # 페이지 경로 패턴 (예: /page2/, /page3/)

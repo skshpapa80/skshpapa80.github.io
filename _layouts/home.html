@@ -1,5 +1,6 @@
 ---
 layout: default
+paginate: true
 ---
 
 <section class="hero">
@@ -8,7 +9,7 @@ layout: default
 </section>
 
 <section class="posts">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
   <article class="post-item">
     <div class="post-meta">
       <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">
@@ -28,3 +29,20 @@ layout: default
   <p class="no-posts">아직 작성된 글이 없습니다.</p>
   {% endfor %}
 </section>
+
+<!-- 페이지 이동 링크 -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">이전</a>
+  {% else %}
+    <span>이전</span>
+  {% endif %}
+
+  <span>페이지: {{ paginator.page }} / {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">다음</a>
+  {% else %}
+    <span>다음</span>
+  {% endif %}
+</div>
