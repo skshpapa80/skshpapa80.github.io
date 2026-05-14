@@ -10,7 +10,7 @@ author:
 
 markdown: kramdown
 highlighter: rouge
-permalink: /posts/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 
 plugins:
   - jekyll-feed

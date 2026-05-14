@@ -79,30 +79,30 @@ permalink: /diary/
             background: #ff5252; 
             border-radius: 50%; 
         }
-    </style>
+</style>
 
-    <div class="container">
-        <div class="box left">	
-            <div class="calendar-container">
-                <div class="calendar-header">
-                    <button id="prevYear">-12개월전</button>
-                    <button id="prevMonth">이전달</button>
-                    <h3 id="monthDisplay"></h3>
-                    <button id="nextMonth">다음달</button>
-                    <button id="nextYear">+12개월후</button>
-                </div>
-                <div class="calendar-grid" id="calendarGrid">
-                </div>
+<div class="container">
+    <div class="box left">	
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <button id="prevYear">-12개월전</button>
+                <button id="prevMonth">이전달</button>
+                <h3 id="monthDisplay"></h3>
+                <button id="nextMonth">다음달</button>
+                <button id="nextYear">+12개월후</button>
             </div>
-        </div>
-    
-        <div class="box right">	
-            <div class="diary-viewer" id="diaryViewer">
-                <b>날짜를 클릭하면 일기가 표시됩니다.</b>
-                <div id="diaryContent"></div>
+            <div class="calendar-grid" id="calendarGrid">
             </div>
         </div>
     </div>
+    
+    <div class="box right">	
+        <div class="diary-viewer" id="diaryViewer">
+            <b>날짜를 클릭하면 일기가 표시됩니다.</b>
+            <div id="diaryContent"></div>
+        </div>
+    </div>
+</div>
 
 
 <script>
