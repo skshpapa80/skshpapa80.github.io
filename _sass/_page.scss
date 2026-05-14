@@ -21,7 +21,8 @@
 
 .about-links {
   display: flex;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: .75rem 1.5rem;
 
   a {
     font-size: .87rem;
@@ -29,5 +30,133 @@
     color: $accent;
     transition: opacity .2s;
     &:hover { opacity: .7; }
+  }
+}
+
+// /about/ 페이지
+.about-page {
+  max-width: 40rem;
+}
+
+.about-page__intro {
+  margin-bottom: 1.25rem;
+}
+
+.about-page__subtitle {
+  font-family: $font-title;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: $text;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.about-page__photo {
+  margin: 0 auto 2rem;
+  max-width: 16rem;
+  text-align: center;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: .75rem;
+    border: 1px solid $line;
+    box-shadow: 0 8px 24px rgba(26, 26, 24, .08);
+  }
+}
+
+.about-lead {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: $text;
+  margin-bottom: 1.75rem;
+
+  p {
+    margin: 0 0 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.about-page__cta {
+  margin: 0 0 2.5rem;
+
+  a {
+    display: inline-block;
+    font-size: .92rem;
+    font-weight: 500;
+    color: $accent;
+    text-decoration: none;
+    padding: .45rem 0;
+    border-bottom: 1px solid rgba($accent, .35);
+    transition: color .2s, border-color .2s;
+
+    &:hover {
+      color: darken($accent, 6%);
+      border-bottom-color: $accent;
+    }
+  }
+}
+
+.about-section {
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.about-section__title {
+  font-family: $font-title;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: $text;
+  margin: 0 0 .65rem;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid $line;
+}
+
+.about-section__text {
+  margin: 0;
+  padding-left: .15rem;
+  line-height: 1.75;
+  color: $text;
+}
+
+.about-section__list {
+  margin: 0;
+  padding-left: 1.2rem;
+  line-height: 1.75;
+  color: $text;
+
+  li + li {
+    margin-top: .25rem;
+  }
+}
+
+.about-link-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li + li {
+    margin-top: .5rem;
+  }
+
+  a {
+    font-size: .95rem;
+    font-weight: 500;
+    color: $accent;
+    text-decoration: none;
+    transition: opacity .2s;
+
+    &:hover {
+      opacity: .75;
+      text-decoration: underline;
+    }
   }
 }

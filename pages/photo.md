@@ -169,7 +169,7 @@ permalink: /photo/
 
             const galleryHTML = data.map(item => {
                 // 이미지 파일 경로 바인딩 (환경에 맞춰 수정)
-                const imagePath = `./assets/images/${item.imgfilename}`; 
+                const imagePath = `../assets/images/${item.imgfilename}`; 
 
                 return `
                     <a href="${item.url}" class="gallery-item">
