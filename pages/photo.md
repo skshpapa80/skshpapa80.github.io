@@ -172,15 +172,15 @@ permalink: /photo/
                 const imagePath = `../assets/images/${item.imgfilename}`; 
 
                 return `
-                    <a data-fslightbox="gallery" href="${imagePath}" class="gallery-item">
+                     <div class="gallery-item">
                         <div class="image-container">                            
-                            <img src="${imagePath}" alt="${item.title}" onerror="this.src='https://via.placeholder.com/300x200?text=No+Image'">
+                            <a data-fslightbox="gallery" href="${imagePath}"><img src="${imagePath}" alt="${item.title}" onerror="this.src='https://via.placeholder.com/300x200?text=No+Image'"></a>
                         </div>
                         <div class="info-container">
                             <p class="item-title"><a href="${item.url}">${item.title}</a></p>
                             <p class="item-filename">${item.imgfilename}</p>
                         </div>
-                    </a>
+                    </div>
                 `;
             }).join('');
 
