@@ -1,0 +1,141 @@
+// ─── Post Full ────────────────────────────
+.post-full {
+  padding: 3.5rem 0 5rem;
+
+  .post-meta { margin-bottom: 1.2rem; }
+
+  .post-title {
+    font-family: $font-title;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    line-height: 1.25;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid $line;
+  }
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-size: .82rem;
+  color: $muted;
+  margin-bottom: 2.5rem;
+  transition: color .2s;
+  &:hover { color: $text; }
+}
+
+// ─── Post Body (Markdown 렌더링) ──────────
+.post-body {
+  font-size: .97rem;
+  line-height: 2;
+
+  h2 {
+    font-family: $font-title;
+    font-size: 1.4rem;
+    margin: 2.5rem 0 .8rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 2rem 0 .6rem;
+  }
+
+  p { margin-bottom: 1.3rem; }
+
+  ul, ol {
+    padding-left: 1.4rem;
+    margin-bottom: 1.3rem;
+  }
+  li { margin-bottom: .35rem; }
+
+  code {
+    background: $code-bg;
+    border-radius: 3px;
+    padding: .1em .4em;
+    font-size: .87em;
+    font-family: $font-mono;
+  }
+
+  pre {
+    background: $code-bg;
+    border-radius: 6px;
+    padding: 1.2rem 1.4rem;
+    overflow-x: auto;
+    margin-bottom: 1.5rem;
+
+    code { background: none; padding: 0; }
+  }
+
+  blockquote {
+    border-left: 3px solid $accent;
+    padding-left: 1.2rem;
+    color: $muted;
+    margin: 1.5rem 0;
+    font-style: italic;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin: 1.5rem 0;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid $line;
+    margin: 2.5rem 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+    font-size: .9rem;
+
+    th {
+      text-align: left;
+      border-bottom: 2px solid $line;
+      padding: .5rem .8rem;
+      font-weight: 500;
+    }
+    td {
+      border-bottom: 1px solid $line;
+      padding: .5rem .8rem;
+    }
+  }
+}
+
+// ─── Post Navigation ──────────────────────
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid $line;
+
+  a {
+    display: flex;
+    flex-direction: column;
+    max-width: 48%;
+    transition: color .2s;
+    &:hover { color: $accent; }
+  }
+}
+
+.post-nav-next { align-items: flex-end; text-align: right; }
+
+.post-nav-label {
+  font-size: .75rem;
+  color: $muted;
+  letter-spacing: .06em;
+  margin-bottom: .25rem;
+}
+
+.post-nav-title {
+  font-family: $font-title;
+  font-size: .95rem;
+  line-height: 1.4;
+}

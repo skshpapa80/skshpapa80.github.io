@@ -1,0 +1,71 @@
+// ─────────────────────────────────────────
+// _layout.scss
+// ─────────────────────────────────────────
+
+// ─── Header ──────────────────────────────
+.site-header {
+  border-bottom: 1px solid $line;
+  position: sticky;
+  top: 0;
+  background: rgba(250,248,245,0.92);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: $max-w;
+  margin: 0 auto;
+  padding: 1.1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: $font-title;
+  font-size: 1.15rem;
+  letter-spacing: .02em;
+  color: $accent;
+  transition: opacity .2s;
+  &:hover { opacity: .7; }
+}
+
+nav {
+  display: flex;
+  gap: 1.6rem;
+
+  a {
+    font-size: .85rem;
+    font-weight: 500;
+    color: $muted;
+    letter-spacing: .04em;
+    transition: color .2s;
+    &:hover, &.active { color: $text; }
+  }
+}
+
+// ─── Container ───────────────────────────
+.container {
+  max-width: $max-w;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  flex: 1;
+}
+
+// ─── Footer ──────────────────────────────
+.site-footer {
+  border-top: 1px solid $line;
+  text-align: center;
+  padding: 2rem;
+  font-size: .78rem;
+  color: $muted;
+  letter-spacing: .04em;
+
+  a { color: $accent; &:hover { text-decoration: underline; } }
+}
+
+// ─── Responsive ──────────────────────────
+@media (max-width: 600px) {
+  .header-inner { padding: .9rem 1.2rem; }
+  .container    { padding: 0 1.2rem; }
+}

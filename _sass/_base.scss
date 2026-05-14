@@ -1,0 +1,83 @@
+// ─── Reset & Base ─────────────────────────
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: $bg;
+  color: $text;
+  font-family: $font-body;
+  font-size: 16px;
+  line-height: 1.8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a { color: inherit; text-decoration: none; }
+
+// ─── Layout ───────────────────────────────
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $pad-x;
+  flex: 1;
+}
+
+// ─── Header ───────────────────────────────
+.site-header {
+  border-bottom: 1px solid $line;
+  position: sticky;
+  top: 0;
+  background: rgba(250, 248, 245, 0.92);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 1.1rem $pad-x;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: $font-title;
+  font-size: 1.15rem;
+  letter-spacing: .02em;
+  color: $accent;
+  transition: opacity .2s;
+  &:hover { opacity: .7; }
+}
+
+nav {
+  display: flex;
+  gap: 1.6rem;
+
+  a {
+    font-size: .85rem;
+    font-weight: 500;
+    color: $muted;
+    letter-spacing: .04em;
+    transition: color .2s;
+    &:hover, &.active { color: $text; }
+  }
+}
+
+// ─── Footer ───────────────────────────────
+.site-footer {
+  border-top: 1px solid $line;
+  text-align: center;
+  padding: 2rem;
+  font-size: .78rem;
+  color: $muted;
+  letter-spacing: .04em;
+}
+
+// ─── Mobile ───────────────────────────────
+@media (max-width: 600px) {
+  .header-inner { padding: .9rem 1.2rem; }
+  .container    { padding: 0 1.2rem; }
+}

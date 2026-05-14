@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    {% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}
+  </title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet" />
+  {% seo %}
+  {% feed_meta %}
+</head>
+<body>
+
+  {% include header.html %}
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ '/' | relative_url }}" class="logo">✦ {{ site.title }}</a>
+    <nav>
+      <a href="{{ '/' | relative_url }}"
+         {% if page.url == '/' %}class="active"{% endif %}>홈</a>
+      <a href="{{ '/about/' | relative_url }}"
+         {% if page.url contains 'about' %}class="active"{% endif %}>소개</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,32 @@
+title: "skshpapa80's Blog"
+description: "똑똑하게 배우고 기록하는 공간"
+url: "https://skshpapa80.github.io/"
+baseurl: ""
+
+author:
+  name: "선경선향아빠"
+  email: "skshpapa80@gmail.com"
+  github: "skshpapa80"
+
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules/
+  - vendor/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

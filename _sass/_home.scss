@@ -1,0 +1,102 @@
+// ─── Hero ─────────────────────────────────
+.hero {
+  padding: 5rem 0 3.5rem;
+  border-bottom: 1px solid $line;
+
+  &-sub {
+    font-size: .8rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: $muted;
+    margin-bottom: .8rem;
+  }
+
+  &-title {
+    font-family: $font-title;
+    font-size: clamp(2.4rem, 6vw, 3.8rem);
+    line-height: 1.15;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero { padding: 3.5rem 0 2.5rem; }
+}
+
+// ─── Post List ────────────────────────────
+@keyframes fadeUp {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.posts { padding: 2.5rem 0; }
+
+.post-item {
+  display: block;
+  padding: 2rem 0;
+  border-bottom: 1px solid $line;
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fadeUp .45s forwards;
+
+  @for $i from 1 through 8 {
+    &:nth-child(#{$i}) { animation-delay: #{($i - 1) * 0.07}s; }
+  }
+}
+
+.post-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: .55rem;
+}
+
+.post-date {
+  font-size: .78rem;
+  color: $muted;
+  letter-spacing: .04em;
+}
+
+.post-tag {
+  font-size: .72rem;
+  font-weight: 500;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: $accent;
+  border: 1px solid $accent;
+  padding: .1em .55em;
+  border-radius: 2px;
+}
+
+.post-title {
+  font-family: $font-title;
+  font-size: 1.35rem;
+  line-height: 1.4;
+  margin-bottom: .5rem;
+
+  a {
+    transition: color .2s;
+    &:hover { color: $accent; }
+  }
+}
+
+.post-excerpt {
+  font-size: .88rem;
+  color: $muted;
+  line-height: 1.7;
+}
+
+.post-read-more {
+  display: inline-block;
+  margin-top: .8rem;
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: .06em;
+  color: $accent;
+  transition: opacity .2s;
+  &:hover { opacity: .7; }
+}
+
+.no-posts {
+  color: $muted;
+  padding: 3rem 0;
+  font-size: .9rem;
+}

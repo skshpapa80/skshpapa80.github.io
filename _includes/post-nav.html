@@ -1,0 +1,16 @@
+{% if page.previous.url or page.next.url %}
+<nav class="post-nav">
+  {% if page.next.url %}
+  <a href="{{ page.next.url | relative_url }}" class="post-nav-link post-nav-prev">
+    <span class="post-nav-label">← 이전 글</span>
+    <span class="post-nav-title">{{ page.next.title }}</span>
+  </a>
+  {% endif %}
+  {% if page.previous.url %}
+  <a href="{{ page.previous.url | relative_url }}" class="post-nav-link post-nav-next">
+    <span class="post-nav-label">다음 글 →</span>
+    <span class="post-nav-title">{{ page.previous.title }}</span>
+  </a>
+  {% endif %}
+</nav>
+{% endif %}

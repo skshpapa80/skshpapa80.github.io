@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<article class="post-full">
+  <a href="{{ '/' | relative_url }}" class="back-link">← 목록으로</a>
+
+  <div class="post-meta">
+    <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date: "%Y년 %m월 %d일" }}
+    </time>
+    {% if page.tags.first %}
+      <span class="post-tag">{{ page.tags.first }}</span>
+    {% endif %}
+  </div>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  <div class="post-body">
+    {{ content }}
+  </div>
+
+  <nav class="post-nav">
+    {% if page.previous.url %}
+    <a href="{{ page.previous.url | relative_url }}" class="post-nav-prev">
+      <span class="post-nav-label">← 이전 글</span>
+      <span class="post-nav-title">{{ page.previous.title }}</span>
+    </a>
+    {% endif %}
+    {% if page.next.url %}
+    <a href="{{ page.next.url | relative_url }}" class="post-nav-next">
+      <span class="post-nav-label">다음 글 →</span>
+      <span class="post-nav-title">{{ page.next.title }}</span>
+    </a>
+    {% endif %}
+  </nav>
+</article>
