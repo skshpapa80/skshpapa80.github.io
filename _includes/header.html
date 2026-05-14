@@ -6,6 +6,8 @@
          {% if page.url == '/' %}class="active"{% endif %}>홈</a>
       <a href="{{ '/about/' | relative_url }}"
          {% if page.url contains 'about' %}class="active"{% endif %}>소개</a>
+      <a href="{{ '/diary/' | relative_url }}"
+         {% if page.url contains 'diary' %}class="active"{% endif %}>다이어리</a>   
     </nav>
   </div>
 </header>
