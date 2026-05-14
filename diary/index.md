@@ -5,6 +5,17 @@ permalink: /diary/
 ---
 
  <style>        
+        .container {
+            display: flex; /* Flexbox 적용 */
+            width: 100%;
+        }
+        .box {
+            width: 50%; /* 50%씩 차지 */
+            height: 100px;
+        }
+        .left { background-color: lightblue; }
+        .right { background-color: lightcoral; }
+
         /* 캘린더 컨테이너 수정 */
         .calendar-container { 
             width: 100%;            /* 화면 너비의 100% */
@@ -70,9 +81,8 @@ permalink: /diary/
         }
     </style>
 
-<div class="container mtb">
-    <div class="row">
-		<div class="col-lg-8">	
+    <div class="container">
+        <div class="box left">	
             <div class="calendar-container">
                 <div class="calendar-header">
                     <button id="prevYear">-12개월전</button>
@@ -86,7 +96,7 @@ permalink: /diary/
             </div>
         </div>
     
-        <div class="col-lg-4">	
+        <div class="box right">	
             <div class="diary-viewer" id="diaryViewer">
                 <b>날짜를 클릭하면 일기가 표시됩니다.</b>
                 <div id="diaryContent"></div>
