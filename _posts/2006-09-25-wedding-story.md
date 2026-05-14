@@ -20,7 +20,7 @@ excerpt: "Wedding"
 
 신혼여행을 프랑스 파리로 갑니다. 첫 해외여행인데 걱정이 됩니다. 
 
-<p align="center"><a href="/assets/images/SE-859545c9-e3d2-4260-85b9-b009cda85cf2.png" id="open-image"><img src="/assets/images/SE-859545c9-e3d2-4260-85b9-b009cda85cf2.png" alt="루브루 박물관 앞에서" width="400"/></a></p>
+<p align="center"><a href="/assets/images/SE-859545c9-e3d2-4260-85b9-b009cda85cf2.png"><img src="/assets/images/SE-859545c9-e3d2-4260-85b9-b009cda85cf2.png" alt="루브루 박물관 앞에서" width="400"/></a></p>
 루브루 박물관 앞에서
 
 ### 관련 포스트

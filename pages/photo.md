@@ -25,7 +25,7 @@ permalink: /photo/
             gap: 20px;
             max-width: 1200px;
             margin: 0 auto 40px auto;
-            min-height: 400px; /* 페이지 전환 시 높이 튀는 현상 방지 */
+            min-height: 400px;
         }
 
         /* 카드 스타일 */
@@ -35,8 +35,7 @@ permalink: /photo/
             overflow: hidden;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             transition: transform 0.2s ease, box-shadow 0.2s ease;
-            text-decoration: none;
-            color: inherit;
+            cursor: pointer; /* 클릭 가능하다는 표시 */
         }
 
         .gallery-item:hover {
@@ -117,6 +116,73 @@ permalink: /photo/
             font-weight: bold;
             color: #333;
         }
+
+        /* ==========================================
+           새로 추가된 라이트박스(Lightbox) 스타일
+        ========================================== */
+        .lightbox-modal {
+            display: none; /* 기본 상태는 숨김 */
+            position: fixed;
+            z-index: 1000; /* 최상단에 배치 */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85); /* 어두운 배경 배경 */
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        /* 라이트박스가 열렸을 때 보이기 위한 클래스 */
+        .lightbox-modal.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .lightbox-content {
+            max-width: 85%;
+            max-height: 80%;
+            border-radius: 4px;
+            box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+            transform: scale(0.95);
+            transition: transform 0.3s ease;
+            object-fit: contain; /* 이미지 비율 보존 */
+        }
+
+        .lightbox-modal.active .lightbox-content {
+            transform: scale(1); /* 부드럽게 커지는 효과 */
+        }
+
+        /* 닫기 버튼 */
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.2s;
+            user-select: none;
+        }
+
+        .lightbox-close:hover {
+            color: #bbb;
+        }
+
+        /* 하단 캡션 텍스트 (제목 표시용) */
+        .lightbox-caption {
+            position: absolute;
+            bottom: 30px;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            width: 100%;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
 </style>
 
 <h1>나의 추억 갤러리</h1>
@@ -129,21 +195,21 @@ permalink: /photo/
     <button class="page-btn" id="nextBtn" onclick="changePage(1)">다음</button>
 </div>
 
-<script>
-        // 상태 관리 변수
-        let currentPage = 1;
-        const maxPage = 10; // 파일이 1.json ~ 10.json 까지 있으므로 10 설정
+<div id="lightbox" class="lightbox-modal" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightboxImg" alt="확대 이미지">
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+</div>
 
-        // 1. 해당 페이지의 JSON 파일을 비동기(fetch)로 로드하는 함수
+<script>
+        let currentPage = 1;
+        const maxPage = 10;
+
+        // 1. 해당 페이지의 JSON 파일 로드
         async function loadPageData(page) {
             try {
-                // 각 JSON 파일이 위치한 경로 지정 (예: ./data/1.json 등)
-                // 현재는 HTML과 같은 폴더에 파일이 있다고 가정합니다.
-                const response = await fetch(`../pages/${page}.json`);
-                
-                if (!response.ok) {
-                    throw new Error(`파일을 불러오는데 실패했습니다: ${page}.json`);
-                }
+                const response = await fetch(`./${page}.json`);
+                if (!response.ok) throw new Error(`파일 로드 실패: ${page}.json`);
                 
                 const data = await response.json();
                 renderGallery(data);
@@ -152,13 +218,11 @@ permalink: /photo/
             } catch (error) {
                 console.error(error);
                 document.getElementById('galleryGrid').innerHTML = 
-                    `<p style="grid-column: 1/-1; text-align: center; color: red; padding: 40px 0;">
-                        ${page}.json 데이터를 불러오는 중 오류가 발생했습니다.
-                     </p>`;
+                    `<p style="grid-column: 1/-1; text-align: center; color: red; padding: 40px 0;">데이터를 불러오는 중 오류가 발생했습니다.</p>`;
             }
         }
 
-        // 2. 데이터를 화면에 그리드로 뿌려주는 함수
+        // 2. 데이터를 화면에 카드로 렌더링
         function renderGallery(data) {
             const grid = document.getElementById('galleryGrid');
             
@@ -167,17 +231,18 @@ permalink: /photo/
                 return;
             }
 
+            // 라이트박스를 띄울 것이므로 <a> 태그 대신 <div> 태그로 카드 구조 변경
             const galleryHTML = data.map(item => {
-                // 이미지 파일 경로 바인딩 (환경에 맞춰 수정)
-                const imagePath = `../assets/images/${item.imgfilename}`; 
+                const imagePath = `./images/${item.imgfilename}`; 
 
+                // 큰 이미지로 보기 위해 이미지 경로와 타이틀을 자바스크립트 함수로 전달합니다.
                 return `
-                     <div class="gallery-item">
-                        <div class="image-container">                            
-                            <a data-fslightbox="gallery" href="${imagePath}"><img src="${imagePath}" alt="${item.title}" onerror="this.src='https://via.placeholder.com/300x200?text=No+Image'"></a>
+                    <div class="gallery-item" onclick="openLightbox('${imagePath}', '${item.title}')">
+                        <div class="image-container">
+                            <img src="${imagePath}" alt="${item.title}" onerror="this.src='https://via.placeholder.com/300x200?text=No+Image'">
                         </div>
                         <div class="info-container">
-                            <p class="item-title"><a href="${item.url}">${item.title}</a></p>
+                            <p class="item-title">${item.title}</p>
                             <p class="item-filename">${item.imgfilename}</p>
                         </div>
                     </div>
@@ -187,26 +252,45 @@ permalink: /photo/
             grid.innerHTML = galleryHTML;
         }
 
-        // 3. 페이지 이동 컨트롤 상태(버튼 활성/비활성 및 텍스트) 업데이트
+        // 3. 페이지네이션 컨트롤 상태 업데이트
         function updatePaginationControls() {
             document.getElementById('pageInfo').innerText = `${currentPage} / ${maxPage}`;
             document.getElementById('prevBtn').disabled = (currentPage === 1);
             document.getElementById('nextBtn').disabled = (currentPage === maxPage);
         }
 
-        // 4. [이전], [다음] 버튼 클릭 이벤트 핸들러
+        // 4. 페이지 이동
         function changePage(direction) {
             const nextPage = currentPage + direction;
-            
             if (nextPage >= 1 && nextPage <= maxPage) {
                 currentPage = nextPage;
                 loadPageData(currentPage);
-                // 페이지 전환 시 화면 최상단으로 스크롤 이동 (선택사항)
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             }
         }
 
-        // 5. 첫 로드 시 1.json 호출
+        // ==========================================
+        // 새로 추가된 라이트박스 제어 자바스크립트 함수
+        // ==========================================
+        function openLightbox(src, title) {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightboxImg');
+            const lightboxCaption = document.getElementById('lightboxCaption');
+
+            lightboxImg.src = src;               // 이미지 경로 매핑
+            lightboxCaption.innerText = title;  // 하단 텍스트 매핑
+
+            lightbox.classList.add('active');   // 모달 활성화 및 페이드인 효과
+            document.body.style.overflow = 'hidden'; // 라이트박스가 켜진 동안 본문 스크롤 막기
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.remove('active'); // 모달 비활성화
+            document.body.style.overflow = 'auto';  // 본문 스크롤 다시 복구
+        }
+
+        // 첫 로드 시 1.json 호출
         document.addEventListener('DOMContentLoaded', () => {
             loadPageData(currentPage);
         });

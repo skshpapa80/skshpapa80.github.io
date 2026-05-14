@@ -6,7 +6,7 @@ tags: [일상]
 excerpt: "Camera,Photo"
 ---
 
-<p align="center"><a href="/assets/images/splash/cheez_splash.gif" id="open-image"><img src="/assets/images/splash/cheez_splash.gif" alt="치즈 스플래쉬"/></a></p>
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/splash/cheez_splash.gif"><img src="/assets/images/splash/cheez_splash.gif" alt="치즈 스플래쉬"/></a></p>
 
 처음으로 가지게 된 디카는 치즈 스플래쉬, 일본 토이카메라 전문 메이커인 치즈(Cheez) 사에서 만든 카메라로 휴대성이 강조된 정말 작은 크기의 카메라입니다.
 처음 본 사람들은 이게 카메라인가 할 정도로 작은데요!
@@ -34,28 +34,36 @@ excerpt: "Camera,Photo"
 
 ### 스플래시로 찍은 사진들
 
-<p align="center"><a href="/assets/images/splash/splash20021215001.jpg" id="open-image"><img src="/assets/images/splash/splash20021215001.jpg" alt="인사동" width="400"/></a></p>
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/splash/splash20021215001.jpg">
+<img src="/assets/images/splash/splash20021215001.jpg" alt="인사동" width="400"/></a></p>
 인사동
 
-<p align="center"><a href="/assets/images/splash/splash20030131003.jpg" id="open-image"><img src="/assets/images/splash/splash20030131003.jpg" alt="미니카" width="400"/></a></p>
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/splash/splash20030131003.jpg">
+<img src="/assets/images/splash/splash20030131003.jpg" alt="미니카" width="400"/></a></p>
 미니카
 
-<p align="center"><a href="/assets/images/splash/splash20030131002.jpg" id="open-image"><img src="/assets/images/splash/splash20030131002.jpg" alt="영화 무간도" width="400"/></a></p>
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/splash/splash20030131002.jpg">
+<img src="/assets/images/splash/splash20030131002.jpg" alt="영화 무간도" width="400"/></a></p>
 영화 "무간도"
 
-<p align="center"><a href="/assets/images/splash/splash20030211002.jpg" id="open-image"><img src="/assets/images/splash/splash20030211002.jpg" alt="동대문 지하철역" width="400"/></a></p>
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/splash/splash20030211002.jpg">
+<img src="/assets/images/splash/splash20030211002.jpg" alt="동대문 지하철역" width="400"/></a></p>
 동대문 지하철역
 
-<p align="center"><a href="/assets/images/splash/splash20021224001.jpg" id="open-image"><img src="/assets/images/splash/splash20021224001.jpg" alt="지하철을 타고 한강 다리를 건너면서" width="400"/></a></p>
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/splash/splash20021224001.jpg">
+<img src="/assets/images/splash/splash20021224001.jpg" alt="지하철을 타고 한강 다리를 건너면서" width="400"/></a></p>
 지하철을 타고 한강 다리를 건너면서
 
-<p align="center"><a href="/assets/images/splash/splash20030705001.jpg" id="open-image"><img src="/assets/images/splash/splash20030705001.jpg" alt="미아삼거리 역" width="400"/></a></p>
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/splash/splash20030705001.jpg">
+<img src="/assets/images/splash/splash20030705001.jpg" alt="미아삼거리 역" width="400"/></a></p>
 미아삼거리 역
 
-<p align="center"><a href="/assets/images/splash/splashsubway001.jpg" id="open-image"><img src="/assets/images/splash/splashsubway001.jpg" alt="을지로입구 표시" width="400"/></a></p>
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/splash/splashsubway001.jpg">
+<img src="/assets/images/splash/splashsubway001.jpg" alt="을지로입구 표시" width="400"/></a></p>
 을지로입구 표시
 
-<p align="center"><a href="/assets/images/splash/splash20021210003.jpg" id="open-image"><img src="/assets/images/splash/splash20021210003.jpg" alt="사무실 책장" width="400"/></a></p>
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/splash/splash20021210003.jpg">
+<img src="/assets/images/splash/splash20021210003.jpg" alt="사무실 책장" width="400"/></a></p>
 사무실 책장
 <br /><br />
 찍어 놓고 흔들려서 사용하지 못하는 사진들도 많다. 
