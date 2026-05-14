@@ -139,7 +139,7 @@ permalink: /photo/
             try {
                 // 각 JSON 파일이 위치한 경로 지정 (예: ./data/1.json 등)
                 // 현재는 HTML과 같은 폴더에 파일이 있다고 가정합니다.
-                const response = await fetch(`./${page}.json`);
+                const response = await fetch(`../pages/${page}.json`);
                 
                 if (!response.ok) {
                     throw new Error(`파일을 불러오는데 실패했습니다: ${page}.json`);
