@@ -7,7 +7,9 @@
       <a href="{{ '/about/' | relative_url }}"
          {% if page.url contains 'about' %}class="active"{% endif %}>소개</a>
       <a href="{{ '/diary/' | relative_url }}"
-         {% if page.url contains 'diary' %}class="active"{% endif %}>다이어리</a>   
+         {% if page.url contains 'diary' %}class="active"{% endif %}>다이어리</a>
+      <a href="{{ '/doc/' | relative_url }}"
+         {% if page.url contains 'doc' %}class="active"{% endif %}>페이지</a>      
     </nav>
   </div>
 </header>
