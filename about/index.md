@@ -15,7 +15,7 @@ permalink: /about/
 
 ### 영어이름(English Name)
 
-* Ray Cho(레이조)
+  * Ray Cho(레이조)
 
 ### 다니는곳
 
@@ -23,26 +23,25 @@ LS티라유텍 전략사업부 전략사업1팀
 
 ### 할수있는일
 
-* Language : C#, Java, Delphi, ASP.NET, PHP
-* DB : MSSQL, ORACLE, MYSQL
-* MES Install & Customize
-* Thira MES Install & Customize (C# .NET Framework Used)
-* Jquery, HTML5, WCF
-* Flutter Android App
+  * Language : C#, Java, Delphi, ASP.NET, PHP
+  * DB : MSSQL, ORACLE, MYSQL
+  * MES Install & Customize
+  * Thira MES Install & Customize (C# .NET Framework Used)
+  * Jquery, HTML5, WCF
+  * Flutter Android App
 				
 ### Blog Links
 
-* Naver Blog(해외여행,국내여행,취미생활) [https://blog.naver.com/skshpapa80](https://blog.naver.com/skshpapa80)
-* Dev Blog(프로그래밍 정보) [https://raycho-dev.tistory.com/](https://raycho-dev.tistory.com/)
+<div class="about-links">
+  <a href="https://blog.naver.com/skshpapa80" target="_blank">Naver Blog(해외여행,국내여행,취미생활) →</a>
+  <a href="https://raycho-dev.tistory.com/" target="_blank">Dev Blog(프로그래밍 정보) →</a>
+</div>
 
 ### SNS Links
 
-* Instagram  [https://www.instagram.com/raychodream/](https://www.instagram.com/raychodream/)
-* Thread [https://www.threads.com/@raychodream](https://www.threads.com/@raychodream)
-* Twitter  [https://twitter.com/skshpapa80](https://twitter.com/skshpapa80)
-* Youtube [https://www.youtube.com/@skshpapa80-tube](https://www.youtube.com/@skshpapa80-tube)
-
-
 <div class="about-links">
-  <a href="https://github.com/skshpapa80" target="_blank">GitHub →</a>
+  <a href="https://www.instagram.com/raychodream/" target="_blank">Instagram →</a>
+  <a href="https://www.threads.com/@raychodream" target="_blank">Thread →</a>
+  <a href="https://twitter.com/skshpapa80" target="_blank">Twitter →</a>
+  <a href="https://www.youtube.com/@skshpapa80-tube" target="_blank">Youtube →</a>
 </div>
