@@ -208,7 +208,7 @@ permalink: /photo/
         // 1. 해당 페이지의 JSON 파일 로드
         async function loadPageData(page) {
             try {
-                const response = await fetch(`./${page}.json`);
+                const response = await fetch(`../pages/${page}.json`);
                 if (!response.ok) throw new Error(`파일 로드 실패: ${page}.json`);
                 
                 const data = await response.json();
@@ -233,7 +233,7 @@ permalink: /photo/
 
             // 라이트박스를 띄울 것이므로 <a> 태그 대신 <div> 태그로 카드 구조 변경
             const galleryHTML = data.map(item => {
-                const imagePath = `./images/${item.imgfilename}`; 
+                const imagePath = `../assets/images/${item.imgfilename}`; 
 
                 // 큰 이미지로 보기 위해 이미지 경로와 타이틀을 자바스크립트 함수로 전달합니다.
                 return `
