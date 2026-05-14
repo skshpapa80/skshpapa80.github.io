@@ -6,7 +6,7 @@ tags: [일상]
 excerpt: "Camera,Photo"
 ---
 
-<p align="center"><a href="/assets/images/splash/cheez_splash.gif" id="open-image"><img src="/assets/images/splash/cheez_splash.gif" alt="치즈 스플래쉬" width="400"/></a></p>
+<p align="center"><a href="/assets/images/splash/cheez_splash.gif" id="open-image"><img src="/assets/images/splash/cheez_splash.gif" alt="치즈 스플래쉬"/></a></p>
 
 처음으로 가지게 된 디카는 치즈 스플래쉬, 일본 토이카메라 전문 메이커인 치즈(Cheez) 사에서 만든 카메라로 휴대성이 강조된 정말 작은 크기의 카메라입니다.
 처음 본 사람들은 이게 카메라인가 할 정도로 작은데요!
