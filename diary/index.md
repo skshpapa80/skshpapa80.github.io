@@ -4,16 +4,38 @@ title: 다이어리
 permalink: /diary/
 ---
 
- <style>        
-    /* 캘린더 컨테이너 수정 */
-    .calendar-container { 
-        width: 80%;            /* 화면 너비의 80% */
-        max-width: 800px;      /* 너무 커지는 것을 방지하기 위한 최대 너비 (선택 사항) */
-        margin: 0 auto;        /* 가로 중앙 정렬 */
-        border: 1px solid var(--border-color); 
-        padding: 20px; 
+ <style>
+    /* 좌: 캘린더 / 우: 일기 (대략 50:50) */
+    .diary-split-layout {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 768px) {
+        .diary-split-layout {
+            flex-direction: row;
+            align-items: stretch;
+            gap: 1.5rem;
+        }
+        .diary-split-layout > .calendar-container,
+        .diary-split-layout > .diary-viewer {
+            flex: 1 1 0;
+            min-width: 0;
+        }
+    }
+
+    /* 캘린더 컨테이너 */
+    .calendar-container {
+        width: 100%;
+        margin: 0;
+        border: 1px solid var(--border-color);
+        padding: 20px;
         background-color: #fff;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* 약간의 그림자 추가 */
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     }
 
     .calendar-header { 
@@ -52,13 +74,28 @@ permalink: /diary/
     .day:hover { background-color: #f8f9fa; }
     .today { background-color: var(--today-bg); font-weight: bold; color: #007bff; border: 1px solid #007bff; }
     
-    /* 일기 표시 영역 수정 */
-    .diary-viewer { 
-        margin-top: 30px; 
-        width: 80%;            /* 일기장도 캘린더와 같은 너비로 설정 */
-        max-width: 800px; 
-        border-top: 2px solid #333; 
-        padding-top: 20px; 
+    /* 일기 표시 영역 */
+    .diary-viewer {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        border: 1px solid var(--border-color);
+        background-color: #fff;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
+    @media (max-width: 767px) {
+        .diary-viewer {
+            border-top: 2px solid #333;
+            padding-top: 20px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .diary-viewer {
+            border-left: 2px solid #333;
+            border-top: 1px solid var(--border-color);
+        }
     }
 
     .has-diary::after { 
@@ -72,19 +109,21 @@ permalink: /diary/
     }
 </style>
 
-<div class="calendar-container">
-    <div class="calendar-header">
-        <button id="prevMonth"><</button>
-        <h3 id="monthDisplay"></h3>
-        <button id="nextMonth">></button>
+<div class="diary-split-layout">
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prevMonth"><</button>
+            <h3 id="monthDisplay"></h3>
+            <button id="nextMonth">></button>
+        </div>
+        <div class="calendar-grid" id="calendarGrid">
+        </div>
     </div>
-    <div class="calendar-grid" id="calendarGrid">
-    </div>
-</div>
 
-<div class="diary-viewer" id="diaryViewer">
-    <h4>날짜를 클릭하면 일기가 표시됩니다.</h4>
-    <div id="diaryContent"></div>
+    <div class="diary-viewer" id="diaryViewer">
+        <h4>날짜를 클릭하면 일기가 표시됩니다.</h4>
+        <div id="diaryContent"></div>
+    </div>
 </div>
 
 <script>
