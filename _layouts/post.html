@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<script> 
+	$(document).ready(function() { 
+		$(document).on("click","#open-image",function(e){
+			e.preventDefault();
+			$(this).ekkoLightbox();
+		});
+	}); 
+</script>
+
 <article class="post-full">
   <a href="{{ '/' | relative_url }}" class="back-link">← 목록으로</a>
 
@@ -35,3 +44,5 @@ layout: default
     {% endif %}
   </nav>
 </article>
+
+<script src="{{ site.url }}/assets/js/ekko-lightbox.js"></script>

@@ -4,7 +4,6 @@ title: 소개
 permalink: /about/
 ---
 
-<p class="about-intro">
 ## 선경선향아빠를 소개 합니다.
 
 <p align="center"><img src="/assets/images/1000010308.webp"/></p>
@@ -42,9 +41,8 @@ LS티라유텍 전략사업부 전략사업1팀
 * Thread [https://www.threads.com/@raychodream](https://www.threads.com/@raychodream)
 * Twitter  [https://twitter.com/skshpapa80](https://twitter.com/skshpapa80)
 * Youtube [https://www.youtube.com/@skshpapa80-tube](https://www.youtube.com/@skshpapa80-tube)
-</p>
+
 
 <div class="about-links">
-  <a href="https://github.com/yourusername" target="_blank">GitHub →</a>
-  <a href="mailto:you@example.com">이메일 →</a>
+  <a href="https://github.com/skshpapa80" target="_blank">GitHub →</a>
 </div>
