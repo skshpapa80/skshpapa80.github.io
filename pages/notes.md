@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Doc
-permalink: /doc/
+title: 노트
+permalink: /note/
 ---
 
 <section class="hero">
-  <p class="hero-sub">페이지 목록</p>
+  <p class="hero-sub">노트 목록</p>
 </section>
 
 <section class="posts">
