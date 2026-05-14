@@ -1,6 +1,5 @@
 ---
 layout: default
-paginate: true
 ---
 
 <section class="hero">
@@ -30,19 +29,65 @@ paginate: true
   {% endfor %}
 </section>
 
-<!-- 페이지 이동 링크 -->
-<div class="pagination">
+{% if paginator.total_pages > 1 %}
+<nav class="pagination" aria-label="페이지 네비게이션">
+
+  {% comment %} 이전 페이지 (더 최신) {% endcomment %}
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}">이전</a>
+    {% if paginator.previous_page == 1 %}
+      <a href="{{ '/' | relative_url }}" class="pagination-btn pagination-prev" aria-label="이전 페이지">
+        ← 이전
+      </a>
+    {% else %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-btn pagination-prev" aria-label="이전 페이지">
+        ← 이전
+      </a>
+    {% endif %}
   {% else %}
-    <span>이전</span>
+    <span class="pagination-btn pagination-prev disabled" aria-disabled="true">← 이전</span>
   {% endif %}
 
-  <span>페이지: {{ paginator.page }} / {{ paginator.total_pages }}</span>
+  {% comment %} 페이지 번호 목록 {% endcomment %}
+  <div class="pagination-pages">
+    {% assign total = paginator.total_pages %}
+    {% assign current = paginator.page %}
 
+    {% for i in (1..total) %}
+      {% comment %} 항상 표시: 첫 페이지, 마지막 페이지, 현재 ±2 이내 {% endcomment %}
+      {% assign diff = i | minus: current %}
+      {% if diff < 0 %}{% assign diff = 0 | minus: diff %}{% endif %}
+
+      {% if i == 1 or i == total or diff <= 2 %}
+        {% if i == current %}
+          <span class="pagination-page active" aria-current="page">{{ i }}</span>
+        {% elsif i == 1 %}
+          <a href="{{ '/' | relative_url }}" class="pagination-page">{{ i }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | replace: ':num', i | relative_url }}" class="pagination-page">{{ i }}</a>
+        {% endif %}
+
+      {% else %}
+        {% comment %} 생략 부호: 바로 직전 항목이 생략 부호가 아닐 때만 출력 {% endcomment %}
+        {% assign prev_i = i | minus: 1 %}
+        {% assign prev_diff = prev_i | minus: current %}
+        {% if prev_diff < 0 %}{% assign prev_diff = 0 | minus: prev_diff %}{% endif %}
+        {% if prev_i != 1 and prev_diff > 2 %}
+          {%- comment -%}{%- endcomment -%}
+        {% else %}
+          <span class="pagination-ellipsis">…</span>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  {% comment %} 다음 페이지 (더 오래된) {% endcomment %}
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}">다음</a>
+    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-btn pagination-next" aria-label="다음 페이지">
+      다음 →
+    </a>
   {% else %}
-    <span>다음</span>
+    <span class="pagination-btn pagination-next disabled" aria-disabled="true">다음 →</span>
   {% endif %}
-</div>
+
+</nav>
+{% endif %}

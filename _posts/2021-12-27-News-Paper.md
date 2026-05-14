@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "2017/2019년 신문기사 - 딸들이 나온기사 "
-description: "신문기사"
 date: 2021-12-27
 tags: [일상]
 excerpt: "신문기사"

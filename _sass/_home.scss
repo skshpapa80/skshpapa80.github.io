@@ -100,3 +100,69 @@
   padding: 3rem 0;
   font-size: .9rem;
 }
+
+// ─── Pagination ───────────────────────────
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+  padding: 3rem 0 4rem;
+  flex-wrap: wrap;
+}
+
+.pagination-btn {
+  font-size: .82rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  color: $accent;
+  padding: .45em .9em;
+  border: 1px solid $accent;
+  border-radius: 3px;
+  transition: background .2s, color .2s;
+
+  &:hover:not(.disabled) {
+    background: $accent;
+    color: #fff;
+  }
+
+  &.disabled {
+    color: $muted;
+    border-color: $line;
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+.pagination-pages {
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+}
+
+.pagination-page {
+  min-width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .82rem;
+  border-radius: 3px;
+  transition: background .2s, color .2s;
+  color: $text;
+
+  &:hover { color: $accent; }
+
+  &.active {
+    background: $accent;
+    color: #fff;
+    font-weight: 500;
+    pointer-events: none;
+  }
+}
+
+.pagination-ellipsis {
+  font-size: .82rem;
+  color: $muted;
+  padding: 0 .15rem;
+}
