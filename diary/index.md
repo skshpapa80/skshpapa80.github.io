@@ -103,7 +103,7 @@ permalink: /diary/
             </div>
         </div>
     </div>
-</div>
+
 
 <script>
     let currentViewDate = new Date(); // 현재 보고 있는 날짜
