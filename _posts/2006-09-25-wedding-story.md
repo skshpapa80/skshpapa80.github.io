@@ -25,14 +25,6 @@ excerpt: "Wedding"
 
 ### 관련 포스트
 
-2006년 신혼여행 – 프랑스 파리(첫 해외여행)
-
-https://m.blog.naver.com/skshpapa80/221695845153
-
-2006 프랑스 파리 신혼여행 에피소드 #1
-
-https://m.blog.naver.com/skshpapa80/223719687316
-
-2006 프랑스 파리 신혼여행 에피소드 #2
-
-https://m.blog.naver.com/skshpapa80/223721604353
+* [2006년 신혼여행 – 프랑스 파리(첫 해외여행)](https://m.blog.naver.com/skshpapa80/221695845153)
+* [2006 프랑스 파리 신혼여행 에피소드 #1](https://m.blog.naver.com/skshpapa80/223719687316)
+* [2006 프랑스 파리 신혼여행 에피소드 #2](https://m.blog.naver.com/skshpapa80/223721604353)
