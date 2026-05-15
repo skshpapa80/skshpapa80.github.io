@@ -30,5 +30,5 @@ Lazarus 기반에서 작성되었으며 DirectShow을 사용하여 동영상을 
 
 #### 관련 포스트
 
-* SmallPlayer 개발이야기 : 
+* [SmallPlayer 개발이야기](https://skshpapa80.github.io/2018/03/01/smallplayer/)
 * DirectShow 강좌 : 
