@@ -1,0 +1,42 @@
+---
+layout: page
+title: 2004년 소개
+permalink: /about2004/
+---
+
+<article class="about-page">
+
+<header class="about-page__intro">
+  <h2 class="about-page__subtitle">2004년 선경선향아빠 프로필.</h2>
+</header>
+
+<figure class="about-page__photo">
+  <img src="/assets/images/saint.jpg" alt="프로필 사진" width="400" height="400" loading="lazy" decoding="async" /><br />
+  2004년 용인 파견 나갔을때
+</figure>
+
+<section class="about-section" aria-labelledby="about-work">
+  <h3 class="about-section__title" id="about-skills">기본 정보</h3>
+  <ul class="about-section__list">
+    <li>닉네임 : 나물,쎈뜨 </li>
+    <li>태어난날 : 3.18 </li>
+    <li>사는곳 : 대한민국 서울 </li>
+    <li>직업 : 병역특례 프로그래머(웹프로그래머) </li>
+    <li>취미 : 영화 보기, 게임, 음악듣기, 프로그래밍, 웹서핑, 레어아이템수집, 사진찍기 </li>
+    <li>특기 : 프로그래밍..(델파이) </li>
+    <li>자격증 : 정보기기운영기능사,정보처리산업기사</li>
+  </ul>
+</section>
+
+<div class="about-lead">
+나물이는 프로그래머 입니다. 게임을 좋아하고 영화도 좋아하는 <br />
+24살의 꿈이 많은 아이 입니다..<br />
+나물이는 현제 병역특례로 회사에서 웹서비스를 개발하고 있습니다.<br />
+고등학교때부터 컴퓨터에 관심이 많아<br />
+프로그래밍을 공부하고 싶었는데<br />
+대학교에 들어가서 첨 프로그래밍을 하게 되었습니다.<br />
+주 관심분야는 게임프로그래밍과 이미지프로세싱,멀티미디어입니다..<br />
+만들고 싶은 프로그램이 많은데.. 아직은 만들지 못하는게 많이 있네요..
+</div>
+
+</article>
