@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Adobe Flex를 사용해보다."
-description: "Programming"
-comments: true
-tags:
-    - Web
+date: 2008-03-10
+tags: [프로그래밍]
+excerpt: "Programming"
 ---
 
 차장님이 우리도 이젠 웹 기반의 ERP를 만들어야 한다면서 <br/>

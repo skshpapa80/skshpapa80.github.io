@@ -35,6 +35,13 @@ excerpt: "PLC,아르바이트"
 
 ### 프로그램 스크린샷 및 정보
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/plcreport01.png"><img src="/assets/images/plcreport01.png" alt="PLC데몬" width="400"/></a></p><br />
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/plcreport01.png"><img src="/assets/images/plcreport01.png" alt="PLC데몬" width="400"/></a><Br />PLC 데몬</p>
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/plcreport02.png"><img src="/assets/images/plcreport02.png" alt="데이터조회" width="400"/></a><br />데이터 조회 프로그램</p>
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/plcreport02.png"><img src="/assets/images/plcreport02.png" alt="데이터조회" width="400"/></a></p><br />
+PLC에서 정보를 받아(어드레스 값들) 특정 비트의 신호가 오면 가지고 있던 값을 CSV 파일에 저장해서 리포트 프로그램에서 날짜별로 조회가 가능한 프로그램입니다.
+
+* PLC에서 받는 어드레스 값은 약 620태그
+* 저장 비트 PLC1.B1B5에 값이 살면 620개 태그에 저장된 값을 CSV 파일 형태로 저장합니다.
+* 데몬이 OPC 클라이언트 역할을 하기 때문에 어떤 OPC서버에 접속이 가능합니다.
+* 처음에 태그 정보들을 DB에 저장하려고 했지만 큰 시스템도 아닌데 DB 까지는 필요 없을 거 같아서 파일로 저장을 합니다.
+* 날짜별로 태그 값을 바꿔야 하면 INI 파일을 바꾸면 되고 리포트 타이틀도 바꾸고 싶으면 INI를 바꾸면 되도록 프로그램을 만들어 놨습니다.
