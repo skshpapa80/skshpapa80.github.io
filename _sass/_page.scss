@@ -160,3 +160,101 @@
     }
   }
 }
+
+// /portfolio/ 페이지
+.portfolio-page {
+  max-width: 44rem;
+}
+
+.portfolio-section {
+  margin-bottom: 2.75rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.portfolio-section__title {
+  font-family: $font-title;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: $text;
+  margin: 0 0 1rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid $line;
+}
+
+.portfolio-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.portfolio-item {
+  margin: 0;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  border: 1px solid $line;
+  border-radius: .5rem;
+  box-shadow: 0 2px 8px rgba(26, 26, 24, .04);
+
+  p {
+    margin: 0;
+  }
+
+  p + p {
+    margin-top: .35rem;
+  }
+}
+
+.portfolio-item__title {
+  font-family: $font-body;
+  font-size: 1rem;
+  font-weight: 600;
+  color: $text;
+  line-height: 1.45;
+  margin: 0 0 .4rem;
+}
+
+.portfolio-item__period {
+  font-size: .82rem;
+  font-weight: 500;
+  color: $accent;
+  letter-spacing: .02em;
+}
+
+.portfolio-item__stack {
+  font-size: .88rem;
+  line-height: 1.6;
+  color: $muted;
+}
+
+.portfolio-item__desc {
+  font-size: .92rem;
+  line-height: 1.65;
+  color: $text;
+}
+
+.portfolio-item__more {
+  margin-top: .6rem !important;
+  padding-top: .5rem;
+  border-top: 1px solid $line;
+
+  a {
+    font-size: .88rem;
+    font-weight: 500;
+    color: $accent;
+    text-decoration: none;
+
+    &::after {
+      content: ' →';
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -4,76 +4,150 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<article class="about-page">
+<article class="portfolio-page">
 
-<section class="about-section" aria-labelledby="about-skills">
-  <h3 class="about-section__title" id="about-skills">Project</h3>
-  <ul class="about-section__list">
-    <li>Hungary MES Install Project (2024~2025.12) <br />
-      - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)</li>
-    <li>Innovation MES Install Project (2023) <br />
-      - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)</li>
-    <li>Material MES Install Project (2022 ~)<br />
-      - C#, MSSQL, Thira-MES, DevExpress Winform, WEB API(JSON)</li>
-    <li>Solar Panel MES Upgrade Project (2021 ~ 2022)<br />
-      - C#, MSSQL, Thira-MES, DevExpress Winform</li>
-    <li>Battery MES Project (2018 ~ 2021)<br />
-      - C#, ORACLE, Thira-MES, Nexcore Framework, DevExpress Winform</li>
-    <li>Mold MES Mobile(Android) (2017)<br />
-      - ASP.NET, MSSQL, Android, Jquery Mobile</li>
-    <li>Auto Weight System (2016)<br />
-      - PC : C#, ORACLE, Winform, Indegator I/F, IO Card <br />
-      - WEB(TMS) : JAVA Spring, Oracle, eGovFrame</li>
-    <li>Mold MES Project (2015)<br />
-      - C#, MSSQL, J.Platform</li>
+<section class="portfolio-section" aria-labelledby="portfolio-projects">
+  <h2 class="portfolio-section__title" id="portfolio-projects">Project</h2>
+  <ul class="portfolio-list">
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">Hungary MES Install Project</h3>
+      <p class="portfolio-item__period">2024 ~ 2025.12</p>
+      <p class="portfolio-item__stack">C#, MSSQL, Thira-MES, DevExpress Winform, WEB API (JSON)</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">Innovation MES Install Project</h3>
+      <p class="portfolio-item__period">2023</p>
+      <p class="portfolio-item__stack">C#, MSSQL, Thira-MES, DevExpress Winform, WEB API (JSON)</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">Material MES Install Project</h3>
+      <p class="portfolio-item__period">2022 ~</p>
+      <p class="portfolio-item__stack">C#, MSSQL, Thira-MES, DevExpress Winform, WEB API (JSON)</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">Solar Panel MES Upgrade Project</h3>
+      <p class="portfolio-item__period">2021 ~ 2022</p>
+      <p class="portfolio-item__stack">C#, MSSQL, Thira-MES, DevExpress Winform</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">Battery MES Project</h3>
+      <p class="portfolio-item__period">2018 ~ 2021</p>
+      <p class="portfolio-item__stack">C#, Oracle, Thira-MES, Nexcore Framework, DevExpress Winform</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">Mold MES Mobile (Android)</h3>
+      <p class="portfolio-item__period">2017</p>
+      <p class="portfolio-item__stack">ASP.NET, MSSQL, Android, jQuery Mobile</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">Auto Weight System</h3>
+      <p class="portfolio-item__period">2016</p>
+      <p class="portfolio-item__stack">PC: C#, Oracle, Winform, Indicator I/F, IO Card</p>
+      <p class="portfolio-item__stack">WEB (TMS): Java Spring, Oracle, eGovFrame</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">Mold MES Project</h3>
+      <p class="portfolio-item__period">2015</p>
+      <p class="portfolio-item__stack">C#, MSSQL, J.Platform</p>
+    </li>
   </ul>
 </section>
 
-<section class="about-section" aria-labelledby="about-skills">
-  <h3 class="about-section__title" id="about-skills">Experience in development(개발경험담)</h3>
-  <ul class="about-section__list">
-    <li>1.대학교 축제 전시 프로젝트<br />
-      - 원래 팀에서서 기획한 프로그램이 아닌 단독으로 동영상 재생기 개발(팀 프로젝트는 망했음) <a href ="https://skshpapa80.github.io/2025/02/24/university-festival-exhibition-project/" class=".about-links">[더 읽기]</a></li>
-    <li>2.CD-ROM 에서 동작하는 이미지 뷰어 만들기<br />
-      - 첫 업무 기존 개발자가 개발한 프로그램 수정 <a href ="https://skshpapa80.github.io/2022/07/19/CDROM-Program/" class=".about-links">[더 읽기]</a></li>
-    <li>3.도면 뷰어 프로그램 수정<br />
-      - 기존 컴포넌트(Dr.DWG) -> OpenDWG.Viewkit 으로 변경(델마당 자료 사용) <a href="https://skshpapa80.github.io/2022/07/20/dwg-viewer/" class=".about-links">[더 읽기]</a></li>
-    <li>4.졸업작품 – ASP 웹사이트 만들기<br />
-      - ASP로 커플관리 사이트 만들기 <a href="" class=".about-links">[더 읽기]</a></li>
-    <li>5.지하철 표지판 관리 프로그램 (미완성)<br />
-      - 지하철에 표지판을 관리하는 방식을 만드는 프로젝트 <a href="https://skshpapa80.github.io/2022/07/21/Subway-sign/" class=".about-links">[더 읽기]</a></li>
-    <li>6.도면 뷰어 컴포넌트 교체기<br />
-      - OpenDWG.Viewkit 으로 개발한 컴포넌트를 CAD Import VCL 로 변경 <a href="https://skshpapa80.github.io/2022/07/22/dwg-component/" class=".about-links">[더 읽기]</a></li>
-    <li>7.제적부 색인 프로젝트<br />
-      - 오래된 제적부 스캔 후 인덱스 입력하는 프로그램 개발 및 XML 변환 <a href="https://skshpapa80.github.io/2022/07/24/old-paper-project/" class=".about-links">[더 읽기]</a></li>
-    <li>8.이미지 보정 프로그램<br />
-      - 스캔 받은 이미지(tiff) 보정하는 프로그램 <a href="https://skshpapa80.github.io/2022/07/25/image-editor/" class=".about-links">[더 읽기]</a></li>
-    <li>9.Codeigniter Web 개발 아르바이트<br />
-      - 2018년 지인의 요청으로 하게 된 Web 개발 아르바이트 입니다. <a href="https://skshpapa80.github.io/2025/03/17/codeigniter-web/" class=".about-links">[더 읽기]</a></li>
-    <li>장비제어용 페이지 모바일용 반응형웹<br />
-      - 2017년 8월  안드로이드/모바일용 반응형 웹, HTML5, bootstrap, Jquery, CGI <a href="https://skshpapa80.github.io/2022/05/25/webpage/" class=".about-links">[더 읽기]</a></li>
-    <li>아르바이트 기록 – PLCReport<br />
-      - PLC 의 값을 모니터링 한 후 파일로 저장하고 엑셀처럼 보여주는 프로그램 <a href="https://skshpapa80.github.io/2022/05/25/webpage/" class=".about-links">[더 읽기]</a></li>
+<section class="portfolio-section" aria-labelledby="portfolio-experience">
+  <h2 class="portfolio-section__title" id="portfolio-experience">Experience in development (개발경험담)</h2>
+  <ul class="portfolio-list">
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">대학교 축제 전시 프로젝트</h3>
+      <p class="portfolio-item__desc">팀 기획 프로그램이 아닌 단독 동영상 재생기 개발 (팀 프로젝트는 진행되지 않음)</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2025/02/24/university-festival-exhibition-project/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">CD-ROM에서 동작하는 이미지 뷰어 만들기</h3>
+      <p class="portfolio-item__desc">첫 업무 — 기존 개발자가 만든 프로그램 수정</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/07/19/CDROM-Program/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">도면 뷰어 프로그램 수정</h3>
+      <p class="portfolio-item__desc">Dr.DWG 컴포넌트를 OpenDWG.Viewkit으로 변경 (델마당 자료 활용)</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/07/20/dwg-viewer/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">졸업작품 — ASP 웹사이트 만들기</h3>
+      <p class="portfolio-item__desc">ASP로 커플 관리 사이트 제작</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">지하철 표지판 관리 프로그램 (미완성)</h3>
+      <p class="portfolio-item__desc">지하철 표지판 관리 방식을 설계·구현하는 프로젝트</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/07/21/Subway-sign/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">도면 뷰어 컴포넌트 교체</h3>
+      <p class="portfolio-item__desc">OpenDWG.Viewkit 기반 컴포넌트를 CAD Import VCL로 변경</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/07/22/dwg-component/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">제적부 색인 프로젝트</h3>
+      <p class="portfolio-item__desc">오래된 제적부 스캔 후 인덱스 입력 및 XML 변환 프로그램 개발</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/07/24/old-paper-project/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">이미지 보정 프로그램</h3>
+      <p class="portfolio-item__desc">스캔 TIFF 이미지 보정 프로그램</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/07/25/image-editor/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">CodeIgniter Web 개발 아르바이트</h3>
+      <p class="portfolio-item__desc">2018년 지인 요청으로 진행한 웹 개발 아르바이트</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2025/03/17/codeigniter-web/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">장비 제어용 모바일 반응형 웹</h3>
+      <p class="portfolio-item__desc">2017년 8월 — Android/모바일 반응형 웹, HTML5, Bootstrap, jQuery, CGI</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/05/25/webpage/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">아르바이트 기록 — PLCReport</h3>
+      <p class="portfolio-item__desc">PLC 값 모니터링 후 파일 저장 및 엑셀 형태로 표시하는 프로그램</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/05/25/webpage/">더 읽기</a></p>
+    </li>
   </ul>
 </section>
 
-<section class="about-section" aria-labelledby="about-skills">
-  <h3 class="about-section__title" id="about-skills">Portfolio(포트폴리오)</h3>
-  <ul class="about-section__list">
-    <li>2005년 PSP용 음악플레이어<br />
-      - Sony 게임기 PSP 에서 돌아가는 MP3 재생 Homebrew <a href="https://skshpapa80.github.io/2025/03/04/psphomebrew/" class=".about-links">[더 읽기]</a></li>
-    <li>Lotus 123 파일 읽는 프로그램<br />
-      - 오래된 Lotus 123 프로그램을 읽는 프로그램 <a href="https://skshpapa80.github.io/2022/05/22/lotusread/" class=".about-links">[더 읽기]</a></li>
-    <li>사진 정리 프로그램(Photodate)<br />
-      - 사진을 찍은 날짜(Exif Tag)를 사용해서 날짜별로 사진을 정리하는 프로그램 <a href="" class=".about-links">[더 읽기]</a></li>
-    <li>자작 프로그램 – 이미지 뷰어 만들기<br />
-      - 델파이(Delphi)로 만든 이미지 뷰어 <a href="" class=".about-links">[더 읽기]</a>></li>
-    <li>Sheet2DB <br />
-      - Excel 파일을 좀 쉽게 DB(MSSQL) 에 넣어 보자고 작은 아이디어 <a href="" class=".about-links">[더 읽기]</a></li>
-    <li>SmallPlayer<br />
-      - 동영상 플레이어 DirectShow <a href="https://skshpapa80.github.io/2018/03/01/smallplayer/" class=".about-links">[더 읽기]</a></li>
-    <li>LZBasePlayer<br />
-      - Lazarus 로 만든 DirectShow, Lav filter 동영상 플레이어 <a href="https://skshpapa80.github.io/2025/10/14/labaseplayer/" class=".about-links">[더 읽기]</a></li>
+<section class="portfolio-section" aria-labelledby="portfolio-works">
+  <h2 class="portfolio-section__title" id="portfolio-works">Portfolio (포트폴리오)</h2>
+  <ul class="portfolio-list">
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">2005년 PSP용 음악 플레이어</h3>
+      <p class="portfolio-item__desc">Sony PSP용 MP3 재생 Homebrew</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2025/03/04/psphomebrew/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">Lotus 123 파일 읽는 프로그램</h3>
+      <p class="portfolio-item__desc">레거시 Lotus 123 파일을 읽는 프로그램</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/05/22/lotusread/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">사진 정리 프로그램 (Photodate)</h3>
+      <p class="portfolio-item__desc">Exif 촬영일 기준으로 사진을 날짜별로 정리</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">자작 프로그램 — 이미지 뷰어</h3>
+      <p class="portfolio-item__desc">Delphi로 제작한 이미지 뷰어</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">Sheet2DB</h3>
+      <p class="portfolio-item__desc">Excel 파일을 MSSQL DB에 쉽게 넣기 위한 유틸리티</p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">SmallPlayer</h3>
+      <p class="portfolio-item__desc">DirectShow 기반 동영상 플레이어</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2018/03/01/smallplayer/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
+      <h3 class="portfolio-item__title">LZBasePlayer</h3>
+      <p class="portfolio-item__desc">Lazarus, DirectShow, LAV filter 동영상 플레이어</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2025/10/14/labaseplayer/">더 읽기</a></p>
+    </li>
   </ul>
 </section>
 
