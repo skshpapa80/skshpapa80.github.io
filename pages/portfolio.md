@@ -74,6 +74,7 @@ permalink: /portfolio/
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">졸업작품 — ASP 웹사이트 만들기</h3>
       <p class="portfolio-item__desc">ASP로 커플 관리 사이트 제작</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2025/02/27/asp-web/">더 읽기</a></p>
     </li>
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">지하철 표지판 관리 프로그램 (미완성)</h3>
@@ -108,7 +109,7 @@ permalink: /portfolio/
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">아르바이트 기록 — PLCReport</h3>
       <p class="portfolio-item__desc">PLC 값 모니터링 후 파일 저장 및 엑셀 형태로 표시하는 프로그램</p>
-      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/05/25/webpage/">더 읽기</a></p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/05/22/plcreport/">더 읽기</a></p>
     </li>
   </ul>
 </section>
