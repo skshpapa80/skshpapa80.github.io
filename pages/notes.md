@@ -17,10 +17,10 @@ permalink: /note/
 
   <hr>
 
-  <h3><a href="/travle_hu">헝가리 출장</a></h3>
+  <h3><a href="/travel_hu">헝가리 출장</a></h3>
   <p class="post-excerpt">헝가리 데브레첸 으로 출장 2024, 2025</p>
 
-  <h3><a href="/travle_hongkong">홍콩 여행</a></h3>
+  <h3><a href="/travel_hongkong">홍콩 여행</a></h3>
   <p class="post-excerpt">우리 가족이 좋아하는 여행지는 홍콩 2024,2025</p>
 
   <h3><a href="/travel_america">미국(America) 출장</a></h3>
