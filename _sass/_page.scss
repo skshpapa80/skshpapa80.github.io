@@ -258,3 +258,93 @@
     }
   }
 }
+
+// 여행 페이지 (/travel_*)
+.travel-page {
+  max-width: 44rem;
+}
+
+.travel-trip {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid $line;
+
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.travel-trip__title {
+  font-family: $font-title;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: $text;
+  line-height: 1.5;
+  margin: 0 0 .5rem;
+}
+
+.travel-trip__note {
+  font-size: .92rem;
+  line-height: 1.65;
+  color: $muted;
+  margin: 0 0 1rem;
+}
+
+.travel-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .75rem;
+  margin: 0 0 1.25rem;
+}
+
+.travel-gallery__link {
+  display: block;
+  line-height: 0;
+  border-radius: .5rem;
+  overflow: hidden;
+  border: 1px solid $line;
+  box-shadow: 0 4px 12px rgba(26, 26, 24, .06);
+  transition: box-shadow .2s, transform .2s;
+
+  &:hover {
+    box-shadow: 0 6px 16px rgba(26, 26, 24, .1);
+    transform: translateY(-1px);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-width: 12rem;
+    height: auto;
+  }
+}
+
+.travel-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li + li {
+    margin-top: .4rem;
+  }
+
+  a {
+    font-size: .92rem;
+    font-weight: 500;
+    color: $accent;
+    text-decoration: none;
+    line-height: 1.5;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.travel-links__note {
+  font-weight: 400;
+  color: $muted;
+}

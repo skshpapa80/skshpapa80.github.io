@@ -50,6 +50,11 @@ permalink: /portfolio/
       <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/07/25/image-editor/">더 읽기</a></p>
     </li>
     <li class="portfolio-item">
+      <h3 class="portfolio-item__title">2014년 처음 만드는 안드로이드 앱</h3>
+      <p class="portfolio-item__desc">H회사 금형관리 시스템 개발에 한 파트인 안드로이드 앱 개발</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2017/03/20/first-android-app/">더 읽기</a></p>
+    </li>
+    <li class="portfolio-item">
       <h3 class="portfolio-item__title">CodeIgniter Web 개발 아르바이트</h3>
       <p class="portfolio-item__desc">2018년 지인 요청으로 진행한 웹 개발 아르바이트</p>
       <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2025/03/17/codeigniter-web/">더 읽기</a></p>
@@ -83,6 +88,7 @@ permalink: /portfolio/
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">사진 정리 프로그램 (Photodate)</h3>
       <p class="portfolio-item__desc">Exif 촬영일 기준으로 사진을 날짜별로 정리</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2021/04/29/photodate/">더 읽기</a></p>
     </li>
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">자작 프로그램 — 이미지 뷰어</h3>
@@ -91,6 +97,7 @@ permalink: /portfolio/
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">Sheet2DB</h3>
       <p class="portfolio-item__desc">Excel 파일을 MSSQL DB에 쉽게 넣기 위한 유틸리티</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2022/04/28/sheet2db/">더 읽기</a></p>
     </li>
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">SmallPlayer</h3>
