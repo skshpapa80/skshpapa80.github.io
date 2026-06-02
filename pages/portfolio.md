@@ -93,6 +93,7 @@ permalink: /portfolio/
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">자작 프로그램 — 이미지 뷰어</h3>
       <p class="portfolio-item__desc">Delphi로 제작한 이미지 뷰어</p>
+      <p class="portfolio-item__more"><a href="https://skshpapa80.github.io/2017/07/25/Delphi-Image-Viewer/">더 읽기</a></p>
     </li>
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">Sheet2DB</h3>

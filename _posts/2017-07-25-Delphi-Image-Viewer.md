@@ -17,7 +17,7 @@ excerpt: "Delphi Image Viewer"
 
 우선 디스플레이 하는 기능만 넣다보니 만드는데 얼마 안걸렸네요..
 
-![프로그램스크린샷](/assets/images/imageviewer.PNG)
+<p align="center"><a data-fslightbox="gallery" href="/assets/images/imageviewer.PNG"><img src="/assets/images/imageviewer.PNG" alt="프로그램스크린샷" width="400"/></a><br />프로그램스크린샷</p>
 
 델파이(Delphi)로 만든 이미지 뷰어 입니다. <br />
 프로그램 왼쪽에 PC의 경로를 보여주는 트리뷰가 있고 <br />
