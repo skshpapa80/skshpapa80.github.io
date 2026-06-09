@@ -16,6 +16,7 @@ permalink: /note/
   <p class="post-excerpt">개발자로서 진행했던 작업 들</p>
 
   <hr>
+  <h2>여행 경험담</h2>
 
   <h3><a href="/travel_hu">헝가리 출장</a></h3>
   <p class="post-excerpt">헝가리 데브레첸 으로 출장 2024, 2025</p>
