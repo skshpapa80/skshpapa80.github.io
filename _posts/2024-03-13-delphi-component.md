@@ -14,14 +14,14 @@ excerpt: "Delphi Homebrew Component"
 
 자주 쓰는 기능을 미리 만들어 놓고 사용하고 있습니다. 다만 최근에는 잘 안 쓰는데 회사에서는 C#을 사용하기 때문에 Delphi를 자주 사용하지 않습니다.
 
-    * khXLS : Excel 제어 유닛
-    * khGrid : StringGrid 기능 추가
-    * khEdit : 정렬, Mouse Enter. Leave Event
-    * khComboBox : 값이 두개인 Combobox, Item/Values : TStrings
-    * khImage : 이미지 컴포넌트 확장
-    * khReport : 출력 기능
-    * khTrayIcon : 트레이 아이콘 제어
+* khXLS : Excel 제어 유닛
+* khGrid : StringGrid 기능 추가
+* khEdit : 정렬, Mouse Enter. Leave Event
+* khComboBox : 값이 두개인 Combobox, Item/Values : TStrings
+* khImage : 이미지 컴포넌트 확장
+* khReport : 출력 기능
+* khTrayIcon : 트레이 아이콘 제어
 
 #### 컴포넌트 소스
 
-https://github.com/skshpapa80/skshpapa80_pack
+[https://github.com/skshpapa80/skshpapa80_pack](https://github.com/skshpapa80/skshpapa80_pack])
