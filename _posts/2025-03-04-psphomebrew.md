@@ -15,13 +15,15 @@ excerpt: "PSP,C++,MP3"
 
 ​프로그램에서 MP3 플레이는 libmad 라이브러리를 이용해서 재생했습니다.
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/namulmp1.png"><img src="/assets/images/namulmp1.png" alt="Namul MP" width="400"/></a><br /> NamulMP for PSP 1</p> 
+<p align="center"><img src="/assets/images/namulmp1.png" alt="Namul MP" width="400"/>
+<br /> NamulMP for PSP 1</p> 
 
 #### 2005/12/16 : 두 번째 버전
 
 ​OGG 재생 추가 mp3 외에 OGG 파일도 많이 사용하더군요, 재생 중인 파일의 재생 시간 표시 기능 추가 OGG 파일을 재생하는 라이브러리는 libvorbis를 사용해서 OGG 음원 파일을 재생하였습니다.
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/namulmp2.jpg"><img src="/assets/images/namulmp2.jpg" alt="Namul MP" width="400"/></a><br /> NamulMP for PSP 2</p> 
+<p align="center"><img src="/assets/images/namulmp2.jpg" alt="Namul MP" width="400"/>
+<br /> NamulMP for PSP 2</p> 
 
 #### 2006/01/19 : 세 번째 버전
 
@@ -33,11 +35,13 @@ OGG 파일 재생할 때 다운되는 버그 잡음
 
 이어폰에 달려있는 리모컨 지원, 날짜, 시간 배터리 표시 디스플레이 컬러 변경 재생 모드 (SELECT 버튼) : 재생, 반복 재생, 셔플 기능 추가 그리고 SDK에서 CPU 클럭은 111로 변경한 항목을 찾아서 적용하였습니다.
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/namulmp3.jpg"><img src="/assets/images/namulmp3.jpg" alt="Namul MP" width="400"/></a><br /> NamulMP for PSP 3</p> 
+<p align="center"><img src="/assets/images/namulmp3.jpg" alt="Namul MP" width="400"/>
+<br /> NamulMP for PSP 3</p> 
 
 2007/02/12 : DJ 님이 공개하신 한글 파일 리스트 소스를 적용하여 playlist.m3u 없이 한글 목록 출력 가능하게 개발 중이었으나. 계속 만들자니 기본 음악 플레이어에서도 한글 목록은 잘 나오게 되었습니다. PSP 펌웨어 2.0에서는 한글로 된 MP3 파일을 지원하기 시작했거든요. 커펌의 MP3 기능보다 더 좋게는 못 만들 거 같고 그리고 여기에 투자할 수 있는 시간도 많지 않고 해서 개발을 중지하였습니다.
 
 ​한동안 즐겁게 개발에 빠져 살수 있도록 해준 프로그램입니다.
 
 ### PSP 개발자료
+
 

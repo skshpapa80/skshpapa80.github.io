@@ -8,7 +8,8 @@ excerpt: "LZBasePlaye, ASP.NET UI 프레임워크, Flutter 앱, PHP 웹프로그
 
 ### Side Project 목록
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/LZBasePlayer_20250313-1024x623-1.png"><img src="/assets/images/LZBasePlayer_20250313-1024x623-1.png" alt="LZBasePlayer" width="400"/></a><br /> 작업중인 화면 스크린샷 – 영상은 2019 KCON 뉴욕 아이즈원 </p> 
+<p align="center"><img src="/assets/images/LZBasePlayer_20250313-1024x623-1.png" alt="LZBasePlayer" width="400"/>
+<br /> 작업중인 화면 스크린샷 – 영상은 2019 KCON 뉴욕 아이즈원 </p> 
 
 1. LZBasePlayer
 – Lazarus 를 이용해서 DirectShow 동영상 재생기 만들기 완성도 90%, Lazarus 로 예전에 만들어 봤던거 다 만들어 볼 예정
