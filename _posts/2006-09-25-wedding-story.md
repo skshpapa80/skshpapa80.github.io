@@ -8,7 +8,7 @@ excerpt: "Wedding"
 
 ### 결혼식
 
-나물이와 연주가 결혼을 했습니다.
+26살 동갑인 나물이와 연주가 결혼을 했습니다.
 
 > 처음 만나서 지금까지 소중하게 나누었던 기쁨, 슬픈 추억들을 가지고 처음 처럼 행복을 만들어 가려고 합니다. 
 
@@ -22,7 +22,8 @@ excerpt: "Wedding"
 여권도 처음 만들고 프랑스 파리로 가는 직항이 너무 비싸서 <br />
 싱가포르 경유를 선택했고 숙소도 저렴한 곳으로 선택했습니다. 
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/SE-859545c9-e3d2-4260-85b9-b009cda85cf2.png"><img src="/assets/images/SE-859545c9-e3d2-4260-85b9-b009cda85cf2.png" alt="루브루 박물관 앞에서" width="400"/></a><br />루브루 박물관 앞에서</p>
+<p align="center"><img src="/assets/images/SE-859545c9-e3d2-4260-85b9-b009cda85cf2.png" alt="루브루 박물관 앞에서" width="400"/>
+<br />루브루 박물관 앞에서</p>
 
 ### 관련 포스트
 
