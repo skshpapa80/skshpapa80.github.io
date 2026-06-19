@@ -24,6 +24,85 @@
   gtag('config', 'G-GTLT7GHRBX');
 </script>
 
+<style>
+/* 라이트박스 배경 (기본 숨김) */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.85); /* 배경 투명도 */
+  backdrop-filter: blur(5px); /* 배경 흐림 효과 */
+}
+
+/* 이미지 스타일 */
+.lightbox-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 80vh;
+  object-fit: contain;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  animation: zoom 0.3s ease-in-out;
+}
+
+/* 캡션 (이미지 alt 텍스트 활용) */
+#lightbox-caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+/* 닫기 버튼 */
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+  user-select: none;
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus {
+  color: #bbb;
+  text-decoration: none;
+}
+
+/* 애니메이션 효과 */
+@keyframes zoom {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* 모바일 대응 */
+@media only screen and (max-width: 700px){
+  .lightbox-content {
+    width: 95%;
+    max-height: 75vh;
+  }
+  .lightbox-close {
+    top: 15px;
+    right: 25px;
+    font-size: 35px;
+  }
+}
+</style>
+
+
 </head>
 <body>
 
@@ -35,7 +114,13 @@
 
   {% include footer.html %}
 
-    <script src="{{ site.url }}/assets/js/fslightbox.js"></script>
+  <div id="lightbox-modal" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="확대된 이미지">
+    <div id="lightbox-caption"></div>
+  </div>
+
+  <script src="{{ site.url }}/assets/js/lightbox.js"></script>
     
 </body>
 </html>
