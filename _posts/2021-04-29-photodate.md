@@ -14,7 +14,7 @@ excerpt: "델파이, 사진, exif tag"
 
 제작 툴은 델파이 10.2 도쿄 스타터 버전입니다!
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/photodate.png"><img src="/assets/images/photodate.png" alt="Photodate" width="400"/></a><br />프로그램 스크린샷</p>
+<p align="center"><img src="/assets/images/photodate.png" alt="Photodate" width="400"/><br />프로그램 스크린샷</p>
 
 ### 사용법
 사진 파일이 모여 있는 대상 폴더를 지정하면 위 리스트에 이미지 목록이 표시됩니다. <br />

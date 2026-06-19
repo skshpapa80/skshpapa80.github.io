@@ -36,13 +36,13 @@ excerpt: "태블릿,리믹스 OS"
 WIFI도 잘되고 사운드도 문제 없고 Youtube 동영상 재생도 잘되고
 사용하는데에는 문제없을꺼 같네요.
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/20170607_200417.jpg"><img src="/assets/images/20170607_200417.jpg" alt="태블릿" width="400"/></a><br />잠금화면 – 스라이딩 하면 열리네요</p>
+<p align="center"><img src="/assets/images/20170607_200417.jpg" alt="태블릿" width="400"/><br />잠금화면 – 스라이딩 하면 열리네요</p>
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/20170607_200423.jpg"><img src="/assets/images/20170607_200423.jpg" alt="태블릿" width="400"/></a><br />기본화면 – 테스크롭처럼 작업표시줄이랑 시작버튼이 있네요</p>
+<p align="center"><img src="/assets/images/20170607_200423.jpg" alt="태블릿" width="400"/><br />기본화면 – 테스크롭처럼 작업표시줄이랑 시작버튼이 있네요</p>
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/20170607_200433.jpg"><img src="/assets/images/20170607_200433.jpg" alt="태블릿" width="400"/></a><br />시작버튼을 눌렀을때</p>
+<p align="center"><img src="/assets/images/20170607_200433.jpg" alt="태블릿" width="400"/><br />시작버튼을 눌렀을때</p>
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/20170607_200523.jpg"><img src="/assets/images/20170607_200523.jpg" alt="태블릿" width="400"/></a><br />파일 탐색기랑 리디북스 앱</p>
+<p align="center"><img src="/assets/images/20170607_200523.jpg" alt="태블릿" width="400"/><br />파일 탐색기랑 리디북스 앱</p>
 
 창모드를 지원하는 앱은 위 사진처럼 윈도우의 창처럼 여러앱을
 

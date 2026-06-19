@@ -13,7 +13,7 @@ excerpt: "메신저, 소프트메신져, MSN, 네이트온"
 그러니까 선경선향아빠가 처음 사용한 메신저는 대한민국 최초(?)의 메신저 소프트 메신저입니다.  <br />
 제 기억에는 최초의 메신저라고 불리었던 거 같아요!!!.
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/img_01.gif"><img src="/assets/images/img_01.gif" alt="소프트메신져"/></a></p>
+<p align="center"><img src="/assets/images/img_01.gif" alt="소프트메신져"/><br />소프트메신져</p>
 
 소프트 메신저를 사용하면서 편리하게 소메라고 불렀었는데 MSN 이 나오기 전까지 사용해 있으니까. 
 
@@ -37,7 +37,7 @@ excerpt: "메신저, 소프트메신져, MSN, 네이트온"
 
 또 2.0으로 업데이트되면서 프로그램이 너무 자주 다운되고 1.5 버전 사용자랑 호환도 안되고 그리고 MSN이 한국 서비스를 시작하면서 사용자가 점점 늘어나면서 자연스럽게 넘어가게 되었습니다.
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/main.jpg"><img src="/assets/images/main.jpg" alt="MSN"/></a></p>
+<p align="center"><img src="/assets/images/main.jpg" alt="MSN"/><br />MSN</p>
 
 그리고 MSN을 사용하다가 NATEON으로 넘어왔는데 주위에서 모두 NATEON을 사용하다 보니 점점 MSN은 로그인을 안 하게 되더군요
 

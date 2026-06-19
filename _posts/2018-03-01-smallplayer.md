@@ -6,7 +6,7 @@ tags: [프로그래밍]
 excerpt: "Delphi DirectShow Movie Player"
 ---
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/smallplayer_01.png"><img src="/assets/images/smallplayer_01.png" alt="초기버전" width="400"/></a><br />초기버전</p>
+<p align="center"><img src="/assets/images/smallplayer_01.png" alt="초기버전" width="400"/><br />초기버전</p>
 자작 프로그램 을 소개합니다. SmallPlayer
 
 예전에 곰플레이어, 다음 팟플레이어 등을 동영상 플레이어로 사용했는데 계속 업데이트되면서 광고가 생기더라고요 물론 무료 플레이어라서 어느 정도 광고가 붙는 건 이해하겠지만 약간 귀찮더라고요.
@@ -17,7 +17,7 @@ excerpt: "Delphi DirectShow Movie Player"
 
 생각보다 신경 써야 할게 많네요.
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/smallplayer_02.png"><img src="/assets/images/smallplayer_02.png" alt="smallplayer" width="400"/></a><br />테스트 버전 스크린샷 – 동영상은 지금 만나러 갑니다</p>
+<p align="center"><img src="/assets/images/smallplayer_02.png" alt="smallplayer" width="400"/><br />테스트 버전 스크린샷 – 동영상은 지금 만나러 갑니다</p>
 
 #### 설명
 
@@ -28,7 +28,7 @@ excerpt: "Delphi DirectShow Movie Player"
 
 우선 v0.1로 재생 기능만 있는데 틈틈이 업그레이드할 계획입니다.
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/smallplayer_03.png"><img src="/assets/images/smallplayer_03.png" alt="smallplayer" width="400"/></a><br />어느정도 완성한 버전 – 동영상은 지금 만나러 갑니다</p>
+<p align="center"><img src="/assets/images/smallplayer_03.png" alt="smallplayer" width="400"/><br />어느정도 완성한 버전 – 동영상은 지금 만나러 갑니다</p>
 공개하기 부끄럽네요.
 
 아직 구현하고 싶은 부분이 많아서 지금은 재생만 되기 때문에 제가 사용하는 데에는

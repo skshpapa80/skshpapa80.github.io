@@ -8,7 +8,8 @@ excerpt: "Delphi Homebrew Component"
 
 ### 자작 컴포넌트
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/component.png"><img src="/assets/images/component.png" alt="compoent" width="400"/></a></p><br />
+<p align="center"><img src="/assets/images/component.png" alt="Delphi Component" width="400"/>
+<br />Delphi Component</p>
 
 필요해서 만들기 시작한 Delphi 컴포넌트를 소개합니다.
 
