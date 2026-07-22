@@ -7,7 +7,7 @@ permalink: /project-list/
 <article class="portfolio-page">
 
 <section class="portfolio-section" aria-labelledby="portfolio-projects">
-  <h2 class="portfolio-section__title" id="portfolio-projects">Project</h2>
+  <h2 class="portfolio-section__title" id="portfolio-projects">Thirautech Project</h2>
   <ul class="portfolio-list">
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">Hungary MES Install Project</h3>
@@ -34,6 +34,9 @@ permalink: /project-list/
       <p class="portfolio-item__period">2018 ~ 2021</p>
       <p class="portfolio-item__stack">C#, Oracle, Thira-MES, Nexcore Framework, DevExpress Winform</p>
     </li>
+   </ul>
+   <h2 class="portfolio-section__title" id="portfolio-projects">Octosys Project</h2>
+   <ul class="portfolio-list">
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">Mold MES Mobile (Android)</h3>
       <p class="portfolio-item__period">2017</p>
