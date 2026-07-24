@@ -35,11 +35,9 @@ excerpt: "PLC,아르바이트"
 
 ### 프로그램 스크린샷 및 정보
 
-<p align="center"><img src="/assets/images/plcreport01.png" alt="PLC데몬" width="400"/>
-<br />PLC 데몬</p>
+<p align="center"><img src="/assets/images/plcreport01.png" alt="PLC데몬" width="400"/><br />PLC 데몬</p>
 
-<p align="center"><img src="/assets/images/plcreport02.png" alt="데이터조회" width="400"/>
-<br />데이터 조회 프로그램</p>
+<p align="center"><img src="/assets/images/plcreport02.png" alt="데이터조회" width="400"/><br />데이터 조회 프로그램</p>
 
 PLC에서 정보를 받아(어드레스 값들) 특정 비트의 신호가 오면 가지고 있던 값을 CSV 파일에 저장해서 리포트 프로그램에서 날짜별로 조회가 가능한 프로그램입니다.
 

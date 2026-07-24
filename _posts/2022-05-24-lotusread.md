@@ -8,7 +8,7 @@ excerpt: "Lotus 123,Excel"
 
 ### Lotus 123 파일 읽는 프로그램
 
-<p align="center"><a data-fslightbox="gallery" href="/assets/images/SE-173df64f-c1e8-474f-9777-e431d1df33eb.png"><img src="/assets/images/SE-173df64f-c1e8-474f-9777-e431d1df33eb.png" alt="Lotus Read" width="400"/></a></p>
+<p align="center"><img src="/assets/images/SE-173df64f-c1e8-474f-9777-e431d1df33eb.png" alt="Lotus Read" width="400"/></p>
 
 2006년에 작업했던 프로그램 입니다.
 
