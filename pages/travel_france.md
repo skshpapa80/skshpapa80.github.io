@@ -10,9 +10,9 @@ permalink: /travel_france/
   <h2 class="travel-trip__title">2006.09 신혼여행 — 프랑스 파리 (Paris)</h2>
   <p class="travel-trip__note">생애 첫 해외여행. 처음 해보는 해외여행이라 정신없었지만 좋은 추억을 남겼습니다.</p>
   <div class="travel-gallery">
-    <a href="/assets/images/2006_paris.jpg" class="travel-gallery__link">
+    <div class="travel-gallery__link">
       <img src="/assets/images/2006_paris.jpg" alt="2006 파리 신혼여행" loading="lazy" decoding="async" />
-    </a>
+    </div>
   </div>
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/221695845153" target="_blank" rel="noopener noreferrer">2006년 신혼여행 — 프랑스 파리 (첫 해외여행)</a></li>

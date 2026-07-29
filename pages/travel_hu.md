@@ -9,9 +9,9 @@ permalink: /travel_hu/
 <section class="travel-trip">
   <h2 class="travel-trip__title">2024.10 헝가리 데브레첸 출장</h2>
   <div class="travel-gallery">
-    <a href="/assets/images/2024_hungary.jpg" class="travel-gallery__link">
+    <div class="travel-gallery__link">
       <img src="/assets/images/2024_hungary.jpg" alt="2024 헝가리 데브레첸" loading="lazy" decoding="async" />
-    </a>
+    </div>
   </div>
 
   <h3>2024년 헝가리 출장</h3>

@@ -10,12 +10,12 @@ permalink: /travel_hongkong/
   <h2 class="travel-trip__title">2024.01.03 ~ 01.06 가족 여행 — 홍콩</h2>
   <p class="travel-trip__note">새로운 경험이었던, 즐거운 가족 여행입니다.</p>
   <div class="travel-gallery">
-    <a href="/assets/images/2024_hongkong1.jpg" class="travel-gallery__link">
+    <div class="travel-gallery__link">
       <img src="/assets/images/2024_hongkong1.jpg" alt="2024 홍콩 여행 사진 1" loading="lazy" decoding="async" />
-    </a>
-    <a href="/assets/images/2024_hongkong2.jpg" class="travel-gallery__link">
+    </div>
+    <div class="travel-gallery__link">
       <img src="/assets/images/2024_hongkong2.jpg" alt="2024 홍콩 여행 사진 2" loading="lazy" decoding="async" />
-    </a>
+    </div>
   </div>
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/223330233751" target="_blank" rel="noopener noreferrer">2024 홍콩 여행 #1 (01-03 수) — 인천공항 → 홍콩</a></li>
