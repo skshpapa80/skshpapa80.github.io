@@ -17,6 +17,9 @@ permalink: /travel_hongkong/
       <img src="/assets/images/2024_hongkong2.jpg" alt="2024 홍콩 여행 사진 2" loading="lazy" decoding="async" />
     </div>
   </div>
+
+   <h3>2024.01 홍콩 여행<</h3>
+
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/223330233751" target="_blank" rel="noopener noreferrer">2024 홍콩 여행 #1 (01-03 수) — 인천공항 → 홍콩</a></li>
     <li><a href="https://m.blog.naver.com/skshpapa80/223332494457" target="_blank" rel="noopener noreferrer">2024 홍콩 여행 #2 (01-04 목) — 홍콩 시내 관광</a></li>
@@ -25,9 +28,15 @@ permalink: /travel_hongkong/
     <li><a href="https://m.blog.naver.com/skshpapa80/223389275024" target="_blank" rel="noopener noreferrer">2024 홍콩 여행 #4 (01-05 금) — 옹핑</a></li>
     <li><a href="https://m.blog.naver.com/skshpapa80/223394632696" target="_blank" rel="noopener noreferrer">2024 홍콩 여행 #5 (01-06 토)</a></li>
     <li><a href="https://m.blog.naver.com/skshpapa80/223409035692" target="_blank" rel="noopener noreferrer">2024 홍콩 맛집 추천 #1 — 딤딤섬, 침차이키, 소셜플레이스</a></li>
+  </ul>
+
+  <h3>2025.01 홍콩 여행<</h3>
+
+  <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/224045066755" target="_blank" rel="noopener noreferrer">2025.01 홍콩 가족여행 #1</a></li>
     <li><a href="https://m.blog.naver.com/skshpapa80/224048142193" target="_blank" rel="noopener noreferrer">2025.01 홍콩 가족여행 #2</a></li>
   </ul>
+
 </section>
 
 <section class="travel-trip">

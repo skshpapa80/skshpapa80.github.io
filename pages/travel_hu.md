@@ -6,15 +6,14 @@ permalink: /travel_hu/
 
 <article class="travel-page">
 
-<section class="travel-trip">
-  <h2 class="travel-trip__title">2024.10 헝가리 데브레첸 출장</h2>
+<section class="travel-trip">  
   <div class="travel-gallery">
     <div class="travel-gallery__link">
       <img src="/assets/images/2024_hungary.jpg" alt="2024 헝가리 데브레첸" loading="lazy" decoding="async" />
     </div>
   </div>
 
-  <h3>2024년 헝가리 출장</h3>
+  <h3>2024.10 헝가리 데브레첸 출장<</h3>
 
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/223582529962" target="_blank" rel="noopener noreferrer">헝가리 데브레첸 출장 준비</a></li>
@@ -27,7 +26,13 @@ permalink: /travel_hu/
     <li><a href="https://m.blog.naver.com/skshpapa80/224000632991" target="_blank" rel="noopener noreferrer">2024 헝가리 데브레첸 출장 이야기 #7 (여행 사진)</a></li>
   </ul>
 
-  <h3>2025년 헝가리 출장</h3>
+  <div class="travel-gallery">
+    <div class="travel-gallery__link">
+      <img src="/assets/images/collage250828.png" alt="2025 헝가리 가는날" loading="lazy" decoding="async" />
+    </div>
+  </div>
+
+  <h3>2025.08~12 헝가리 데브레첸 출장</h2>
 
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/224085814118" target="_blank" rel="noopener noreferrer">2025 헝가리 데브레첸 출장 이야기 #1</a></li>
