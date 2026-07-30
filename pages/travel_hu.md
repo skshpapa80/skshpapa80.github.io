@@ -13,7 +13,7 @@ permalink: /travel_hu/
     </div>
   </div>
 
-  <h3>2024.10 헝가리 데브레첸 출장<</h3>
+  <h3>2024.10 헝가리 데브레첸 출장</h3>
 
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/223582529962" target="_blank" rel="noopener noreferrer">헝가리 데브레첸 출장 준비</a></li>

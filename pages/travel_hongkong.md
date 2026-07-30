@@ -18,7 +18,7 @@ permalink: /travel_hongkong/
     </div>
   </div>
 
-   <h3>2024.01 홍콩 여행<</h3>
+   <h3>2024.01 홍콩 여행</h3>
 
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/223330233751" target="_blank" rel="noopener noreferrer">2024 홍콩 여행 #1 (01-03 수) — 인천공항 → 홍콩</a></li>
@@ -30,7 +30,7 @@ permalink: /travel_hongkong/
     <li><a href="https://m.blog.naver.com/skshpapa80/223409035692" target="_blank" rel="noopener noreferrer">2024 홍콩 맛집 추천 #1 — 딤딤섬, 침차이키, 소셜플레이스</a></li>
   </ul>
 
-  <h3>2025.01 홍콩 여행<</h3>
+  <h3>2025.01 홍콩 여행</h3>
 
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/224045066755" target="_blank" rel="noopener noreferrer">2025.01 홍콩 가족여행 #1</a></li>
@@ -40,7 +40,7 @@ permalink: /travel_hongkong/
 </section>
 
 <section class="travel-trip">
-  <h2 class="travel-trip__title">홍콩 여행 정보</h2>
+  <h3>홍콩 여행 정보</h3>
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/223410131246" target="_blank" rel="noopener noreferrer">홍콩 여행 계획 — 먹거리, 볼거리</a></li>
     <li><a href="https://m.blog.naver.com/skshpapa80/223413134750" target="_blank" rel="noopener noreferrer">홍콩 쇼핑 리스트 — 사 올 만한 것</a></li>
