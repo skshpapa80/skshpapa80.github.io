@@ -9,7 +9,16 @@
       <a href="{{ '/diary/' | relative_url }}"
          {% if page.url contains 'diary' %}class="active"{% endif %}>다이어리</a>
       <a href="{{ '/note/' | relative_url }}"
-         {% if page.url contains 'note' %}class="active"{% endif %}>노트</a>      
+         {% if page.url contains 'note' %}class="active"{% endif %}>노트</a>
+      <button type="button" class="search-trigger-btn" id="search-trigger" aria-label="검색">
+        <svg viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <span>검색</span>
+        <kbd class="search-shortcut-badge">Ctrl K</kbd>
+      </button>
     </nav>
+
   </div>
 </header>

@@ -114,13 +114,20 @@
 
   {% include footer.html %}
 
+  {% include search-modal.html %}
+
   <div id="lightbox-modal" class="lightbox">
     <span class="lightbox-close">&times;</span>
     <img class="lightbox-content" id="lightbox-img" alt="확대된 이미지">
     <div id="lightbox-caption"></div>
   </div>
 
-  <script src="{{ site.url }}/assets/js/lightbox.js"></script>
+  <script>
+    window.siteBaseUrl = "{{ '' | relative_url }}";
+  </script>
+  <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
     
 </body>
 </html>
+

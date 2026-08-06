@@ -1,0 +1,20 @@
+<div id="search-modal-overlay" class="search-modal-overlay" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="search-modal">
+    <div class="search-modal-header">
+      <div class="search-modal-icon">
+        <svg viewBox="0 0 24 24">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </div>
+      <input type="text" id="search-input" class="search-input" placeholder="포스트 검색... (제목, 태그, 내용)" autocomplete="off" spellcheck="false" />
+      <button type="button" id="search-close-btn" class="search-modal-close-btn" title="닫기 (ESC)">ESC</button>
+    </div>
+    <div class="search-results-container">
+      <div id="search-initial" class="search-initial-state">
+        검색어를 입력하시면 게시글을 찾을 수 있습니다.
+      </div>
+      <ul id="search-results" class="search-results-list"></ul>
+    </div>
+  </div>
+</div>
