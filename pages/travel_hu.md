@@ -32,7 +32,7 @@ permalink: /travel_hu/
     </div>
   </div>
 
-  <h3>2025.08~12 헝가리 데브레첸 출장</h2>
+  <h3>2025.08~12 헝가리 데브레첸 출장</h3>
 
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/224085814118" target="_blank" rel="noopener noreferrer">2025 헝가리 데브레첸 출장 이야기 #1</a></li>
