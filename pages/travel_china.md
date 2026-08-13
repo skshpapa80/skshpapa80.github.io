@@ -7,7 +7,7 @@ permalink: /travel_china/
 <article class="travel-page">
 
 <section class="travel-trip">
-  <h2 class="travel-trip__title">2018.09 중국 혜주(후이저우) 출장</h2>
+  <h3 class="travel-trip__title">2018.09 중국 혜주(후이저우) 출장</h3>
   <p class="travel-trip__note">프로젝트 진행을 위해 출장. 장기 체류라 호텔 대신 소형 아파트를 임대했습니다.</p>
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/221711713712" target="_blank" rel="noopener noreferrer">2018 중국 혜주(후이저우) 출장 이야기 #1</a></li>
@@ -24,7 +24,7 @@ permalink: /travel_china/
 </section>
 
 <section class="travel-trip">
-  <h2 class="travel-trip__title">2019.03 중국 혜주(후이저우) 출장 — 두 번째 아파트</h2>
+  <h3 class="travel-trip__title">2019.03 중국 혜주(후이저우) 출장 — 두 번째 아파트</h3>
   <p class="travel-trip__note">2018년보다 큰 아파트를 임대해 더 나은 환경에서 지냈습니다.</p>
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/221720341302" target="_blank" rel="noopener noreferrer">2019 중국 혜주(후이저우) 출장 이야기 #1</a></li>
@@ -41,7 +41,7 @@ permalink: /travel_china/
 </section>
 
 <section class="travel-trip">
-  <h2 class="travel-trip__title">2020.06 중국 혜주(후이저우) 출장 — 켐핀스키 호텔</h2>
+  <h3 class="travel-trip__title">2020.06 중국 혜주(후이저우) 출장 — 켐핀스키 호텔</h3>
   <p class="travel-trip__note">코로나로 연기됐던 출장. 아파트 임대가 어려워 호텔 장기 투숙.</p>
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/222006393522" target="_blank" rel="noopener noreferrer">2020 중국 혜주(후이저우) 출장 이야기 #1 — 14일 격리</a></li>
@@ -62,7 +62,7 @@ permalink: /travel_china/
 </section>
 
 <section class="travel-trip">
-  <h2 class="travel-trip__title">중국 여행·출장 정보</h2>
+  <h3 class="travel-trip__title">중국 여행·출장 정보</h3>
   <p class="travel-trip__note">중국 출장을 다니며 모은 정보를 정리했습니다.</p>
   <ul class="travel-links">
     <li><a href="https://m.blog.naver.com/skshpapa80/222168953657" target="_blank" rel="noopener noreferrer">중국 출장 이야기 2020</a></li>

@@ -7,7 +7,7 @@ permalink: /travel_america/
 <article class="travel-page">
 
 <section class="travel-trip">
-  <h2 class="travel-trip__title">2021.01 미국 애틀랜타, 조지아주 출장</h2>
+  <h3 class="travel-trip__title">2021.01 미국 애틀랜타, 조지아주 출장</h3>
   <div class="travel-gallery">
     <div class="travel-gallery__link">
       <img src="/assets/images/2021_america1.jpg" alt="2021 미국 출장 사진 1" loading="lazy" decoding="async" />

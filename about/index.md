@@ -50,8 +50,7 @@ permalink: /about/
   <h3 class="about-section__title" id="about-blog">블로그</h3>
   <ul class="about-link-list">
     <li><a href="https://blog.naver.com/skshpapa80" target="_blank" rel="noopener noreferrer">Naver Blog — 해외·국내 여행, 취미</a></li>
-    <li><a href="https://raycho-dev.tistory.com/" target="_blank" rel="noopener noreferrer">Dev Blog — 프로그래밍</a></li>
-    <li><a href="https://skshpapa80.blogspot.com/" target="_blank" rel="noopener noreferrer">Blogger — 내가 좋아하는 것들</a></li>
+    <li><a href="https://raycho-dev.tistory.com/" target="_blank" rel="noopener noreferrer">Dev Blog — 프로그래밍</a></li>    
   </ul>
 </section>
 

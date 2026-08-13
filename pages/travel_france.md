@@ -7,7 +7,7 @@ permalink: /travel_france/
 <article class="travel-page">
 
 <section class="travel-trip">
-  <h2 class="travel-trip__title">2006.09 신혼여행 — 프랑스 파리 (Paris)</h2>
+  <h3 class="travel-trip__title">2006.09 신혼여행 — 프랑스 파리 (Paris)</h3>
   <p class="travel-trip__note">생애 첫 해외여행. 처음 해보는 해외여행이라 정신없었지만 좋은 추억을 남겼습니다.</p>
   <div class="travel-gallery">
     <div class="travel-gallery__link">

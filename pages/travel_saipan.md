@@ -7,7 +7,7 @@ permalink: /travel_saipan/
 <article class="travel-page">
 
 <section class="travel-trip">
-  <h2 class="travel-trip__title">2016.12.14 ~ 12.18 사이판 가족 여행</h2>
+  <h3 class="travel-trip__title">2016.12.14 ~ 12.18 사이판 가족 여행</h3>
   <div class="travel-gallery">
     <div class="travel-gallery__link">
       <img src="/assets/images/2016_saipan.jpg" alt="2016 사이판 가족 여행" loading="lazy" decoding="async" />
