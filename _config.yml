@@ -18,6 +18,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
+# jekyll-feed는 Atom(/atom.xml), 직접 만든 RSS 2.0은 /feed.xml
+feed:
+  path: atom.xml
+  excerpt_only: true
+  posts_limit: 20
+
 # 페이지네이션 설정
 paginate: 10
 paginate_path: "/page:num/"
