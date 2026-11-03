@@ -1,0 +1,49 @@
+<aside class="home-side" aria-label="블로그 정보">
+
+  <section class="side-card profile">
+    <img class="profile__photo" src="{{ '/assets/images/1000010308.webp' | relative_url }}" alt="선경선향아빠 프로필 사진" width="88" height="88" loading="lazy" decoding="async">
+    <p class="profile__name">선경선향아빠 <span>Ray Cho</span></p>
+    <p class="profile__bio">두 딸 선경·선향이의 아빠이자 MES를 만드는 개발자예요. 가족과 일상, 코드 이야기를 기록합니다.</p>
+    <ul class="profile__links">
+      <li><a href="{{ '/about/' | relative_url }}">소개</a></li>
+      <li><a href="https://www.instagram.com/raychodream/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      <li><a href="https://www.youtube.com/@skshpapa80-tube" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+      <li><a href="https://raycho-dev.tistory.com/" target="_blank" rel="noopener noreferrer">Dev Blog</a></li>
+    </ul>
+  </section>
+
+  <section class="side-card memory" id="on-this-day" data-src="{{ '/search.json' | relative_url }}">
+    <h2 class="side-card__title">N년 전 오늘 <span class="memory__date" data-today></span></h2>
+    <ul class="memory__list">
+      <li class="memory__empty">추억을 불러오는 중…</li>
+    </ul>
+    <button type="button" class="memory__shuffle">다른 추억 꺼내기 ↻</button>
+  </section>
+
+  <section class="side-card">
+    <h2 class="side-card__title">주제</h2>
+    <ul class="topic-list">
+      {%- for t in site.tags %}
+      {%- case t[0] -%}
+        {%- when "일상" -%}{%- assign tone = "daily" -%}
+        {%- when "노트" -%}{%- assign tone = "note" -%}
+        {%- when "프로그래밍" -%}{%- assign tone = "code" -%}
+        {%- when "프로젝트" -%}{%- assign tone = "project" -%}
+        {%- else -%}{%- assign tone = "etc" -%}
+      {%- endcase %}
+      <li class="tone-{{ tone }}"><a href="{{ '/archive/' | relative_url }}?tag={{ t[0] | url_encode }}"><span class="topic-dot"></span>{{ t[0] }}<span class="topic-count">{{ t[1].size }}</span></a></li>
+      {%- endfor %}
+    </ul>
+  </section>
+
+  <section class="side-card">
+    <h2 class="side-card__title">연도별 기록 <a class="side-card__more" href="{{ '/archive/' | relative_url }}">전체 보기</a></h2>
+    {%- assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+    <div class="year-chips">
+      {%- for y in years %}
+      <a class="year-chip" href="{{ '/archive/' | relative_url }}#y{{ y.name }}">{{ y.name }}<span>{{ y.size }}</span></a>
+      {%- endfor %}
+    </div>
+  </section>
+
+</aside>

@@ -2,7 +2,7 @@
 layout: post
 title: "LZBasePlayer – DirectShow,Lazarus 를 이용해 개발된 동영상 재생기"
 date: 2025-10-14
-tags: [개발]
+tags: [프로그래밍]
 excerpt: "개발툴 Lazarus 를 사용해서 DirectShow 동영상 재생기를 만들었습니다."
 ---
 

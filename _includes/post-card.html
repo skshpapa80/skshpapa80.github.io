@@ -1,0 +1,49 @@
+{%- comment -%}
+  글 카드. 사용법: {% include post-card.html post=post variant="feature" %}
+  썸네일은 front matter의 image, 없으면 본문 첫 번째 <img>를 사용합니다.
+{%- endcomment -%}
+{%- assign p = include.post -%}
+{%- assign variant = include.variant | default: "grid" -%}
+{%- assign tag = p.tags.first -%}
+{%- case tag -%}
+  {%- when "일상" -%}{%- assign tone = "daily" -%}
+  {%- when "노트" -%}{%- assign tone = "note" -%}
+  {%- when "프로그래밍" -%}{%- assign tone = "code" -%}
+  {%- when "프로젝트" -%}{%- assign tone = "project" -%}
+  {%- else -%}{%- assign tone = "etc" -%}
+{%- endcase -%}
+{%- assign thumb = p.image -%}
+{%- unless thumb -%}
+  {%- assign img_parts = p.content | split: "<img" -%}
+  {%- if img_parts.size > 1 -%}
+    {%- assign src_parts = img_parts[1] | split: 'src="' -%}
+    {%- if src_parts.size > 1 -%}
+      {%- assign thumb = src_parts[1] | split: '"' | first -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endunless -%}
+{%- if variant == "feature" -%}{%- assign summary_len = 200 -%}{%- else -%}{%- assign summary_len = 90 -%}{%- endif -%}
+{%- assign summary = p.content | strip_html | normalize_whitespace | truncate: summary_len -%}
+<article class="card card--{{ variant }} tone-{{ tone }}">
+  <a class="card__media{% unless thumb %} is-empty{% endunless %}" href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    <span class="card__placeholder"><span class="card__year">{{ p.date | date: "%Y" }}</span><span class="card__ph-tag">{{ tag | default: "기록" }}</span></span>
+    {%- if thumb %}
+    <img src="{{ thumb }}" alt="" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('is-empty');this.remove();">
+    {%- endif %}
+  </a>
+  <div class="card__body">
+    {%- if variant == "feature" %}
+    <span class="card__badge">최신 글</span>
+    {%- endif %}
+    <div class="card__meta">
+      {%- if tag %}<span class="chip">{{ tag }}</span>{% endif %}
+      <time datetime="{{ p.date | date_to_xmlschema }}">{{ p.date | date: "%Y.%m.%d" }}</time>
+    </div>
+    {%- if variant == "feature" %}
+    <h2 class="card__title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
+    {%- else %}
+    <h3 class="card__title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+    {%- endif %}
+    <p class="card__excerpt">{{ summary }}</p>
+  </div>
+</article>

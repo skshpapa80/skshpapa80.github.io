@@ -2,32 +2,53 @@
 layout: default
 ---
 
-<section class="hero">
-  <p class="hero-sub">생각을 기록하는 공간</p>
-  <h1 class="hero-title">{{ site.title }}</h1>
+{%- assign first_year = site.posts.last.date | date: "%Y" -%}
+{%- assign this_year = site.time | date: "%Y" -%}
+{%- assign record_years = this_year | minus: first_year | plus: 1 -%}
+
+<section class="home-hero">
+  <div class="home-hero__text">
+    <p class="home-hero__eyebrow">{{ first_year }}년부터 써 온 기록장</p>
+    <h1 class="home-hero__title">{{ site.title }}</h1>
+    <p class="home-hero__desc">{{ site.description }}</p>
+  </div>
+  <dl class="home-hero__stats">
+    <div><dt>쓴 글</dt><dd>{{ site.posts.size }}<small>편</small></dd></div>
+    <div><dt>기록한 시간</dt><dd>{{ record_years }}<small>년째</small></dd></div>
+    <div><dt>마지막 글</dt><dd>{{ site.posts.first.date | date: "%m.%d" }}</dd></div>
+  </dl>
 </section>
 
-<section class="posts">
-  {% for post in paginator.posts %}
-  <article class="post-item">
-    <div class="post-meta">
-      <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">
-        {{ post.date | date: "%Y년 %m월 %d일" }}
-      </time>
-      {% if post.tags.first %}
-        <span class="post-tag">{{ post.tags.first }}</span>
-      {% endif %}
-    </div>
-    <h2 class="post-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
-    <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-    <a href="{{ post.url | relative_url }}" class="post-read-more">더 읽기 →</a>
-  </article>
-  {% else %}
-  <p class="no-posts">아직 작성된 글이 없습니다.</p>
-  {% endfor %}
-</section>
+<div class="home-layout">
+  <div class="home-main">
+
+    <nav class="tag-tabs" aria-label="주제별 보기">
+      <a class="is-active" href="{{ '/' | relative_url }}" aria-current="page">전체</a>
+      {%- for t in site.tags %}
+      <a href="{{ '/archive/' | relative_url }}?tag={{ t[0] | url_encode }}">{{ t[0] }}<span>{{ t[1].size }}</span></a>
+      {%- endfor %}
+    </nav>
+
+    {% if paginator.posts.size == 0 %}
+      <p class="no-posts">아직 작성된 글이 없습니다.</p>
+    {% elsif paginator.page == 1 %}
+      {% for post in paginator.posts limit: 1 %}
+        {% include post-card.html post=post variant="feature" %}
+      {% endfor %}
+      <h2 class="section-label">지난 기록</h2>
+      <div class="card-grid">
+        {% for post in paginator.posts offset: 1 %}
+          {% include post-card.html post=post %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <h2 class="section-label">{{ paginator.page }} / {{ paginator.total_pages }} 페이지</h2>
+      <div class="card-grid">
+        {% for post in paginator.posts %}
+          {% include post-card.html post=post %}
+        {% endfor %}
+      </div>
+    {% endif %}
 
 {% if paginator.total_pages > 1 %}
 <nav class="pagination" aria-label="페이지 네비게이션">
@@ -91,3 +112,10 @@ layout: default
 
 </nav>
 {% endif %}
+
+  </div>
+
+  {% include sidebar.html %}
+</div>
+
+<script src="{{ '/assets/js/home.js' | relative_url }}" defer></script>

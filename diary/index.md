@@ -32,10 +32,11 @@ permalink: /diary/
     .calendar-container {
         width: 100%;
         margin: 0;
-        border: 1px solid var(--border-color);
+        border: 1px solid #e4e0d8;
+        border-radius: 14px;
         padding: 20px;
-        background-color: #fff;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        background-color: #fffdf9;
+        box-shadow: none;
     }
 
     .calendar-header { 
@@ -56,11 +57,11 @@ permalink: /diary/
         text-align: center; 
         font-size: 0.9rem; 
         padding-bottom: 10px; 
-        color: #666;
+        color: #77756d;
     }
 
     .day { 
-        border: 1px solid #eee; 
+        border: 1px solid #ece8e0; 
         aspect-ratio: 1 / 1;    /* 날짜 칸을 정사각형으로 유지 */
         display: flex; 
         align-items: center; 
@@ -71,30 +72,30 @@ permalink: /diary/
         border-radius: 4px;
     }
 
-    .day:hover { background-color: #f8f9fa; }
-    .today { background-color: var(--today-bg); font-weight: bold; color: #007bff; border: 1px solid #007bff; }
+    .day:hover { background-color: #f7e6da; }
+    .today { background-color: #f7e6da; font-weight: bold; color: #c8602a; border: 1px solid #c8602a; }
     
     /* 일기 표시 영역 */
     .diary-viewer {
         width: 100%;
         margin: 0;
         padding: 20px;
-        border: 1px solid var(--border-color);
-        background-color: #fff;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        border: 1px solid #e4e0d8;
+        border-radius: 14px;
+        background-color: #fffdf9;
+        box-shadow: none;
     }
 
     @media (max-width: 767px) {
         .diary-viewer {
-            border-top: 2px solid #333;
+            border-top: 3px solid #c8602a;
             padding-top: 20px;
         }
     }
 
     @media (min-width: 768px) {
         .diary-viewer {
-            border-left: 2px solid #333;
-            border-top: 1px solid var(--border-color);
+            border-left: 3px solid #c8602a;
         }
     }
 
@@ -104,7 +105,7 @@ permalink: /diary/
         bottom: 8px; 
         width: 6px; 
         height: 6px; 
-        background: #ff5252; 
+        background: #c8602a; 
         border-radius: 50%; 
     }
 </style>
