@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Codeigniter Web 개발 아르바이트"
-date: 2025-03-17
+date: 2019-03-17
 tags: [프로젝트]
 excerpt: "2018년 지인의 요청으로 하게 된 Web 개발 아르바이트 입니다."
 ---

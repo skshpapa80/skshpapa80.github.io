@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "대학교 축제 전시 프로젝트"
-date: 2025-02-24
+date: 2001-02-24
 tags: [프로젝트]
 excerpt: "대학교,축제,전시"
 ---

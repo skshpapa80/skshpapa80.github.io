@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2005년 PSP용 음악플레이어"
-date: 2025-03-04
+date: 2006-03-04
 tags: [프로젝트]
 excerpt: "PSP,C++,MP3"
 ---
