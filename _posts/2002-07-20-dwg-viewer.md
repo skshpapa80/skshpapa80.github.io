@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "도면 뷰어 프로그램 수정"
-date: 2022-07-20
+date: 2002-07-20
 tags: [프로젝트]
 excerpt: "DWG Viewer"
 ---

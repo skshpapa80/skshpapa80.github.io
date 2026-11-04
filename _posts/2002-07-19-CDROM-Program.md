@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CD-ROM 에서 동작하는 이미지 뷰어 만들기"
-date: 2022-07-19
+date: 2002-07-19
 tags: [프로젝트]
 excerpt: "CD-ROM 개발경험담"
 ---
