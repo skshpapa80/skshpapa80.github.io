@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lotus 123 파일 읽는 프로그램"
-date: 2022-05-22
+date: 2007-05-22
 tags: [프로젝트]
 excerpt: "Lotus 123,Excel"
 ---

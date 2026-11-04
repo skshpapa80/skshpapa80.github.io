@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "제적부 색인 프로젝트"
-date: 2022-07-24
+date: 2005-07-24
 tags: [프로젝트]
 excerpt: "Delphi"
 ---

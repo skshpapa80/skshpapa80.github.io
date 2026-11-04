@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "이미지 보정 프로그램"
-date: 2022-07-25
+date: 2006-07-25
 tags: [프로젝트]
 excerpt: "Image Editor"
 ---
