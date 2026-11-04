@@ -60,7 +60,7 @@ permalink: /about/
     <li><a href="https://www.instagram.com/raychodream/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
     <li><a href="https://www.threads.com/@raychodream" target="_blank" rel="noopener noreferrer">Threads</a></li>
     <li><a href="https://twitter.com/skshpapa80" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-    <li><a href="https://www.youtube.com/@skshpapa80-tube" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+    <li><a href="https://www.youtube.com/@CodingPlusPlusTube" target="_blank" rel="noopener noreferrer">YouTube</a></li>
   </ul>
 </section>
 
