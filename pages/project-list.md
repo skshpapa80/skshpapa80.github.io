@@ -10,8 +10,13 @@ permalink: /project-list/
   <h2 class="portfolio-section__title" id="portfolio-projects">LS Thirautech Project</h2>
   <ul class="portfolio-list">
     <li class="portfolio-item">
+      <h3 class="portfolio-item__title">CCR Future Material MOM Project</h3>
+      <p class="portfolio-item__period">2026.07 ~ </p>
+      <p class="portfolio-item__stack">Java, MSSQL, CMOS Framework(Java), Web UI 1.0, PDA(Flutter)</p>
+    </li>
+    <li class="portfolio-item">
       <h3 class="portfolio-item__title">SCR Material MOM Project</h3>
-      <p class="portfolio-item__period">2026.02 ~ </p>
+      <p class="portfolio-item__period">2026.02 ~ 2026.06</p>
       <p class="portfolio-item__stack">Java, MSSQL, CMOS Framework(Java), Web UI 1.0, PDA(Flutter)</p>
     </li>
     <li class="portfolio-item">

@@ -19,7 +19,7 @@ permalink: /about/
   <p>예전에 블로그도 운영하고 했었는데 그때 사용하던 닉네임은 나물(Namul)이었습니다. 두 딸(선경, 선향)의 아빠가 되고 나서 선경이 아빠, 선향이 아빠라고 많이 불리게 되었습니다. 애들이 초등학교에 들어가서 학부모가 되니 더 하네요. 그러다 그게 익숙해져서 닉네임을 선경선향아빠(skshpapa80)라고 바꾸고 이메일, 블로그, G메일 계정 등 모든 것을 새로 맞췄습니다. 새로운 기분이 들어서 닉네임이 더 소중하고, 두 딸 이름이다 보니 더 좋아하게 됐습니다!</p>
 </div>
 
-<p class="about-page__cta"><a href="/about2004">2004년 프로필 보기</a></p>
+<p class="about-page__cta"><a href="/about2004">2004년 프로필 보기</a> / <a href="/portfolio">포트폴리오</a></p>
 
 <section class="about-section" aria-labelledby="about-en-name">
   <h3 class="about-section__title" id="about-en-name">영어 이름</h3>
