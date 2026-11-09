@@ -2,6 +2,7 @@
 layout: post
 title: "태블릿에 리믹스 OS 2.0 설치기"
 date: 2017-06-08
+tags: [노트]
 excerpt: "태블릿,리믹스 OS"
 ---
 

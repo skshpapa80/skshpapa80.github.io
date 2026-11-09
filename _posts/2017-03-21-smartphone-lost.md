@@ -2,7 +2,7 @@
 layout: post
 title: "스마트폰 분실기"
 date: 2017-03-21
-tags: [일상]
+tags: [노트]
 excerpt: "찜질방에서 스마트폰 분실기"
 ---
 
