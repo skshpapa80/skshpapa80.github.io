@@ -78,7 +78,7 @@ permalink: /portfolio/
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">2005년 PSP용 음악 플레이어</h3>
       <p class="portfolio-item__desc">Sony PSP용 MP3 재생 Homebrew</p>
-      <p class="portfolio-item__more"><a href="{{ site.baseurl }}{% post_url 2006-03-04-psphomebrew %}">더 읽기</a></p>
+      <p class="portfolio-item__more"><a href="{{ site.baseurl }}{% post_url 2007-03-04-psphomebrew %}">더 읽기</a></p>
     </li>
     <li class="portfolio-item">
       <h3 class="portfolio-item__title">Lotus 123 파일 읽는 프로그램</h3>
